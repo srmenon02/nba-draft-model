@@ -17,17 +17,14 @@
 
 A data-driven web application that objectively evaluates NBA draft prospects using machine learning. The model analyzes college basketball statistics, strength of schedule, team quality, and demographic factors to predict NBA success and generate player comparisons.
 
-**Live Demo:** [Coming Soon - Deploy to Vercel]
-
 ---
 
 ## Features
 
-- **🎯 Draft Big Board**: Ranked list of 2026 NBA draft prospects with predicted NBA impact scores
-- **📊 Player Profiles**: Detailed prospect pages with statistics, predictions, and SHAP explanations
-- **🔍 Player Comparisons**: Position and size-weighted similarity matching with NBA historical players
-- **📈 Feature Importance**: Interactive visualization of which metrics matter most for NBA success
-- **♿ Accessible Design**: WCAG 2.1 AA compliant, keyboard navigable, mobile responsive
+- **Draft Big Board**: Ranked list of 2026 NBA draft prospects with predicted NBA impact scores
+- **Player Profiles**: Detailed prospect pages with statistics, predictions, and SHAP explanations
+- **Player Comparisons**: Position and size-weighted similarity matching with NBA historical players
+- **Feature Importance**: Interactive visualization of which metrics matter most for NBA success
 
 ---
 
@@ -197,7 +194,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - **Inspiration:** Basketball analytics community, NBA draft evaluation research
 
 ---
-
-<p align="center">
-  <strong>Built with ❤️ for NBA draft enthusiasts</strong>
-</p>
