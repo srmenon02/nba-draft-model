@@ -1,0 +1,102 @@
+[
+  {
+    "metric": "age_scaled",
+    "importance": 0.6649,
+    "importancePercent": 23.59
+  },
+  {
+    "metric": "Defensive Impact",
+    "importance": 0.2139,
+    "importancePercent": 7.59
+  },
+  {
+    "metric": "Assist/Turnover Ratio",
+    "importance": 0.1676,
+    "importancePercent": 5.94
+  },
+  {
+    "metric": "Rim %",
+    "importance": 0.154,
+    "importancePercent": 5.46
+  },
+  {
+    "metric": "Free Throw %",
+    "importance": 0.1481,
+    "importancePercent": 5.25
+  },
+  {
+    "metric": "Versatility",
+    "importance": 0.1392,
+    "importancePercent": 4.94
+  },
+  {
+    "metric": "Rebounding Rate",
+    "importance": 0.1342,
+    "importancePercent": 4.76
+  },
+  {
+    "metric": "Offensive Rebounds (per 40)",
+    "importance": 0.1319,
+    "importancePercent": 4.68
+  },
+  {
+    "metric": "International",
+    "importance": 0.1191,
+    "importancePercent": 4.23
+  },
+  {
+    "metric": "Playmaking",
+    "importance": 0.1179,
+    "importancePercent": 4.18
+  },
+  {
+    "metric": "Turnovers (per 40)",
+    "importance": 0.1083,
+    "importancePercent": 3.84
+  },
+  {
+    "metric": "Strength of Schedule",
+    "importance": 0.0968,
+    "importancePercent": 3.43
+  },
+  {
+    "metric": "Defensive Rebounds (per 40)",
+    "importance": 0.0965,
+    "importancePercent": 3.42
+  },
+  {
+    "metric": "Steals (per 40)",
+    "importance": 0.0916,
+    "importancePercent": 3.25
+  },
+  {
+    "metric": "True Shooting %",
+    "importance": 0.0889,
+    "importancePercent": 3.15
+  },
+  {
+    "metric": "Points (per 40)",
+    "importance": 0.0662,
+    "importancePercent": 2.35
+  },
+  {
+    "metric": "Height",
+    "importance": 0.0612,
+    "importancePercent": 2.17
+  },
+  {
+    "metric": "Scoring Efficiency",
+    "importance": 0.0526,
+    "importancePercent": 1.87
+  },
+  {
+    "metric": "Blocks (per 40)",
+    "importance": 0.0509,
+    "importancePercent": 1.81
+  },
+  {
+    "metric": "Team Strength",
+    "importance": 0.0481,
+    "importancePercent": 1.71
+  }
+]

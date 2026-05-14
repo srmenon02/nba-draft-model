@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-05-14T15:01:01.887906",
+  "draftYear": 2026,
+  "modelVersion": "1.0.0",
+  "modelPerformance": {
+    "spearmanRho": 0.3826094490981223,
+    "rmse": 1.7011568274776185,
+    "mae": 1.322996157450117
+  },
+  "dataSource": "Basketball-Reference, nba_api",
+  "lastUpdated": "2026-05-14"
+}

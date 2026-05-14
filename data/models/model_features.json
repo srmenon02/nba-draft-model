@@ -1,0 +1,26 @@
+{
+  "features": [
+    "pts_per_40",
+    "ast_per_40",
+    "oreb_per_40",
+    "dreb_per_40",
+    "stl_per_40",
+    "blks_per_40",
+    "tov_per_40",
+    "ts_pct",
+    "ft_pct",
+    "three_pt_pct",
+    "rim_pct",
+    "ast_to_tov",
+    "height",
+    "age_scaled",
+    "sos",
+    "team_strength",
+    "international",
+    "scoring_volume_efficiency",
+    "playmaking_composite",
+    "defensive_composite",
+    "rebounding_composite",
+    "versatility_score"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "nba-draft-model",
+  "version": "1.0.0",
+  "description": "Data-driven NBA draft prospect analysis powered by machine learning",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "nba",
+    "draft",
+    "machine-learning",
+    "analytics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.3"
+  }
+}
