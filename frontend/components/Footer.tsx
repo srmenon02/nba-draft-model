@@ -6,9 +6,6 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-brand-400">
           <p>© {currentYear} NBA Draft Model. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">
-            Data-driven prospect analysis powered by machine learning
-          </p>
         </div>
       </div>
     </footer>
