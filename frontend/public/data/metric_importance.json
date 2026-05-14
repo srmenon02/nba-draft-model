@@ -1,102 +1,102 @@
 [
   {
     "metric": "age_scaled",
-    "importance": 0.6649,
-    "importancePercent": 23.59
-  },
-  {
-    "metric": "Defensive Impact",
-    "importance": 0.2139,
-    "importancePercent": 7.59
-  },
-  {
-    "metric": "Assist/Turnover Ratio",
-    "importance": 0.1676,
-    "importancePercent": 5.94
-  },
-  {
-    "metric": "Rim %",
-    "importance": 0.154,
-    "importancePercent": 5.46
-  },
-  {
-    "metric": "Free Throw %",
-    "importance": 0.1481,
-    "importancePercent": 5.25
-  },
-  {
-    "metric": "Versatility",
-    "importance": 0.1392,
-    "importancePercent": 4.94
-  },
-  {
-    "metric": "Rebounding Rate",
-    "importance": 0.1342,
-    "importancePercent": 4.76
-  },
-  {
-    "metric": "Offensive Rebounds (per 40)",
-    "importance": 0.1319,
-    "importancePercent": 4.68
-  },
-  {
-    "metric": "International",
-    "importance": 0.1191,
-    "importancePercent": 4.23
-  },
-  {
-    "metric": "Playmaking",
-    "importance": 0.1179,
-    "importancePercent": 4.18
-  },
-  {
-    "metric": "Turnovers (per 40)",
-    "importance": 0.1083,
-    "importancePercent": 3.84
-  },
-  {
-    "metric": "Strength of Schedule",
-    "importance": 0.0968,
-    "importancePercent": 3.43
-  },
-  {
-    "metric": "Defensive Rebounds (per 40)",
-    "importance": 0.0965,
-    "importancePercent": 3.42
+    "importance": 0.6207,
+    "importancePercent": 21.61
   },
   {
     "metric": "Steals (per 40)",
-    "importance": 0.0916,
-    "importancePercent": 3.25
+    "importance": 0.2066,
+    "importancePercent": 7.19
+  },
+  {
+    "metric": "Defensive Rebounds (per 40)",
+    "importance": 0.1743,
+    "importancePercent": 6.07
+  },
+  {
+    "metric": "Versatility",
+    "importance": 0.1705,
+    "importancePercent": 5.94
+  },
+  {
+    "metric": "Free Throw %",
+    "importance": 0.1659,
+    "importancePercent": 5.78
+  },
+  {
+    "metric": "Defensive Impact",
+    "importance": 0.1651,
+    "importancePercent": 5.75
+  },
+  {
+    "metric": "Turnovers (per 40)",
+    "importance": 0.1398,
+    "importancePercent": 4.87
+  },
+  {
+    "metric": "Assist/Turnover Ratio",
+    "importance": 0.1378,
+    "importancePercent": 4.8
+  },
+  {
+    "metric": "International",
+    "importance": 0.1337,
+    "importancePercent": 4.65
+  },
+  {
+    "metric": "Offensive Rebounds (per 40)",
+    "importance": 0.1309,
+    "importancePercent": 4.56
+  },
+  {
+    "metric": "Rim %",
+    "importance": 0.1279,
+    "importancePercent": 4.45
   },
   {
     "metric": "True Shooting %",
-    "importance": 0.0889,
-    "importancePercent": 3.15
+    "importance": 0.086,
+    "importancePercent": 2.99
   },
   {
-    "metric": "Points (per 40)",
-    "importance": 0.0662,
-    "importancePercent": 2.35
-  },
-  {
-    "metric": "Height",
-    "importance": 0.0612,
-    "importancePercent": 2.17
-  },
-  {
-    "metric": "Scoring Efficiency",
-    "importance": 0.0526,
-    "importancePercent": 1.87
+    "metric": "Assists (per 40)",
+    "importance": 0.077,
+    "importancePercent": 2.68
   },
   {
     "metric": "Blocks (per 40)",
-    "importance": 0.0509,
-    "importancePercent": 1.81
+    "importance": 0.0765,
+    "importancePercent": 2.66
   },
   {
-    "metric": "Team Strength",
-    "importance": 0.0481,
-    "importancePercent": 1.71
+    "metric": "Playmaking",
+    "importance": 0.0698,
+    "importancePercent": 2.43
+  },
+  {
+    "metric": "Strength of Schedule",
+    "importance": 0.0693,
+    "importancePercent": 2.41
+  },
+  {
+    "metric": "Rebounding Rate",
+    "importance": 0.0597,
+    "importancePercent": 2.08
+  },
+  {
+    "metric": "Points (per 40)",
+    "importance": 0.0571,
+    "importancePercent": 1.99
+  },
+  {
+    "metric": "Height",
+    "importance": 0.0538,
+    "importancePercent": 1.87
+  },
+  {
+    "metric": "Scoring Efficiency",
+    "importance": 0.0528,
+    "importancePercent": 1.84
   }
 ]

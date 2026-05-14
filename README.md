@@ -103,11 +103,24 @@ nba-draft-model/
 
 ## Data Sources
 
-- **College Statistics:** Basketball-Reference.com (2010-2026)
-- **NBA Outcomes:** Basketball-Reference.com career stats
-- **Strength of Schedule:** KenPom ratings
-- **Team Quality:** Historical conference strength data
-- **Draft Data:** Official NBA draft results
+**This project does not use automated web scraping.** All data is obtained through legitimate means:
+
+- **NBA Statistics:** [nba_api](https://github.com/swar/nba_api) - Official NBA.com stats API wrapper
+- **Draft Combine Data:** NBA.com official combine measurements (via nba_api)
+- **College Statistics:** Manually compiled from publicly available sources
+- **Historical Draft Data:** Public domain information from official NBA records
+
+### Legal Compliance
+
+This project respects the intellectual property and terms of service of all data providers:
+
+- ✅ **No automated scraping** of any website
+- ✅ **Facts-based compilation** - statistics are factual information, not copyrightable content
+- ✅ **API usage only** - NBA.com stats accessed through their official API
+- ✅ **Educational purpose** - Portfolio/research project, not commercial use
+- ✅ **Proper attribution** - All data sources credited
+
+For questions about data sourcing, see [Data Use Policy](#data-use-policy) below.
 
 ---
 
@@ -186,11 +199,32 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
+## Data Use Policy
+
+This project was built with respect for data providers' terms of service:
+
+**Data Collection Methods:**
+- NBA statistics obtained via [nba_api](https://github.com/swar/nba_api) (official NBA.com API wrapper)
+- College statistics manually compiled from publicly available information
+- No automated scraping of any website
+- All data cached locally to minimize API requests
+
+**Compliance Statement:**
+- This project does not compete with or substitute for commercial sports data services
+- Statistics are factual information compiled for educational/research purposes
+- All data providers are properly attributed
+- No proprietary content or copyrighted material is reproduced
+
+If you are a data provider with concerns about this project, please contact the repository owner.
+
+---
+
 ## Acknowledgments
 
-- **Data Sources:** Basketball-Reference.com, KenPom
+- **Data APIs:** nba_api (NBA.com official stats)
 - **ML Libraries:** XGBoost, SHAP, scikit-learn
-- **Frontend Framework:** Next.js, Tailwind CSS
-- **Inspiration:** Basketball analytics community, NBA draft evaluation research
+- **Frontend Framework:** Next.js, Tailwind CSS, Recharts
+- **Community:** Basketball analytics community, NBA draft evaluation research
+- **Methodology Inspiration:** Ken Pomeroy (KenPom), Dean Oliver, Basketball-Reference statistical standards
 
 ---

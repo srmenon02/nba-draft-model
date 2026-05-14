@@ -4,136 +4,136 @@ PLAYER COMPARISONS (Top 15 Prospects)
 ================================================================================
 
 Aday Mara
-  Average comp NBA impact: 1.10
+  Average comp NBA impact: 1.93
   Similar players:
-    1. Brandon Clarke (2019, PF) - Similarity: 0.842, NBA: 0.60, 7 seasons
-    2. Evan Mobley (2021, PF) - Similarity: 0.828, NBA: 2.60, 5 seasons
-    3. Chet Holmgren (2022, PF) - Similarity: 0.821, NBA: 4.70, 3 seasons
-    4. Markieff Morris (2011, PF) - Similarity: 0.794, NBA: -1.70, 14 seasons
-    5. Zach Edey (2024, PF) - Similarity: 0.790, NBA: 2.90, 2 seasons
-
-Patrick Ngongba
-  Average comp NBA impact: 1.01
-  Similar players:
-    1. Donovan Clingan (2024, C) - Similarity: 0.905, NBA: 3.20, 2 seasons
-    2. Jakob Poeltl (2016, C) - Similarity: 0.795, NBA: 1.80, 10 seasons
-    3. Dereck Lively II (2023, C) - Similarity: 0.789, NBA: 5.30, 3 seasons
-    4. Trey Lyles (2015, C) - Similarity: 0.785, NBA: -1.50, 10 seasons
-    5. Gorgui Dieng (2013, C) - Similarity: 0.783, NBA: -2.10, 10 seasons
-
-Hannes Steinbach
-  Average comp NBA impact: 0.81
-  Similar players:
-    1. Nikola Vucevic (2011, PF) - Similarity: 0.859, NBA: 1.10, 15 seasons
-    2. Jalen Smith (2020, PF) - Similarity: 0.840, NBA: 0.70, 6 seasons
-    3. Charles Bassey (2021, PF) - Similarity: 0.783, NBA: -2.10, 5 seasons
-    4. Isaiah Stewart (2020, PF) - Similarity: 0.777, NBA: 0.20, 6 seasons
-    5. Marvin Bagley III (2018, PF) - Similarity: 0.769, NBA: -0.90, 8 seasons
-
-Pryce Sandfort
-  Average comp NBA impact: 0.59
-  Similar players:
-    1. Jase Richardson (2025, SF) - Similarity: 0.926, NBA: 0.60, 1 seasons
-    2. Reggie Bullock (2013, SF) - Similarity: 0.885, NBA: -1.00, 11 seasons
-    3. Corey Kispert (2021, SF) - Similarity: 0.854, NBA: -2.30, 5 seasons
-    4. Kon Knueppel (2025, SF) - Similarity: 0.844, NBA: 5.00, 1 seasons
-    5. Caris LeVert (2016, SF) - Similarity: 0.837, NBA: -0.60, 10 seasons
-
-Tyler Tanner
-  Average comp NBA impact: 0.43
-  Similar players:
-    1. Trey Burke (2013, PG) - Similarity: 0.801, NBA: -2.50, 9 seasons
-    2. Jevon Carter (2018, PG) - Similarity: 0.716, NBA: -1.90, 8 seasons
-    3. Reed Sheppard (2024, SG) - Similarity: 0.686, NBA: 0.60, 2 seasons
-    4. Tyus Jones (2015, PG) - Similarity: 0.663, NBA: -0.80, 11 seasons
-    5. Cameron Payne (2015, PG) - Similarity: 0.645, NBA: -1.10, 11 seasons
-
-Caleb Wilson
-  Average comp NBA impact: 0.30
-  Similar players:
-    1. Evan Mobley (2021, PF) - Similarity: 0.775, NBA: 2.60, 5 seasons
-    2. Onyeka Okongwu (2020, PF) - Similarity: 0.732, NBA: 1.30, 6 seasons
-    3. Ryan Kalkbrenner (2025, PF) - Similarity: 0.723, NBA: 0.30, 1 seasons
-    4. Kel'el Ware (2024, PF) - Similarity: 0.706, NBA: 1.30, 2 seasons
-    5. Marvin Bagley III (2018, PF) - Similarity: 0.702, NBA: -0.90, 8 seasons
+    1. Evan Mobley (2021, Big) - Similarity: 0.829, NBA: 2.60, 5 seasons
+    2. Donovan Clingan (2024, Big) - Similarity: 0.792, NBA: 3.20, 2 seasons
+    3. Frank Kaminsky (2015, Big) - Similarity: 0.787, NBA: -1.10, 8 seasons
+    4. Greg Monroe (2010, Big) - Similarity: 0.770, NBA: -0.10, 10 seasons
+    5. Danny Wolf (2025, Big) - Similarity: 0.770, NBA: -0.20, 1 seasons
 
 Yaxel Lendeborg
-  Average comp NBA impact: 0.26
+  Average comp NBA impact: 0.83
   Similar players:
-    1. Delon Wright (2015, SF) - Similarity: 0.880, NBA: 0.80, 10 seasons
-    2. Mikal Bridges (2018, SF) - Similarity: 0.846, NBA: 1.40, 8 seasons
-    3. Cameron Johnson (2019, SF) - Similarity: 0.820, NBA: 1.10, 7 seasons
-    4. Cooper Flagg (2025, SF) - Similarity: 0.817, NBA: 2.20, 1 seasons
-    5. Robbie Hummel (2012, SF) - Similarity: 0.809, NBA: -1.80, 2 seasons
-
-Kingston Flemings
-  Average comp NBA impact: 0.21
-  Similar players:
-    1. Tre Jones (2020, SF) - Similarity: 0.934, NBA: 0.20, 6 seasons
-    2. Wendell Moore Jr. (2022, SF) - Similarity: 0.926, NBA: -2.90, 4 seasons
-    3. Shai Gilgeous-Alexander (2018, SF) - Similarity: 0.915, NBA: 5.50, 8 seasons
-    4. Andrew Harrison (2015, SF) - Similarity: 0.895, NBA: -1.30, 3 seasons
-    5. Kendall Marshall (2012, SF) - Similarity: 0.882, NBA: -1.80, 4 seasons
-
-Morez Johnson Jr.
-  Average comp NBA impact: 0.16
-  Similar players:
-    1. Jared Sullinger (2012, PF) - Similarity: 0.876, NBA: 1.30, 5 seasons
-    2. Markieff Morris (2011, PF) - Similarity: 0.841, NBA: -1.70, 14 seasons
-    3. Marcus Morris (2011, PF) - Similarity: 0.828, NBA: -1.30, 13 seasons
-    4. Zach Edey (2024, PF) - Similarity: 0.826, NBA: 2.90, 2 seasons
-    5. Wendell Carter Jr. (2018, PF) - Similarity: 0.801, NBA: 0.40, 8 seasons
-
-Thomas Haugh
-  Average comp NBA impact: 0.08
-  Similar players:
-    1. Jimmy Butler (2011, SF) - Similarity: 0.761, NBA: 5.30, 15 seasons
-    2. De'Andre Hunter (2019, SF) - Similarity: 0.739, NBA: -1.30, 7 seasons
-    3. Keegan Murray (2022, SF) - Similarity: 0.738, NBA: 0.80, 4 seasons
-    4. Mikal Bridges (2018, SF) - Similarity: 0.737, NBA: 1.40, 8 seasons
-    5. Wes Johnson (2010, SF) - Similarity: 0.730, NBA: -2.90, 9 seasons
+    1. Sion James (2025, Wing) - Similarity: 0.864, NBA: 1.00, 1 seasons
+    2. Malcolm Brogdon (2016, Wing) - Similarity: 0.860, NBA: 0.80, 9 seasons
+    3. Cameron Johnson (2019, Wing) - Similarity: 0.858, NBA: 1.10, 7 seasons
+    4. Reggie Bullock (2013, Wing) - Similarity: 0.858, NBA: -1.00, 11 seasons
+    5. Franz Wagner (2021, Wing) - Similarity: 0.849, NBA: 5.00, 5 seasons
 
 Henri Veesaar
-  Average comp NBA impact: 0.08
+  Average comp NBA impact: 0.67
   Similar players:
-    1. Ryan Kalkbrenner (2025, PF) - Similarity: 0.852, NBA: 0.30, 1 seasons
-    2. TJ Leaf (2017, PF) - Similarity: 0.837, NBA: -0.80, 4 seasons
-    3. Kel'el Ware (2024, PF) - Similarity: 0.815, NBA: 1.30, 2 seasons
-    4. Luka Garza (2021, PF) - Similarity: 0.780, NBA: 1.20, 5 seasons
-    5. Patrick Patterson (2010, PF) - Similarity: 0.758, NBA: -0.90, 11 seasons
+    1. Frank Kaminsky (2015, Big) - Similarity: 0.903, NBA: -1.10, 8 seasons
+    2. Ryan Kalkbrenner (2025, Big) - Similarity: 0.854, NBA: 0.30, 1 seasons
+    3. Luka Garza (2021, Big) - Similarity: 0.846, NBA: 1.20, 5 seasons
+    4. Kel'el Ware (2024, Big) - Similarity: 0.828, NBA: 1.30, 2 seasons
+    5. Kyle Filipowski (2024, Big) - Similarity: 0.792, NBA: 1.20, 2 seasons
 
-Christian Anderson
-  Average comp NBA impact: 0.08
+Meleek Thomas
+  Average comp NBA impact: 0.57
   Similar players:
-    1. Landry Shamet (2018, SG) - Similarity: 0.869, NBA: -0.50, 8 seasons
-    2. Tyler Kolek (2024, SG) - Similarity: 0.834, NBA: -0.90, 2 seasons
-    3. Jared Butler (2021, SG) - Similarity: 0.819, NBA: -1.10, 4 seasons
-    4. Ty Jerome (2019, SG) - Similarity: 0.815, NBA: 0.20, 7 seasons
-    5. Lonzo Ball (2017, SG) - Similarity: 0.803, NBA: 1.70, 7 seasons
+    1. Jase Richardson (2025, Wing) - Similarity: 0.931, NBA: 0.60, 1 seasons
+    2. Kon Knueppel (2025, Wing) - Similarity: 0.892, NBA: 5.00, 1 seasons
+    3. Tyty Washington Jr. (2022, Wing) - Similarity: 0.889, NBA: -1.80, 4 seasons
+    4. Darrun Hilliard (2015, Wing) - Similarity: 0.887, NBA: -1.50, 3 seasons
+    5. Devin Vassell (2020, Wing) - Similarity: 0.879, NBA: 0.20, 6 seasons
 
 Amari Allen
-  Average comp NBA impact: 0.07
+  Average comp NBA impact: 0.57
   Similar players:
-    1. Andre Jackson Jr. (2023, SF) - Similarity: 0.838, NBA: -3.40, 3 seasons
-    2. Franz Wagner (2021, SF) - Similarity: 0.825, NBA: 5.00, 5 seasons
-    3. Christian Braun (2022, SF) - Similarity: 0.785, NBA: -0.10, 4 seasons
-    4. Jalen Pickett (2023, SF) - Similarity: 0.773, NBA: -1.90, 3 seasons
-    5. Colby Jones (2023, SF) - Similarity: 0.762, NBA: -1.00, 3 seasons
+    1. Franz Wagner (2021, Wing) - Similarity: 0.903, NBA: 5.00, 5 seasons
+    2. Dalen Terry (2022, Wing) - Similarity: 0.901, NBA: -1.50, 4 seasons
+    3. Sion James (2025, Wing) - Similarity: 0.853, NBA: 1.00, 1 seasons
+    4. Reggie Bullock (2013, Wing) - Similarity: 0.843, NBA: -1.00, 11 seasons
+    5. Tyty Washington Jr. (2022, Wing) - Similarity: 0.838, NBA: -1.80, 4 seasons
 
-Flory Bidunga
+Patrick Ngongba
+  Average comp NBA impact: 0.53
+  Similar players:
+    1. Oso Ighodaro (2024, Big) - Similarity: 0.863, NBA: -0.10, 2 seasons
+    2. Donovan Clingan (2024, Big) - Similarity: 0.837, NBA: 3.20, 2 seasons
+    3. Frank Kaminsky (2015, Big) - Similarity: 0.834, NBA: -1.10, 8 seasons
+    4. Kyle Filipowski (2024, Big) - Similarity: 0.822, NBA: 1.20, 2 seasons
+    5. Ryan Kelly (2013, Big) - Similarity: 0.805, NBA: -0.70, 4 seasons
+
+Caleb Wilson
+  Average comp NBA impact: 0.50
+  Similar players:
+    1. Zion Williamson (2019, Wing) - Similarity: 0.902, NBA: 2.10, 6 seasons
+    2. Grant Williams (2019, Wing) - Similarity: 0.881, NBA: -1.20, 7 seasons
+    3. Collin Murray-Boyles (2025, Wing) - Similarity: 0.879, NBA: 1.10, 1 seasons
+    4. Ben Simmons (2016, Wing) - Similarity: 0.869, NBA: 2.20, 7 seasons
+    5. Onyeka Okongwu (2020, Wing) - Similarity: 0.854, NBA: 1.30, 6 seasons
+
+Morez Johnson Jr.
+  Average comp NBA impact: 0.32
+  Similar players:
+    1. Jared Sullinger (2012, Wing) - Similarity: 0.867, NBA: 1.30, 5 seasons
+    2. Markieff Morris (2011, Wing) - Similarity: 0.862, NBA: -1.70, 14 seasons
+    3. Jalen Smith (2020, Wing) - Similarity: 0.835, NBA: 0.70, 6 seasons
+    4. Wendell Carter Jr. (2018, Wing) - Similarity: 0.831, NBA: 0.40, 8 seasons
+    5. Montrezl Harrell (2015, Wing) - Similarity: 0.830, NBA: 0.10, 8 seasons
+
+Koa Peat
+  Average comp NBA impact: 0.30
+  Similar players:
+    1. Stephon Castle (2024, Wing) - Similarity: 0.841, NBA: 2.20, 2 seasons
+    2. Aaron Gordon (2014, Wing) - Similarity: 0.837, NBA: 1.50, 12 seasons
+    3. R.J. Barrett (2019, Wing) - Similarity: 0.820, NBA: -1.00, 7 seasons
+    4. Will Riley (2025, Wing) - Similarity: 0.818, NBA: 0.10, 1 seasons
+    5. Donte DiVincenzo (2018, Wing) - Similarity: 0.795, NBA: 0.60, 8 seasons
+
+Tyler Tanner
+  Average comp NBA impact: 0.18
+  Similar players:
+    1. Trey Burke (2013, Guard) - Similarity: 0.827, NBA: -2.50, 9 seasons
+    2. Delon Wright (2015, Guard) - Similarity: 0.789, NBA: 0.80, 10 seasons
+    3. Reed Sheppard (2024, Guard) - Similarity: 0.784, NBA: 0.60, 2 seasons
+    4. Kyrie Irving (2011, Guard) - Similarity: 0.772, NBA: 3.60, 14 seasons
+    5. Jevon Carter (2018, Guard) - Similarity: 0.770, NBA: -1.90, 8 seasons
+
+Pryce Sandfort
+  Average comp NBA impact: 0.16
+  Similar players:
+    1. Jase Richardson (2025, Wing) - Similarity: 0.940, NBA: 0.60, 1 seasons
+    2. Malcolm Brogdon (2016, Wing) - Similarity: 0.920, NBA: 0.80, 9 seasons
+    3. Reggie Bullock (2013, Wing) - Similarity: 0.913, NBA: -1.00, 11 seasons
+    4. Jordan Miller (2023, Wing) - Similarity: 0.884, NBA: -1.30, 3 seasons
+    5. Kon Knueppel (2025, Wing) - Similarity: 0.879, NBA: 5.00, 1 seasons
+
+Alex Condon
+  Average comp NBA impact: 0.14
+  Similar players:
+    1. Greg Monroe (2010, Big) - Similarity: 0.905, NBA: -0.10, 10 seasons
+    2. Oso Ighodaro (2024, Big) - Similarity: 0.904, NBA: -0.10, 2 seasons
+    3. Kyle Filipowski (2024, Big) - Similarity: 0.888, NBA: 1.20, 2 seasons
+    4. Danny Wolf (2025, Big) - Similarity: 0.866, NBA: -0.20, 1 seasons
+    5. Frank Kaminsky (2015, Big) - Similarity: 0.852, NBA: -1.10, 8 seasons
+
+Christian Anderson
+  Average comp NBA impact: 0.10
+  Similar players:
+    1. Jalen Brunson (2018, Guard) - Similarity: 0.824, NBA: 1.30, 8 seasons
+    2. Landry Shamet (2018, Guard) - Similarity: 0.823, NBA: -0.50, 8 seasons
+    3. Kendall Marshall (2012, Guard) - Similarity: 0.782, NBA: -1.80, 4 seasons
+    4. Trey Burke (2013, Guard) - Similarity: 0.781, NBA: -2.50, 9 seasons
+    5. Kevin Huerter (2018, Wing) - Similarity: 0.776, NBA: 1.80, 8 seasons
+
+Kingston Flemings
   Average comp NBA impact: 0.00
   Similar players:
-    1. Tristan Thompson (2011, PF) - Similarity: 0.839, NBA: -2.70, 14 seasons
-    2. Jordan Bell (2017, PF) - Similarity: 0.839, NBA: -0.80, 5 seasons
-    3. Trayce Jackson-Davis (2023, PF) - Similarity: 0.813, NBA: -2.40, 3 seasons
-    4. Montrezl Harrell (2015, PF) - Similarity: 0.798, NBA: 0.10, 8 seasons
-    5. Neemias Queta (2021, PF) - Similarity: 0.791, NBA: 1.30, 5 seasons
+    1. Trey Burke (2013, Guard) - Similarity: 0.911, NBA: -2.50, 9 seasons
+    2. Tyler Ulis (2016, Guard) - Similarity: 0.871, NBA: -0.80, 3 seasons
+    3. Monte Morris (2017, Guard) - Similarity: 0.851, NBA: -0.20, 9 seasons
+    4. Ty Jerome (2019, Guard) - Similarity: 0.843, NBA: 0.20, 7 seasons
+    5. Tre Jones (2020, Guard) - Similarity: 0.839, NBA: 0.20, 6 seasons
 
-Nate Ament
-  Average comp NBA impact: -0.07
+Joshua Jefferson
+  Average comp NBA impact: -0.02
   Similar players:
-    1. Quincy Miller (2012, PF) - Similarity: 0.851, NBA: 0.60, 3 seasons
-    2. Jabari Smith (2022, PF) - Similarity: 0.825, NBA: 1.10, 4 seasons
-    3. Paolo Banchero (2022, PF) - Similarity: 0.796, NBA: 1.00, 4 seasons
-    4. Jaylen Brown (2016, PF) - Similarity: 0.771, NBA: -0.20, 10 seasons
-    5. Anthony Black (2023, PF) - Similarity: 0.764, NBA: -0.20, 3 seasons
+    1. Kyle Anderson (2014, Wing) - Similarity: 0.922, NBA: -0.20, 12 seasons
+    2. Evan Turner (2010, Wing) - Similarity: 0.868, NBA: -3.20, 10 seasons
+    3. Jarrett Culver (2019, Wing) - Similarity: 0.862, NBA: -2.40, 4 seasons
+    4. Draymond Green (2012, Wing) - Similarity: 0.849, NBA: 3.40, 14 seasons
+    5. Cooper Flagg (2025, Wing) - Similarity: 0.848, NBA: 2.20, 1 seasons
