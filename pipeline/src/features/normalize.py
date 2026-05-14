@@ -185,9 +185,9 @@ def adjust_for_age(
     if age_col not in df.columns:
         raise ValueError(f"DataFrame must contain '{age_col}' column")
     
-    # Age adjustment factor: +1% boost per year younger than reference (reduced from 5%)
-    # e.g., 18-year-old gets ~1.5% boost, 21-year-old gets ~1.5% penalty
-    age_factor = 1 + (reference_age - df[age_col]) * 0.01
+    # Age adjustment factor: +0.1% boost per year younger than reference (minimal impact)
+    # e.g., 18-year-old gets ~0.15% boost, 21-year-old gets ~0.15% penalty
+    age_factor = 1 + (reference_age - df[age_col]) * 0.001
     
     for stat in stat_cols:
         if stat not in df.columns:
