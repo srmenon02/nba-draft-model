@@ -8,8 +8,8 @@ export default function AboutPage() {
     <main className="flex-1">
       {/* Header */}
       <div className="bg-brand-800 border-b border-brand-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h1 className="text-3xl sm:text-4xl font-bold text-brand-100 mb-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-100 mb-2">
             About This Model
           </h1>
           <p className="text-brand-400 text-sm sm:text-base">
@@ -19,11 +19,11 @@ export default function AboutPage() {
       </div>
 
       {/* Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10 space-y-6 sm:space-y-8 lg:space-y-10">
         {/* Overview */}
-        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-brand-100 mb-5">Project Overview</h2>
-          <div className="text-brand-300 space-y-4 leading-relaxed text-base">
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-5">Project Overview</h2>
+          <div className="text-brand-300 space-y-3 sm:space-y-4 leading-relaxed text-sm sm:text-base">
             <p>
               This NBA Draft Model uses machine learning to objectively evaluate draft prospects
               by analyzing college performance data and physical attributes. The goal is to
@@ -33,24 +33,24 @@ export default function AboutPage() {
         </section>
 
         {/* Model Performance */}
-        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-brand-100 mb-6">Model Performance</h2>
-          <div className="grid sm:grid-cols-3 gap-6 mb-6">
-            <div className="bg-brand-700 rounded-xl p-5 text-center border-2 border-brand-600">
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Model Performance</h2>
+          <div className="grid gap-4 sm:gap-6 sm:grid-cols-3 mb-4 sm:mb-6">
+            <div className="bg-brand-700 rounded-xl p-4 sm:p-5 text-center border-2 border-brand-600">
               <div className="text-xs uppercase tracking-wide text-brand-400 mb-2">Spearman Correlation</div>
-              <div className="text-3xl font-bold text-accent">
+              <div className="text-2xl sm:text-3xl font-bold text-accent">
                 {metadata.modelPerformance.spearmanRho.toFixed(3)}
               </div>
             </div>
-            <div className="bg-brand-700 rounded-xl p-5 text-center border-2 border-brand-600">
+            <div className="bg-brand-700 rounded-xl p-4 sm:p-5 text-center border-2 border-brand-600">
               <div className="text-xs uppercase tracking-wide text-brand-400 mb-2">RMSE</div>
-              <div className="text-3xl font-bold text-brand-200">
+              <div className="text-2xl sm:text-3xl font-bold text-brand-200">
                 {metadata.modelPerformance.rmse.toFixed(3)}
               </div>
             </div>
-            <div className="bg-brand-700 rounded-xl p-5 text-center border-2 border-brand-600">
+            <div className="bg-brand-700 rounded-xl p-4 sm:p-5 text-center border-2 border-brand-600">
               <div className="text-xs uppercase tracking-wide text-brand-400 mb-2">MAE</div>
-              <div className="text-3xl font-bold text-brand-200">
+              <div className="text-2xl sm:text-3xl font-bold text-brand-200">
                 {metadata.modelPerformance.mae.toFixed(3)}
               </div>
             </div>
@@ -69,13 +69,13 @@ export default function AboutPage() {
         </section>
 
         {/* Methodology */}
-        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-brand-100 mb-6">Methodology</h2>
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Methodology</h2>
           
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             <div>
-              <h3 className="text-lg font-bold text-brand-100 mb-3">1. Data Collection</h3>
-              <ul className="text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">1. Data Collection</h3>
+              <ul className="text-sm sm:text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
                 <li>771 prospects from 2010-2026 draft classes</li>
                 <li>College statistics: points, assists, rebounds, shooting percentages</li>
                 <li>Physical measurements: height, age, international status</li>
@@ -84,8 +84,8 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-brand-100 mb-3">2. Feature Engineering</h3>
-              <ul className="text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">2. Feature Engineering</h3>
+              <ul className="text-sm sm:text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
                 <li>Normalized per-40-minute statistics for fair comparison</li>
                 <li>Position-specific z-scores (guards vs. bigs)</li>
                 <li>Age adjustment: +5% boost per year younger than 19.5</li>
@@ -95,8 +95,8 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-brand-100 mb-3">3. Model Training</h3>
-              <ul className="text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">3. Model Training</h3>
+              <ul className="text-sm sm:text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
                 <li>Algorithm: <strong className="text-accent">XGBoost Regression</strong></li>
                 <li>Target variable: NBA Impact Score (career Win Shares + seasons played)</li>
                 <li>Hyperparameters: max_depth=4, learning_rate=0.05, n_estimators=200</li>
@@ -106,8 +106,8 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-brand-100 mb-3">4. Model Interpretation</h3>
-              <ul className="text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">4. Model Interpretation</h3>
+              <ul className="text-sm sm:text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
                 <li><strong className="text-accent">SHAP values</strong>: Explain which features drive each prediction</li>
                 <li>Global feature importance: Age (23.6%), Defensive Impact (7.6%), AST/TO (5.9%)</li>
                 <li>Individual explanations: Top 3 positive and negative factors per prospect</li>
@@ -115,8 +115,8 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-brand-100 mb-3">5. Player Comparisons</h3>
-              <ul className="text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">5. Player Comparisons</h3>
+              <ul className="text-sm sm:text-base text-brand-300 space-y-2 ml-6 list-disc leading-relaxed">
                 <li><strong className="text-accent">Cosine similarity</strong> on normalized playing style features</li>
                 <li>Excludes demographic features (age, height) to focus on skillset</li>
                 <li>Position-specific z-scores ensure fair comparisons</li>
@@ -127,9 +127,9 @@ export default function AboutPage() {
         </section>
 
         {/* Data Sources */}
-        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-brand-100 mb-6">Data Sources</h2>
-          <div className="space-y-4 text-base text-brand-300">
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Data Sources</h2>
+          <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-brand-300">
 
             <div className="flex items-start gap-3">
               <ExternalLink size={18} className="text-accent mt-0.5 flex-shrink-0" />
@@ -138,18 +138,18 @@ export default function AboutPage() {
                   href="https://github.com/swar/nba_api"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-brand-100 hover:text-accent transition-colors text-lg"
+                  className="font-bold text-brand-100 hover:text-accent transition-colors text-base sm:text-lg"
                 >
                   nba_api
                 </a>
-                <p className="text-brand-300 mt-2 leading-relaxed">
+                <p className="text-brand-300 mt-1 sm:mt-2 leading-relaxed">
                   Official NBA API wrapper for combine measurements and supplemental data.
                   Rate limited to 0.6 seconds between requests.
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 p-5 bg-brand-700 rounded-xl border-2 border-brand-600">
+            <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-brand-700 rounded-xl border-2 border-brand-600">
               <p className="text-brand-200 leading-relaxed">
                 <strong className="text-brand-100">Data Currency:</strong> Model trained on data through
                 the 2025 draft class. Last updated: {metadata.lastUpdated}
@@ -159,15 +159,15 @@ export default function AboutPage() {
         </section>
 
         {/* Limitations */}
-        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-brand-100 mb-6">Limitations & Disclaimers</h2>
-          <div className="space-y-4 text-base text-brand-300 leading-relaxed">
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Limitations & Disclaimers</h2>
+          <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-brand-300 leading-relaxed">
             <p>
               <strong className="text-brand-100">This model is for educational and portfolio purposes.</strong> It
               should not be used for real draft decisions or betting. NBA success depends on many
               factors this model cannot capture:
             </p>
-            <ul className="ml-6 list-disc space-y-3">
+            <ul className="ml-6 list-disc space-y-2 sm:space-y-3">
               <li>
                 <strong className="text-brand-100">Injury history and durability</strong> — Career-altering
                 injuries dramatically impact outcomes but are unpredictable
@@ -193,7 +193,7 @@ export default function AboutPage() {
                 (e.g., increased 3-point shooting), which may reduce model accuracy for recent classes
               </li>
             </ul>
-            <p className="mt-5 text-brand-200 font-medium">
+            <p className="mt-4 sm:mt-5 text-brand-200 font-medium">
               Use this model as <strong>one input among many</strong> when evaluating prospects. Combine
               quantitative analysis with scouting reports, game film, and domain expertise.
             </p>

@@ -11,12 +11,7 @@ export default function MetricImportanceChart({ data }: MetricImportanceChartPro
   // Sort by importance descending and take top 20
   const chartData = [...data]
     .sort((a, b) => b.importance - a.importance)
-    .slice(0, 20)
-    .map((item) => ({
-      ...item,
-      // Truncate long names for display
-      displayName: item.metric.length > 20 ? item.metric.substring(0, 18) + '...' : item.metric,
-    }));
+    .slice(0, 20);
 
   // Color gradient - top metrics more vibrant
   const getBarColor = (index: number) => {
@@ -27,25 +22,26 @@ export default function MetricImportanceChart({ data }: MetricImportanceChartPro
 
   return (
     <div className="w-full">
-      <ResponsiveContainer width="100%" height={600}>
+      {/* Mobile: Smaller height, Desktop: Full height */}
+      <ResponsiveContainer width="100%" height={500} className="sm:h-[600px]">
         <BarChart
           data={chartData}
           layout="vertical"
-          margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
+          margin={{ top: 5, right: 20, left: 160, bottom: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
           <XAxis 
             type="number" 
             stroke="#64748b"
             tick={{ fill: '#94a3b8', fontSize: 12 }}
-            label={{ value: 'Importance (%)', position: 'insideBottom', offset: -5, fill: '#94a3b8' }}
+            label={{ value: 'Importance (%)', position: 'insideBottom', offset: -10, fill: '#94a3b8', fontSize: 14 }}
           />
           <YAxis 
             type="category" 
-            dataKey="displayName"
+            dataKey="metric"
             stroke="#64748b"
-            tick={{ fill: '#e2e8f0', fontSize: 12 }}
-            width={110}
+            tick={{ fill: '#e2e8f0', fontSize: 11 }}
+            width={170}
           />
           <Tooltip
             contentStyle={{
@@ -55,6 +51,7 @@ export default function MetricImportanceChart({ data }: MetricImportanceChartPro
               color: '#e2e8f0',
             }}
             labelStyle={{ color: '#e2e8f0', fontWeight: 'bold' }}
+            itemStyle={{ color: '#e2e8f0' }}
             formatter={(value, name, props) => {
               const item = props as { payload: MetricImportance & { displayName: string } };
               return [
@@ -62,10 +59,7 @@ export default function MetricImportanceChart({ data }: MetricImportanceChartPro
                 'Importance'
               ];
             }}
-            labelFormatter={(label) => {
-              const item = chartData.find((d) => d.displayName === label);
-              return item?.metric || label;
-            }}
+            labelFormatter={(label) => label}
           />
           <Bar dataKey="importancePercent" radius={[0, 4, 4, 0]}>
             {chartData.map((entry, index) => (
