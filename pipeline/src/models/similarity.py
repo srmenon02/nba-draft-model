@@ -107,19 +107,20 @@ def find_similar_players(
     )[0]
     
     # Calculate position similarity (1.0 for same position, 0.5 for adjacent, 0.0 otherwise)
-    position_map = {'PG': 0, 'SG': 1, 'SF': 2, 'PF': 3, 'C': 4}
-    prospect_pos_idx = position_map.get(prospect_position, 2)
+    # Modern 3-position system: Guard, Wing, Big
+    position_map = {'Guard': 0, 'Wing': 1, 'Big': 2}
+    prospect_pos_idx = position_map.get(prospect_position, 1)  # Default to Wing if unknown
     
     position_similarities = []
     for _, player in historical_players.iterrows():
-        player_pos_idx = position_map.get(player['position'], 2)
+        player_pos_idx = position_map.get(player['position'], 1)
         pos_diff = abs(prospect_pos_idx - player_pos_idx)
         if pos_diff == 0:
-            pos_sim = 1.0
+            pos_sim = 1.0  # Same position (e.g., Guard-Guard)
         elif pos_diff == 1:
-            pos_sim = 0.5
+            pos_sim = 0.5  # Adjacent position (e.g., Guard-Wing, Wing-Big)
         else:
-            pos_sim = 0.0
+            pos_sim = 0.0  # Opposite ends (Guard-Big)
         position_similarities.append(pos_sim)
     position_similarities = np.array(position_similarities)
     
@@ -326,6 +327,7 @@ if __name__ == "__main__":
     import sys
     sys.path.insert(0, str(Path(__file__).parent.parent))
     from features.normalize import (
+        reclassify_positions,
         normalize_per_40,
         adjust_for_age,
         create_composite_features,
@@ -337,6 +339,10 @@ if __name__ == "__main__":
     df = pd.read_csv(data_path)
     
     print(f"\nLoaded {len(df)} players")
+    
+    # Reclassify positions to modern system (Guard/Wing/Big)
+    df = reclassify_positions(df)
+    print("✓ Positions reclassified to modern system (Guard/Wing/Big)")
     
     # Feature engineering
     counting_stats = ['pts', 'ast', 'oreb', 'dreb', 'stl', 'blks', 'tov']

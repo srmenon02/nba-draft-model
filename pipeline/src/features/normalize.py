@@ -6,12 +6,69 @@ Handles:
 2. Percentile ranking by position and draft class
 3. Z-score standardization for ML models
 4. Age adjustment for player development curves
+5. Modern position classification (Guard/Wing/Big) based on height
 """
 
 import pandas as pd
 import numpy as np
 from typing import List, Optional, Tuple
 from pathlib import Path
+
+
+def reclassify_positions(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Reclassify traditional positions into modern role-based categories.
+    
+    Modern NBA positions based on size and traditional role:
+    - Guard: PG and SG below 6'5" (77 inches)
+    - Wing: SG 6'5"+, all SF, and PF up to 6'10" (82 inches)
+    - Big: PF above 6'10" and all C
+    
+    Args:
+        df: DataFrame with 'position' and 'height' columns
+        
+    Returns:
+        DataFrame with reclassified positions
+    """
+    df = df.copy()
+    
+    if 'position' not in df.columns or 'height' not in df.columns:
+        raise ValueError("DataFrame must contain 'position' and 'height' columns")
+    
+    def classify_position(row):
+        pos = row['position']
+        height = row['height']
+        
+        # Handle missing data
+        if pd.isna(pos) or pd.isna(height):
+            return pos
+        
+        # Guard: ALL PGs regardless of height, SG below 6'5" (77 inches)
+        if pos == 'PG':
+            return 'Guard'
+        if pos == 'SG' and height < 77:
+            return 'Guard'
+        
+        # Wing: SG 6'5"+, all SF, PF up to 6'10" (82 inches)
+        if pos == 'SG' and height >= 77:
+            return 'Wing'
+        if pos == 'SF':
+            return 'Wing'
+        if pos == 'PF' and height <= 82:
+            return 'Wing'
+        
+        # Big: PF above 6'10" (82 inches) and all C
+        if pos == 'PF' and height > 82:
+            return 'Big'
+        if pos == 'C':
+            return 'Big'
+        
+        # Fallback to original position if no rule matches
+        return pos
+    
+    df['position'] = df.apply(classify_position, axis=1)
+    
+    return df
 
 
 def normalize_per_40(df: pd.DataFrame, stat_cols: List[str]) -> pd.DataFrame:

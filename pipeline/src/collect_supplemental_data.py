@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from ingest.load_csv import load_base_data
 from ingest.supplemental_data import NBAApiCollector, calculate_derived_metrics
+from features.normalize import reclassify_positions
 
 
 def collect_combine_data(start_year: int = 2010, end_year: int = 2026) -> pd.DataFrame:
@@ -179,10 +180,15 @@ def infer_positions_from_stats(df: pd.DataFrame) -> pd.DataFrame:
         reb_rate = (row.get('oreb', 0) + row.get('dreb', 0)) / row.get('gp', 1)
         
         # Height-based primary assignment
-        if height <= 74:  # 6'2" and under
+        if height <= 74:  # 6'2" and under - prioritize playmaking
             return 'PG' if ast_rate > 3.5 else 'SG'
-        elif height <= 78:  # 6'6" and under
-            return 'SG' if three_rate > 1.5 else 'SF'
+        elif height <= 78:  # 6'6" and under - use assists to distinguish PG from wings
+            if ast_rate > 4.0:  # High assist rate = point guard
+                return 'PG'
+            elif three_rate > 1.5:
+                return 'SG'
+            else:
+                return 'SF'
         elif height <= 81:  # 6'9" and under
             return 'SF' if three_rate > 1.0 else 'PF'
         else:  # 6'10" and up
@@ -284,8 +290,13 @@ def main():
         print("\n5. Inferring missing position data...")
         enhanced_df = infer_positions_from_stats(enhanced_df)
         
+        # Reclassify positions to modern system (Guard/Wing/Big)
+        print("\n6. Reclassifying positions to modern system...")
+        enhanced_df = reclassify_positions(enhanced_df)
+        print(f"✓ Reclassified to Guard/Wing/Big system")
+        
         # Save enhanced dataset
-        print("\n6. Saving enhanced dataset...")
+        print("\n7. Saving enhanced dataset...")
         save_enhanced_dataset(enhanced_df)
         
         # Generate feature summary

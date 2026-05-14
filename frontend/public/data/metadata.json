@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T15:34:27.542595",
+  "generatedAt": "2026-05-14T15:56:49.147177",
   "draftYear": 2026,
   "modelVersion": "1.0.0",
   "modelPerformance": {
@@ -7,6 +7,6 @@
     "rmse": 1.7011568274776185,
     "mae": 1.322996157450117
   },
-  "dataSource": "Basketball-Reference, nba_api",
+  "dataSource": "nba_api, manual compilation of public statistics",
   "lastUpdated": "2026-05-14"
 }

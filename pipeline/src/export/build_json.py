@@ -325,7 +325,7 @@ def build_metadata_json(artifacts: Dict[str, Any]) -> Dict:
             'rmse': cv_results.get('overall_rmse'),
             'mae': cv_results.get('overall_mae'),
         },
-        'dataSource': 'Basketball-Reference, nba_api',
+        'dataSource': 'nba_api, manual compilation of public statistics',
         'lastUpdated': datetime.now().strftime('%Y-%m-%d'),
     }
     

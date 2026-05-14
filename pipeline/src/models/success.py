@@ -332,6 +332,7 @@ if __name__ == "__main__":
     import sys
     sys.path.insert(0, str(Path(__file__).parent.parent))
     from features.normalize import (
+        reclassify_positions,
         normalize_per_40,
         adjust_for_age,
         create_composite_features,
@@ -343,6 +344,10 @@ if __name__ == "__main__":
     df = pd.read_csv(data_path)
     
     print(f"\nLoaded {len(df)} players")
+    
+    # Reclassify positions to modern system (Guard/Wing/Big)
+    df = reclassify_positions(df)
+    print("✓ Positions reclassified to modern system (Guard/Wing/Big)")
     
     # Feature engineering
     counting_stats = ['pts', 'ast', 'oreb', 'dreb', 'stl', 'blks', 'tov']

@@ -1,6 +1,7 @@
 """Feature engineering package for NBA Draft Model."""
 
 from .normalize import (
+    reclassify_positions,
     normalize_per_40,
     calculate_percentiles_by_position,
     calculate_percentiles_by_year,
@@ -23,6 +24,7 @@ from .validation import (
 
 __all__ = [
     # Normalization functions
+    'reclassify_positions',
     'normalize_per_40',
     'calculate_percentiles_by_position',
     'calculate_percentiles_by_year',

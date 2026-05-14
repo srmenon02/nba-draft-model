@@ -2,7 +2,7 @@
   {
     "id": "ryan-conwell",
     "name": "Ryan Conwell",
-    "position": "SG",
+    "position": "Guard",
     "height": 75.0,
     "age": 21.6,
     "international": false,
@@ -68,7 +68,7 @@
   {
     "id": "braden-smith",
     "name": "Braden Smith",
-    "position": "PG",
+    "position": "Guard",
     "height": 72.0,
     "age": 22.5,
     "international": false,
@@ -134,7 +134,7 @@
   {
     "id": "richie-saunders",
     "name": "Richie Saunders",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 24.3,
     "international": false,
@@ -200,7 +200,7 @@
   {
     "id": "alex-karaban",
     "name": "Alex Karaban",
-    "position": "SF",
+    "position": "Wing",
     "height": 80.0,
     "age": 23.2,
     "international": false,
@@ -266,7 +266,7 @@
   {
     "id": "henri-veesaar",
     "name": "Henri Veesaar",
-    "position": "PF",
+    "position": "Big",
     "height": 84.0,
     "age": 21.8,
     "international": true,
@@ -332,7 +332,7 @@
   {
     "id": "zuby-ejiofor",
     "name": "Zuby Ejiofor",
-    "position": "PF",
+    "position": "Wing",
     "height": 81.0,
     "age": 21.8,
     "international": false,
@@ -398,7 +398,7 @@
   {
     "id": "joshua-jefferson",
     "name": "Joshua Jefferson",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 22.2,
     "international": false,
@@ -464,7 +464,7 @@
   {
     "id": "milan-momcilovic",
     "name": "Milan Momcilovic",
-    "position": "SF",
+    "position": "Wing",
     "height": 80.0,
     "age": 21.3,
     "international": false,
@@ -530,7 +530,7 @@
   {
     "id": "dailyn-swain",
     "name": "Dailyn Swain",
-    "position": "PF",
+    "position": "Wing",
     "height": 80.0,
     "age": 20.5,
     "international": false,
@@ -596,7 +596,7 @@
   {
     "id": "aday-mara",
     "name": "Aday Mara",
-    "position": "PF",
+    "position": "Big",
     "height": 87.0,
     "age": 20.8,
     "international": true,
@@ -662,7 +662,7 @@
   {
     "id": "cameron-carr",
     "name": "Cameron Carr",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 21.2,
     "international": false,
@@ -728,7 +728,7 @@
   {
     "id": "yaxel-lendeborg",
     "name": "Yaxel Lendeborg",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 23.3,
     "international": false,
@@ -794,7 +794,7 @@
   {
     "id": "pryce-sandfort",
     "name": "Pryce Sandfort",
-    "position": "SF",
+    "position": "Wing",
     "height": 79.0,
     "age": 21.6,
     "international": false,
@@ -860,7 +860,7 @@
   {
     "id": "motiejus-krivas",
     "name": "Motiejus Krivas",
-    "position": "C",
+    "position": "Big",
     "height": 86.0,
     "age": 21.2,
     "international": true,
@@ -926,7 +926,7 @@
   {
     "id": "thomas-haugh",
     "name": "Thomas Haugh",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 22.5,
     "international": false,
@@ -992,7 +992,7 @@
   {
     "id": "alex-condon",
     "name": "Alex Condon",
-    "position": "PF",
+    "position": "Big",
     "height": 83.0,
     "age": 21.5,
     "international": true,
@@ -1058,7 +1058,7 @@
   {
     "id": "patrick-ngongba",
     "name": "Patrick Ngongba",
-    "position": "C",
+    "position": "Big",
     "height": 83.0,
     "age": 19.9,
     "international": false,
@@ -1124,7 +1124,7 @@
   {
     "id": "isaiah-evans",
     "name": "Isaiah Evans",
-    "position": "SG",
+    "position": "Wing",
     "height": 78.0,
     "age": 20.1,
     "international": false,
@@ -1190,7 +1190,7 @@
   {
     "id": "labaron-philon",
     "name": "Labaron Philon",
-    "position": "SG",
+    "position": "Guard",
     "height": 76.0,
     "age": 20.2,
     "international": false,
@@ -1256,7 +1256,7 @@
   {
     "id": "paul-mcneil,-jr.",
     "name": "Paul McNeil, Jr.",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 19.7,
     "international": false,
@@ -1322,7 +1322,7 @@
   {
     "id": "juke-harris",
     "name": "Juke Harris",
-    "position": "SF",
+    "position": "Wing",
     "height": 79.0,
     "age": 20.3,
     "international": false,
@@ -1388,7 +1388,7 @@
   {
     "id": "jayden-quaintance",
     "name": "Jayden Quaintance",
-    "position": "C",
+    "position": "Big",
     "height": 83.0,
     "age": 18.5,
     "international": false,
@@ -1454,7 +1454,7 @@
   {
     "id": "morez-johnson-jr.",
     "name": "Morez Johnson Jr.",
-    "position": "PF",
+    "position": "Wing",
     "height": 81.0,
     "age": 20.0,
     "international": false,
@@ -1520,7 +1520,7 @@
   {
     "id": "christian-anderson",
     "name": "Christian Anderson",
-    "position": "SG",
+    "position": "Guard",
     "height": 75.0,
     "age": 19.8,
     "international": false,
@@ -1586,7 +1586,7 @@
   {
     "id": "tyler-tanner",
     "name": "Tyler Tanner",
-    "position": "PG",
+    "position": "Guard",
     "height": 72.0,
     "age": 20.0,
     "international": false,
@@ -1652,7 +1652,7 @@
   {
     "id": "bennett-stirtz",
     "name": "Bennett Stirtz",
-    "position": "SG",
+    "position": "Guard",
     "height": 76.0,
     "age": 22.3,
     "international": false,
@@ -1718,7 +1718,7 @@
   {
     "id": "flory-bidunga",
     "name": "Flory Bidunga",
-    "position": "PF",
+    "position": "Wing",
     "height": 81.0,
     "age": 20.7,
     "international": true,
@@ -1784,7 +1784,7 @@
   {
     "id": "allen-graves",
     "name": "Allen Graves",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 20.3,
     "international": false,
@@ -1850,7 +1850,7 @@
   {
     "id": "koa-peat",
     "name": "Koa Peat",
-    "position": "PF",
+    "position": "Wing",
     "height": 80.0,
     "age": 19.0,
     "international": false,
@@ -1916,7 +1916,7 @@
   {
     "id": "brayden-burries",
     "name": "Brayden Burries",
-    "position": "SG",
+    "position": "Guard",
     "height": 76.0,
     "age": 20.4,
     "international": false,
@@ -1982,7 +1982,7 @@
   {
     "id": "caleb-wilson",
     "name": "Caleb Wilson",
-    "position": "PF",
+    "position": "Wing",
     "height": 82.0,
     "age": 19.5,
     "international": false,
@@ -2048,7 +2048,7 @@
   {
     "id": "chris-cenac-jr",
     "name": "Chris Cenac Jr",
-    "position": "PF",
+    "position": "Big",
     "height": 83.0,
     "age": 19.0,
     "international": false,
@@ -2114,7 +2114,7 @@
   {
     "id": "kingston-flemings",
     "name": "Kingston Flemings",
-    "position": "SF",
+    "position": "Guard",
     "height": 76.0,
     "age": 19.1,
     "international": false,
@@ -2180,7 +2180,7 @@
   {
     "id": "dame-sarr",
     "name": "Dame Sarr",
-    "position": "SF",
+    "position": "Wing",
     "height": 80.0,
     "age": 19.7,
     "international": true,
@@ -2246,7 +2246,7 @@
   {
     "id": "meleek-thomas",
     "name": "Meleek Thomas",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 19.5,
     "international": false,
@@ -2312,7 +2312,7 @@
   {
     "id": "darryn-peterson",
     "name": "Darryn Peterson",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 19.1,
     "international": false,
@@ -2378,7 +2378,7 @@
   {
     "id": "amari-allen",
     "name": "Amari Allen",
-    "position": "SF",
+    "position": "Wing",
     "height": 79.0,
     "age": 20.0,
     "international": false,
@@ -2444,7 +2444,7 @@
   {
     "id": "aj-dybantsa",
     "name": "AJ Dybantsa",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 19.0,
     "international": false,
@@ -2510,7 +2510,7 @@
   {
     "id": "ebuka-okorie",
     "name": "Ebuka Okorie",
-    "position": "PG",
+    "position": "Guard",
     "height": 74.0,
     "age": 19.3,
     "international": false,
@@ -2576,7 +2576,7 @@
   {
     "id": "keaton-wagler",
     "name": "Keaton Wagler",
-    "position": "SG",
+    "position": "Guard",
     "height": 78.0,
     "age": 19.3,
     "international": false,
@@ -2642,7 +2642,7 @@
   {
     "id": "nate-ament",
     "name": "Nate Ament",
-    "position": "PF",
+    "position": "Wing",
     "height": 82.0,
     "age": 19.1,
     "international": false,
@@ -2708,7 +2708,7 @@
   {
     "id": "mikel-brown-jr.",
     "name": "Mikel Brown Jr.",
-    "position": "SG",
+    "position": "Guard",
     "height": 77.0,
     "age": 19.8,
     "international": false,
@@ -2774,7 +2774,7 @@
   {
     "id": "neoklis-avdalas",
     "name": "Neoklis Avdalas",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 19.9,
     "international": true,
@@ -2840,7 +2840,7 @@
   {
     "id": "cameron-boozer",
     "name": "Cameron Boozer",
-    "position": "SF",
+    "position": "Wing",
     "height": 81.0,
     "age": 18.5,
     "international": false,
@@ -2906,7 +2906,7 @@
   {
     "id": "tounde-yessoufou",
     "name": "Tounde Yessoufou",
-    "position": "SG",
+    "position": "Wing",
     "height": 77.0,
     "age": 19.7,
     "international": true,
@@ -2972,7 +2972,7 @@
   {
     "id": "alijah-arenas",
     "name": "Alijah Arenas",
-    "position": "SF",
+    "position": "Wing",
     "height": 78.0,
     "age": 19.3,
     "international": false,
@@ -3038,7 +3038,7 @@
   {
     "id": "hannes-steinbach",
     "name": "Hannes Steinbach",
-    "position": "PF",
+    "position": "Big",
     "height": 83.0,
     "age": 19.7,
     "international": true,
@@ -3104,7 +3104,7 @@
   {
     "id": "braylon-mullins",
     "name": "Braylon Mullins",
-    "position": "SG",
+    "position": "Wing",
     "height": 78.0,
     "age": 19.3,
     "international": false,
@@ -3170,7 +3170,7 @@
   {
     "id": "darius-acuff-jr.",
     "name": "Darius Acuff Jr.",
-    "position": "SG",
+    "position": "Guard",
     "height": 75.0,
     "age": 19.3,
     "international": false,

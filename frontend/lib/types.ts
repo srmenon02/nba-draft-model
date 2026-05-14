@@ -1,6 +1,6 @@
 // TypeScript interfaces matching JSON schema from Python pipeline
 
-export type Position = 'PG' | 'SG' | 'SF' | 'PF' | 'C';
+export type Position = 'Guard' | 'Wing' | 'Big';
 
 export type Grade = 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'B-' | 'C+' | 'C' | 'C-' | 'D' | 'F';
 

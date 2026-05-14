@@ -1,164 +1,328 @@
 {
+  "Richie Saunders": [
+    {
+      "name": "Chris Duarte",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8981647976750609,
+      "nba_impact": -2.5,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Jordan Miller",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8341382924806275,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Corey Kispert",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8184367670458399,
+      "nba_impact": -2.3,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Cameron Johnson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8171903435203007,
+      "nba_impact": 1.1,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Antonio Reeves",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8044263302677501,
+      "nba_impact": -2.1,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Terrence Shannon Jr.",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8037555528044635,
+      "nba_impact": -2.4,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Jake Layman",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7973812380880883,
+      "nba_impact": -3.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Jimmy Butler",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7926566506640182,
+      "nba_impact": 5.3,
+      "nba_seasons": 15
+    },
+    {
+      "name": "Tristan da Silva",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7860322894161058,
+      "nba_impact": -1.0,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Malcolm Brogdon",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7744287807278667,
+      "nba_impact": 0.8,
+      "nba_seasons": 9
+    }
+  ],
   "Alex Karaban": [
+    {
+      "name": "Malcolm Brogdon",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8903274690638641,
+      "nba_impact": 0.8,
+      "nba_seasons": 9
+    },
     {
       "name": "Robbie Hummel",
       "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8728754043897295,
+      "position": "Wing",
+      "similarity_score": 0.8777095382971001,
       "nba_impact": -1.8,
       "nba_seasons": 2
     },
     {
       "name": "Reggie Bullock",
       "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.829849388604492,
+      "position": "Wing",
+      "similarity_score": 0.8559991019061661,
       "nba_impact": -1.0,
       "nba_seasons": 11
     },
     {
       "name": "Sion James",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8150240359672132,
+      "position": "Wing",
+      "similarity_score": 0.846214533886184,
       "nba_impact": 1.0,
       "nba_seasons": 1
     },
     {
+      "name": "Jordan Miller",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8419163378011478,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Andrew Nembhard",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8290918296589713,
+      "nba_impact": -0.9,
+      "nba_seasons": 4
+    },
+    {
       "name": "Cameron Johnson",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.807377729139779,
+      "position": "Wing",
+      "similarity_score": 0.824642450113795,
       "nba_impact": 1.1,
       "nba_seasons": 7
     },
     {
       "name": "Isaiah Livers",
       "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8003750023802787,
+      "position": "Wing",
+      "similarity_score": 0.8231734747562245,
       "nba_impact": -2.2,
       "nba_seasons": 4
     },
     {
       "name": "Pelle Larsson",
       "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.7681733134344615,
+      "position": "Wing",
+      "similarity_score": 0.8090680270938828,
       "nba_impact": 0.0,
       "nba_seasons": 2
     },
     {
-      "name": "De'Andre Hunter",
+      "name": "Ty Jerome",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7578539835343934,
-      "nba_impact": -1.3,
+      "position": "Wing",
+      "similarity_score": 0.8086166257870291,
+      "nba_impact": 0.2,
+      "nba_seasons": 7
+    }
+  ],
+  "Zuby Ejiofor": [
+    {
+      "name": "Brandon Clarke",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8988615755383966,
+      "nba_impact": 0.6,
       "nba_seasons": 7
     },
     {
-      "name": "Tristan da Silva",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.7535775232194943,
-      "nba_impact": -1.0,
-      "nba_seasons": 2
+      "name": "Grant Williams",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8887510402915011,
+      "nba_impact": -1.2,
+      "nba_seasons": 7
     },
     {
-      "name": "Jahmai Mashack",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.7447265754006545,
-      "nba_impact": -1.0,
-      "nba_seasons": 1
+      "name": "Ekpe Udoh",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8656666624510894,
+      "nba_impact": -2.5,
+      "nba_seasons": 7
     },
     {
-      "name": "Delon Wright",
-      "draft_year": 2015,
-      "position": "SF",
-      "similarity_score": 0.7429923734330963,
+      "name": "Wendell Carter Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8565501681721444,
+      "nba_impact": 0.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Zion Williamson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8361087997005632,
+      "nba_impact": 2.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Keegan Murray",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8312585947942188,
       "nba_impact": 0.8,
-      "nba_seasons": 10
+      "nba_seasons": 4
+    },
+    {
+      "name": "Trayce Jackson-Davis",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8301818994963046,
+      "nba_impact": -2.4,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Wes Johnson",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8168010657033629,
+      "nba_impact": -2.9,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Terrence Jones",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8125686187158883,
+      "nba_impact": -2.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Xavier Tillman",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8112662429495974,
+      "nba_impact": -0.9,
+      "nba_seasons": 6
     }
   ],
   "Joshua Jefferson": [
     {
-      "name": "Draymond Green",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8685173577841645,
-      "nba_impact": 3.4,
-      "nba_seasons": 14
+      "name": "Kyle Anderson",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8982827284953943,
+      "nba_impact": -0.2,
+      "nba_seasons": 12
     },
     {
       "name": "Michael Carter-Williams",
       "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.8650151397174952,
+      "position": "Wing",
+      "similarity_score": 0.8967115679979696,
       "nba_impact": -1.5,
       "nba_seasons": 9
     },
     {
       "name": "Kris Dunn",
       "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.8536347019559383,
+      "position": "Wing",
+      "similarity_score": 0.8759536882012431,
       "nba_impact": -0.3,
       "nba_seasons": 10
     },
     {
+      "name": "Draymond Green",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8610728884268424,
+      "nba_impact": 3.4,
+      "nba_seasons": 14
+    },
+    {
       "name": "Jarrett Culver",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8305481838623918,
+      "position": "Wing",
+      "similarity_score": 0.8498546365480675,
       "nba_impact": -2.4,
       "nba_seasons": 4
     },
     {
-      "name": "Cooper Flagg",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.822222899193088,
-      "nba_impact": 2.2,
-      "nba_seasons": 1
-    },
-    {
       "name": "Delon Wright",
       "draft_year": 2015,
-      "position": "SF",
-      "similarity_score": 0.8182934475516814,
+      "position": "Wing",
+      "similarity_score": 0.8402052447755144,
       "nba_impact": 0.8,
       "nba_seasons": 10
     },
     {
-      "name": "Colby Jones",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7969175579884045,
-      "nba_impact": -1.0,
-      "nba_seasons": 3
+      "name": "Cooper Flagg",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8314388322199322,
+      "nba_impact": 2.2,
+      "nba_seasons": 1
     },
     {
-      "name": "DeAndre' Bembry",
-      "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.7920817472912018,
+      "name": "Greivis Vasquez",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8303425652169254,
+      "nba_impact": -1.6,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Evan Turner",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8273352852683,
       "nba_impact": -3.2,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Jalen Pickett",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7830874789175704,
-      "nba_impact": -1.9,
-      "nba_seasons": 3
+      "nba_seasons": 10
     },
     {
       "name": "John Wall",
       "draft_year": 2010,
-      "position": "SF",
-      "similarity_score": 0.7814070146559233,
+      "position": "Wing",
+      "similarity_score": 0.8235062130500892,
       "nba_impact": 1.3,
       "nba_seasons": 11
     }
@@ -167,3854 +331,3690 @@
     {
       "name": "Corey Kispert",
       "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.9617001555660172,
+      "position": "Wing",
+      "similarity_score": 0.9644222276423997,
       "nba_impact": -2.3,
       "nba_seasons": 5
     },
     {
+      "name": "AJ Griffin",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8754829488499316,
+      "nba_impact": 1.0,
+      "nba_seasons": 2
+    },
+    {
       "name": "De'Andre Hunter",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8607759133799091,
+      "position": "Wing",
+      "similarity_score": 0.8643219067565411,
       "nba_impact": -1.3,
       "nba_seasons": 7
     },
     {
+      "name": "Devin Booker",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.860410335851739,
+      "nba_impact": 2.6,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Antonio Reeves",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8584272782294882,
+      "nba_impact": -2.1,
+      "nba_seasons": 2
+    },
+    {
       "name": "Jase Richardson",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8595412760984322,
+      "position": "Wing",
+      "similarity_score": 0.8562061452520631,
       "nba_impact": 0.6,
       "nba_seasons": 1
     },
     {
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.8537381390072771,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Jordan Poole",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8514547696332484,
+      "nba_impact": -1.1,
+      "nba_seasons": 7
+    },
+    {
       "name": "Malaki Branham",
       "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8437259311041392,
+      "position": "Wing",
+      "similarity_score": 0.8361790419227457,
       "nba_impact": -2.4,
       "nba_seasons": 4
     },
     {
       "name": "Cameron Johnson",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8305741383200538,
+      "position": "Wing",
+      "similarity_score": 0.8343155823223856,
       "nba_impact": 1.1,
+      "nba_seasons": 7
+    }
+  ],
+  "Dailyn Swain": [
+    {
+      "name": "Ben Simmons",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8524824646616509,
+      "nba_impact": 2.2,
       "nba_seasons": 7
     },
     {
-      "name": "Kon Knueppel",
+      "name": "Evan Turner",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8076319025695489,
+      "nba_impact": -3.2,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Grant Williams",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8010252684772106,
+      "nba_impact": -1.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Alec Burks",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7963773653732604,
+      "nba_impact": -1.6,
+      "nba_seasons": 14
+    },
+    {
+      "name": "John Wall",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.7827984482165471,
+      "nba_impact": 1.3,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Sindarius Thornwell",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.779368583691898,
+      "nba_impact": -2.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Jeremiah Fears",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8180535599351688,
-      "nba_impact": 5.0,
+      "position": "Wing",
+      "similarity_score": 0.7765469531040521,
+      "nba_impact": 0.7,
       "nba_seasons": 1
     },
     {
-      "name": "Darius Miller",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8112705141567185,
-      "nba_impact": -1.3,
-      "nba_seasons": 6
+      "name": "Jarrett Culver",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7740233497781046,
+      "nba_impact": -2.4,
+      "nba_seasons": 4
     },
     {
-      "name": "Jake Layman",
-      "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.802996742450709,
-      "nba_impact": -3.1,
-      "nba_seasons": 6
+      "name": "Derrick Williams",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.767561824321777,
+      "nba_impact": -3.2,
+      "nba_seasons": 7
     },
     {
-      "name": "Doug McDermott",
+      "name": "Cooper Flagg",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.7667808842820834,
+      "nba_impact": 2.2,
+      "nba_seasons": 1
+    }
+  ],
+  "Cameron Carr": [
+    {
+      "name": "Terrence Shannon Jr.",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7820346177169628,
+      "nba_impact": -2.4,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Adreian Payne",
       "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7886376615186845,
-      "nba_impact": -3.6,
-      "nba_seasons": 12
+      "position": "Wing",
+      "similarity_score": 0.7587608950525355,
+      "nba_impact": -4.5,
+      "nba_seasons": 4
     },
     {
-      "name": "Frank Jackson",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.7847571391553592,
-      "nba_impact": -2.0,
+      "name": "Dalton Knecht",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7520409768469056,
+      "nba_impact": -2.5,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Obi Toppin",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.7516012569989767,
+      "nba_impact": 0.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Ben McLemore",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.7512962839292998,
+      "nba_impact": -3.1,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Quincy Acy",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7368579000977242,
+      "nba_impact": -2.3,
+      "nba_seasons": 7
+    },
+    {
+      "name": "James Anderson",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.7324838083678935,
+      "nba_impact": -2.9,
       "nba_seasons": 5
+    },
+    {
+      "name": "Nik Stauskas",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7226348464792522,
+      "nba_impact": -3.6,
+      "nba_seasons": 6
+    },
+    {
+      "name": "K.J. McDaniels",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7219576751621426,
+      "nba_impact": -2.5,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Klay Thompson",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7129963571058142,
+      "nba_impact": -0.1,
+      "nba_seasons": 13
     }
   ],
   "Yaxel Lendeborg": [
     {
       "name": "Delon Wright",
       "draft_year": 2015,
-      "position": "SF",
-      "similarity_score": 0.8802691626349812,
+      "position": "Wing",
+      "similarity_score": 0.8833722635666297,
       "nba_impact": 0.8,
       "nba_seasons": 10
     },
     {
-      "name": "Mikal Bridges",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.8459588104843576,
-      "nba_impact": 1.4,
-      "nba_seasons": 8
-    },
-    {
       "name": "Cameron Johnson",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8202738534178275,
+      "position": "Wing",
+      "similarity_score": 0.8464979796566534,
       "nba_impact": 1.1,
       "nba_seasons": 7
     },
     {
-      "name": "Cooper Flagg",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8166264745419278,
-      "nba_impact": 2.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Robbie Hummel",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8093164568408766,
-      "nba_impact": -1.8,
-      "nba_seasons": 2
+      "name": "Mikal Bridges",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8319871048944385,
+      "nba_impact": 1.4,
+      "nba_seasons": 8
     },
     {
       "name": "Sion James",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8034954883605174,
+      "position": "Wing",
+      "similarity_score": 0.8273712422602573,
       "nba_impact": 1.0,
       "nba_seasons": 1
     },
     {
+      "name": "Denzel Valentine",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8183107851480973,
+      "nba_impact": -2.2,
+      "nba_seasons": 5
+    },
+    {
       "name": "Jalen Pickett",
       "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.8006017695832255,
+      "position": "Wing",
+      "similarity_score": 0.8182197702933927,
       "nba_impact": -1.9,
       "nba_seasons": 3
     },
     {
-      "name": "Christian Braun",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7889035125848987,
-      "nba_impact": -0.1,
-      "nba_seasons": 4
+      "name": "Ty Jerome",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.817785978751586,
+      "nba_impact": 0.2,
+      "nba_seasons": 7
     },
     {
-      "name": "Wes Johnson",
-      "draft_year": 2010,
-      "position": "SF",
-      "similarity_score": 0.7842221659481279,
-      "nba_impact": -2.9,
+      "name": "Josh Hart",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.8154665064030027,
+      "nba_impact": 0.5,
       "nba_seasons": 9
     },
     {
-      "name": "Otto Porter",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.7809061097536627,
-      "nba_impact": 2.8,
-      "nba_seasons": 11
+      "name": "Jerian Grant",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8129574192373017,
+      "nba_impact": -2.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Malcolm Brogdon",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8124724414167435,
+      "nba_impact": 0.8,
+      "nba_seasons": 9
     }
   ],
   "Pryce Sandfort": [
     {
       "name": "Jase Richardson",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.9263888982139623,
+      "position": "Wing",
+      "similarity_score": 0.9318417278238476,
       "nba_impact": 0.6,
       "nba_seasons": 1
     },
     {
       "name": "Reggie Bullock",
       "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.8854155276385651,
+      "position": "Wing",
+      "similarity_score": 0.9051368261882524,
       "nba_impact": -1.0,
       "nba_seasons": 11
+    },
+    {
+      "name": "Malcolm Brogdon",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.9023805046268949,
+      "nba_impact": 0.8,
+      "nba_seasons": 9
     },
     {
       "name": "Corey Kispert",
       "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8540748435701431,
+      "position": "Wing",
+      "similarity_score": 0.8618956911075615,
       "nba_impact": -2.3,
       "nba_seasons": 5
     },
     {
+      "name": "Jordan Miller",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.859406924103733,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
       "name": "Kon Knueppel",
       "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8443801590575322,
+      "position": "Wing",
+      "similarity_score": 0.8496976369891784,
       "nba_impact": 5.0,
       "nba_seasons": 1
     },
     {
-      "name": "Caris LeVert",
-      "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.8372698763279107,
-      "nba_impact": -0.6,
-      "nba_seasons": 10
+      "name": "Sam Merrill",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8452278124562793,
+      "nba_impact": 1.2,
+      "nba_seasons": 6
     },
     {
       "name": "Cameron Johnson",
       "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8303772256686679,
+      "position": "Wing",
+      "similarity_score": 0.8449366004371472,
       "nba_impact": 1.1,
       "nba_seasons": 7
     },
     {
-      "name": "Wendell Moore Jr.",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8115126002009438,
-      "nba_impact": -2.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Pelle Larsson",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.8079735349005224,
-      "nba_impact": 0.0,
-      "nba_seasons": 2
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.840891116057622,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
     },
     {
       "name": "Franz Wagner",
       "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8078929317607517,
+      "position": "Wing",
+      "similarity_score": 0.8408077218594638,
       "nba_impact": 5.0,
       "nba_seasons": 5
-    },
-    {
-      "name": "Sion James",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.7971843222489423,
-      "nba_impact": 1.0,
-      "nba_seasons": 1
     }
   ],
   "Thomas Haugh": [
     {
-      "name": "Jimmy Butler",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.7614048463638592,
-      "nba_impact": 5.3,
-      "nba_seasons": 15
-    },
-    {
-      "name": "De'Andre Hunter",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7390294994302435,
-      "nba_impact": -1.3,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Keegan Murray",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7376252348302708,
-      "nba_impact": 0.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Mikal Bridges",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.736994888235414,
-      "nba_impact": 1.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Wes Johnson",
-      "draft_year": 2010,
-      "position": "SF",
-      "similarity_score": 0.7296715282312696,
-      "nba_impact": -2.9,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Christian Braun",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7282483129187938,
-      "nba_impact": -0.1,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kris Murray",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7216659380062813,
-      "nba_impact": -1.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Brandon Miller",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7116466210690733,
-      "nba_impact": 0.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jabari Parker",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.704672412186242,
-      "nba_impact": -0.7,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Andrew Wiggins",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7016075378865163,
-      "nba_impact": -0.9,
-      "nba_seasons": 12
-    }
-  ],
-  "Juke Harris": [
-    {
-      "name": "Johnny Davis",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8102702033018256,
-      "nba_impact": -3.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Alec Burks",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.7956578355238719,
-      "nba_impact": -1.6,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Bryce McGowens",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7938906222588975,
-      "nba_impact": -1.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Doug McDermott",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7919716531758152,
-      "nba_impact": -3.6,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Jalen Wilson",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7666696294258515,
-      "nba_impact": -1.8,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kevin Knox",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.7511867395987923,
-      "nba_impact": -3.8,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Collin Sexton",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.746828486465241,
-      "nba_impact": -2.2,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Dwayne Bacon",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.7361943050904818,
-      "nba_impact": -4.2,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Luke Babbitt",
-      "draft_year": 2010,
-      "position": "SF",
-      "similarity_score": 0.7310088965123218,
-      "nba_impact": -2.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Shabazz Muhammad",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.730893163114857,
-      "nba_impact": -3.9,
-      "nba_seasons": 5
-    }
-  ],
-  "Allen Graves": [
-    {
-      "name": "Chuma Okeke",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8672602358284704,
-      "nba_impact": -2.1,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Keegan Murray",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8169181336038114,
-      "nba_impact": 0.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Otto Porter",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.8077021165206753,
-      "nba_impact": 2.8,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Victor Oladipo",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.8019960989704982,
-      "nba_impact": 0.7,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Devin Vassell",
-      "draft_year": 2020,
-      "position": "SF",
-      "similarity_score": 0.7988241708927601,
-      "nba_impact": 0.2,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Mikal Bridges",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.7825923415976004,
-      "nba_impact": 1.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Kobe Brown",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.759682208713282,
-      "nba_impact": -4.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Rasheer Fleming",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.7536652832924089,
-      "nba_impact": 1.6,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Jaylen Clark",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7515070171152849,
-      "nba_impact": 0.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Wes Johnson",
-      "draft_year": 2010,
-      "position": "SF",
-      "similarity_score": 0.7491417471938284,
-      "nba_impact": -2.9,
-      "nba_seasons": 9
-    }
-  ],
-  "Kingston Flemings": [
-    {
-      "name": "Tre Jones",
-      "draft_year": 2020,
-      "position": "SF",
-      "similarity_score": 0.9341095641058534,
-      "nba_impact": 0.2,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Wendell Moore Jr.",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.926006376171409,
-      "nba_impact": -2.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Shai Gilgeous-Alexander",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.9149155512698302,
-      "nba_impact": 5.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Andrew Harrison",
-      "draft_year": 2015,
-      "position": "SF",
-      "similarity_score": 0.8952410921136189,
-      "nba_impact": -1.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kendall Marshall",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8820586039458653,
-      "nba_impact": -1.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Wade Baldwin IV",
-      "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.8704833529561018,
-      "nba_impact": -2.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Tyty Washington Jr.",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8575683898006332,
-      "nba_impact": -1.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kon Knueppel",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8440455561273987,
-      "nba_impact": 5.0,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Sion James",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.838755495956415,
-      "nba_impact": 1.0,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Delon Wright",
-      "draft_year": 2015,
-      "position": "SF",
-      "similarity_score": 0.8387405536591044,
-      "nba_impact": 0.8,
-      "nba_seasons": 10
-    }
-  ],
-  "Dame Sarr": [
-    {
-      "name": "Zach LaVine",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.8258863162756873,
-      "nba_impact": -1.3,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Nick Smith Jr.",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7898489954946011,
-      "nba_impact": -4.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Keldon Johnson",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7845226999123607,
-      "nba_impact": -0.5,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Joshua Primo",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.7775068864958077,
-      "nba_impact": 0.9,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Cam Reddish",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.774947384145211,
-      "nba_impact": -2.6,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Cory Joseph",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.7720106025273219,
-      "nba_impact": -1.4,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Drake Powell",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.771711634301498,
-      "nba_impact": -1.6,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Keon Johnson",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.7715322788572265,
-      "nba_impact": -3.6,
-      "nba_seasons": 4
-    },
-    {
-      "name": "DeAndre Liggins",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.7684154907621776,
-      "nba_impact": -4.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Kevin Porter Jr.",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7664505244189972,
-      "nba_impact": -0.5,
-      "nba_seasons": 6
-    }
-  ],
-  "Amari Allen": [
-    {
-      "name": "Andre Jackson Jr.",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.8381000368096094,
-      "nba_impact": -3.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Franz Wagner",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8245543085393507,
-      "nba_impact": 5.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Christian Braun",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7852394481826666,
-      "nba_impact": -0.1,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Jalen Pickett",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7733858287611681,
-      "nba_impact": -1.9,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Colby Jones",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7624626604912568,
-      "nba_impact": -1.0,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Sion James",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.7599780961520155,
-      "nba_impact": 1.0,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Reggie Bullock",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.7581125456515909,
-      "nba_impact": -1.0,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Otto Porter",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.7488152892941746,
-      "nba_impact": 2.8,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Stephon Castle",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.7448296299774082,
-      "nba_impact": 2.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Wendell Moore Jr.",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.7423670544728282,
-      "nba_impact": -2.9,
-      "nba_seasons": 4
-    }
-  ],
-  "AJ Dybantsa": [
-    {
-      "name": "Alec Burks",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.8927520710468877,
-      "nba_impact": -1.6,
-      "nba_seasons": 14
-    },
-    {
-      "name": "R.J. Barrett",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8662781844871283,
-      "nba_impact": -1.0,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Collin Sexton",
-      "draft_year": 2018,
-      "position": "SF",
-      "similarity_score": 0.8322368358490173,
-      "nba_impact": -2.2,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Jarrett Culver",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.8298436041174653,
-      "nba_impact": -2.4,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Doug McDermott",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7700066294054526,
-      "nba_impact": -3.6,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Derrick Williams",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.7680621663099905,
-      "nba_impact": -3.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Caleb Swanigan",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.7631252465521994,
-      "nba_impact": -1.9,
-      "nba_seasons": 3
-    },
-    {
-      "name": "De'Aaron Fox",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.7568046205342631,
-      "nba_impact": 1.7,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Jeremiah Fears",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.756687024529908,
-      "nba_impact": 0.7,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Andrew Wiggins",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7526108239433948,
-      "nba_impact": -0.9,
-      "nba_seasons": 12
-    }
-  ],
-  "Neoklis Avdalas": [
-    {
-      "name": "Tyrone Wallace",
-      "draft_year": 2016,
-      "position": "SF",
-      "similarity_score": 0.8916997733973229,
-      "nba_impact": -2.4,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Bronny James",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.8910532088558965,
-      "nba_impact": -1.5,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Darius Morris",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.8743583447276997,
-      "nba_impact": -3.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Egor Demin",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8666889988333379,
-      "nba_impact": 2.4,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Tyty Washington Jr.",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8654541738045116,
-      "nba_impact": -1.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kendall Marshall",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8456006006526067,
-      "nba_impact": -1.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Tyrese Maxey",
-      "draft_year": 2020,
-      "position": "SF",
-      "similarity_score": 0.8169414952260885,
-      "nba_impact": 1.7,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Jett Howard",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.8017901665350906,
-      "nba_impact": -2.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Isaiah Collier",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.7969577085454889,
-      "nba_impact": -1.8,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Semaj Christon",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.7954003912912813,
-      "nba_impact": -3.8,
-      "nba_seasons": 1
-    }
-  ],
-  "Cameron Boozer": [
-    {
-      "name": "Cooper Flagg",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.8712066563475993,
-      "nba_impact": 2.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Will Barton",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.870256322596203,
-      "nba_impact": -3.2,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Caleb Swanigan",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.8455344106094618,
-      "nba_impact": -1.9,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Derrick Williams",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.8426587712814628,
-      "nba_impact": -3.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Brandon Miller",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.8341053893156714,
-      "nba_impact": 0.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Draymond Green",
-      "draft_year": 2012,
-      "position": "SF",
-      "similarity_score": 0.8078185548160417,
-      "nba_impact": 3.4,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Jarrett Culver",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.806749997346788,
-      "nba_impact": -2.4,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Jabari Parker",
-      "draft_year": 2014,
-      "position": "SF",
-      "similarity_score": 0.8059113056213654,
-      "nba_impact": -0.7,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Victor Oladipo",
-      "draft_year": 2013,
-      "position": "SF",
-      "similarity_score": 0.8005206477801217,
-      "nba_impact": 0.7,
-      "nba_seasons": 10
-    },
-    {
-      "name": "R.J. Barrett",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7997374622825997,
-      "nba_impact": -1.0,
-      "nba_seasons": 7
-    }
-  ],
-  "Alijah Arenas": [
-    {
-      "name": "Brandon Boston Jr.",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.9488790988308842,
-      "nba_impact": -3.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Ziaire Williams",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.9446143734807126,
-      "nba_impact": -1.2,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Nick Smith Jr.",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.9368436457881908,
-      "nba_impact": -4.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Max Christie",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.9214548366728919,
-      "nba_impact": -1.7,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Caleb Houstan",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.9103539155283513,
-      "nba_impact": -0.4,
-      "nba_seasons": 4
-    },
-    {
-      "name": "James Bouknight",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8825960129315156,
-      "nba_impact": -1.5,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Josh Christopher",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.872783262356188,
-      "nba_impact": -3.2,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Keon Johnson",
-      "draft_year": 2021,
-      "position": "SF",
-      "similarity_score": 0.8721936880095753,
-      "nba_impact": -3.6,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Bryce McGowens",
-      "draft_year": 2022,
-      "position": "SF",
-      "similarity_score": 0.8677967874868544,
-      "nba_impact": -1.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Bronny James",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.8608933995879158,
-      "nba_impact": -1.5,
-      "nba_seasons": 2
-    }
-  ],
-  "Braden Smith": [
-    {
-      "name": "Trey Burke",
-      "draft_year": 2013,
-      "position": "PG",
-      "similarity_score": 0.7949763885195602,
-      "nba_impact": -2.5,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Tyler Kolek",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.791166656372293,
-      "nba_impact": -0.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Tyler Ulis",
-      "draft_year": 2016,
-      "position": "PG",
-      "similarity_score": 0.7619900809720752,
-      "nba_impact": -0.8,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Devonte' Graham",
-      "draft_year": 2018,
-      "position": "PG",
-      "similarity_score": 0.7566202859468905,
-      "nba_impact": -1.0,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Ty Jerome",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7508520802703651,
-      "nba_impact": 0.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Andrew Nembhard",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7281809819914353,
-      "nba_impact": -0.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Greivis Vasquez",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.720486700751404,
-      "nba_impact": -1.6,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Kam Jones",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7183530511472711,
-      "nba_impact": -2.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Jevon Carter",
-      "draft_year": 2018,
-      "position": "PG",
-      "similarity_score": 0.7065113282895561,
-      "nba_impact": -1.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Tyus Jones",
-      "draft_year": 2015,
-      "position": "PG",
-      "similarity_score": 0.7031316514240697,
-      "nba_impact": -0.8,
-      "nba_seasons": 11
-    }
-  ],
-  "Tyler Tanner": [
-    {
-      "name": "Trey Burke",
-      "draft_year": 2013,
-      "position": "PG",
-      "similarity_score": 0.8010430283587695,
-      "nba_impact": -2.5,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Jevon Carter",
-      "draft_year": 2018,
-      "position": "PG",
-      "similarity_score": 0.715630363805863,
-      "nba_impact": -1.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Reed Sheppard",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.6862276458706822,
-      "nba_impact": 0.6,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Tyus Jones",
-      "draft_year": 2015,
-      "position": "PG",
-      "similarity_score": 0.6628874162308236,
-      "nba_impact": -0.8,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Cameron Payne",
-      "draft_year": 2015,
-      "position": "PG",
-      "similarity_score": 0.6445693561006625,
-      "nba_impact": -1.1,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Tyler Ulis",
-      "draft_year": 2016,
-      "position": "PG",
-      "similarity_score": 0.6426951541362207,
-      "nba_impact": -0.8,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Lonzo Ball",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.640934146025584,
-      "nba_impact": 1.7,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Kyrie Irving",
-      "draft_year": 2011,
-      "position": "PG",
-      "similarity_score": 0.6298857597078515,
-      "nba_impact": 3.6,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Anthony Davis",
-      "draft_year": 2012,
-      "position": "C",
-      "similarity_score": 0.6257377196803111,
-      "nba_impact": 3.9,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Marcus Smart",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.6099848053529966,
-      "nba_impact": 1.6,
-      "nba_seasons": 12
-    }
-  ],
-  "Ebuka Okorie": [
-    {
-      "name": "Saben Lee",
-      "draft_year": 2020,
-      "position": "PG",
-      "similarity_score": 0.8148478746981223,
-      "nba_impact": -1.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Damian Lillard",
-      "draft_year": 2012,
-      "position": "PG",
-      "similarity_score": 0.7579233707376347,
-      "nba_impact": 4.3,
-      "nba_seasons": 13
-    },
-    {
-      "name": "Isaiah Canaan",
-      "draft_year": 2013,
-      "position": "PG",
-      "similarity_score": 0.744777775179168,
-      "nba_impact": -3.3,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Sharife Cooper",
-      "draft_year": 2021,
-      "position": "PG",
-      "similarity_score": 0.7389968189183913,
-      "nba_impact": -2.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Kyrie Irving",
-      "draft_year": 2011,
-      "position": "PG",
-      "similarity_score": 0.7263468321969757,
-      "nba_impact": 3.6,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Moses Moody",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.676995545422842,
-      "nba_impact": 0.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Ray McCallum",
-      "draft_year": 2013,
-      "position": "PG",
-      "similarity_score": 0.6655228628480673,
-      "nba_impact": -3.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Aaron Holiday",
-      "draft_year": 2018,
-      "position": "PG",
-      "similarity_score": 0.6557926747309002,
-      "nba_impact": -1.0,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Cameron Thomas",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.655695036093576,
-      "nba_impact": -2.5,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Josh Okogie",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.6426632228555136,
-      "nba_impact": -0.3,
-      "nba_seasons": 8
-    }
-  ],
-  "Motiejus Krivas": [
-    {
-      "name": "Karl-Anthony Towns",
-      "draft_year": 2015,
-      "position": "C",
-      "similarity_score": 0.8233240950649485,
-      "nba_impact": 3.9,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Gorgui Dieng",
-      "draft_year": 2013,
-      "position": "C",
-      "similarity_score": 0.766880577630568,
-      "nba_impact": -2.1,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Derik Queen",
-      "draft_year": 2025,
-      "position": "C",
-      "similarity_score": 0.7589130004385503,
-      "nba_impact": -0.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Cody Zeller",
-      "draft_year": 2013,
-      "position": "C",
-      "similarity_score": 0.7443562364678367,
-      "nba_impact": 0.6,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Tyler Zeller",
-      "draft_year": 2012,
-      "position": "C",
-      "similarity_score": 0.7370636542951299,
-      "nba_impact": -2.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Bruno Fernando",
-      "draft_year": 2019,
-      "position": "C",
-      "similarity_score": 0.7332662365832561,
-      "nba_impact": -3.3,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Willie Cauley-Stein",
-      "draft_year": 2015,
-      "position": "C",
-      "similarity_score": 0.7298844513807208,
-      "nba_impact": -1.3,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Donovan Clingan",
-      "draft_year": 2024,
-      "position": "C",
-      "similarity_score": 0.7279142145947153,
-      "nba_impact": 3.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Cole Aldrich",
-      "draft_year": 2010,
-      "position": "C",
-      "similarity_score": 0.6900942156091836,
-      "nba_impact": -2.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "DeMarcus Cousins",
-      "draft_year": 2010,
-      "position": "C",
-      "similarity_score": 0.6875987296102684,
-      "nba_impact": 0.5,
-      "nba_seasons": 11
-    }
-  ],
-  "Patrick Ngongba": [
-    {
-      "name": "Donovan Clingan",
-      "draft_year": 2024,
-      "position": "C",
-      "similarity_score": 0.9053385313336664,
-      "nba_impact": 3.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Jakob Poeltl",
-      "draft_year": 2016,
-      "position": "C",
-      "similarity_score": 0.7952698558232061,
-      "nba_impact": 1.8,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Dereck Lively II",
-      "draft_year": 2023,
-      "position": "C",
-      "similarity_score": 0.7890294396789177,
-      "nba_impact": 5.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Trey Lyles",
-      "draft_year": 2015,
-      "position": "C",
-      "similarity_score": 0.7853568899634693,
-      "nba_impact": -1.5,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Gorgui Dieng",
-      "draft_year": 2013,
-      "position": "C",
-      "similarity_score": 0.7828167518517959,
-      "nba_impact": -2.1,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Derik Queen",
-      "draft_year": 2025,
-      "position": "C",
-      "similarity_score": 0.7782072461533374,
-      "nba_impact": -0.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Dalen Terry",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.7704681050576814,
-      "nba_impact": -1.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kelly Olynyk",
-      "draft_year": 2013,
-      "position": "C",
-      "similarity_score": 0.744930471829444,
-      "nba_impact": 0.2,
-      "nba_seasons": 13
-    },
-    {
-      "name": "Karl-Anthony Towns",
-      "draft_year": 2015,
-      "position": "C",
-      "similarity_score": 0.7355046865302388,
-      "nba_impact": 3.9,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Mouhamed Gueye",
-      "draft_year": 2023,
-      "position": "C",
-      "similarity_score": 0.7238957693955479,
-      "nba_impact": 1.0,
-      "nba_seasons": 3
-    }
-  ],
-  "Jayden Quaintance": [
-    {
-      "name": "Harry Giles",
-      "draft_year": 2017,
-      "position": "C",
-      "similarity_score": 0.86149629014422,
-      "nba_impact": -2.7,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Moussa Diabate",
-      "draft_year": 2022,
-      "position": "C",
-      "similarity_score": 0.8598465597355787,
-      "nba_impact": 2.2,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Mitch McGary",
-      "draft_year": 2014,
-      "position": "C",
-      "similarity_score": 0.8340111864673914,
-      "nba_impact": -1.1,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Steven Adams",
-      "draft_year": 2013,
-      "position": "C",
-      "similarity_score": 0.8009684342222223,
-      "nba_impact": 2.5,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Festus Ezeli",
-      "draft_year": 2012,
-      "position": "C",
-      "similarity_score": 0.7948957789190818,
-      "nba_impact": -2.9,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jarrett Allen",
-      "draft_year": 2017,
-      "position": "C",
-      "similarity_score": 0.7750415750595485,
-      "nba_impact": 3.1,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Yves Missi",
-      "draft_year": 2024,
-      "position": "C",
-      "similarity_score": 0.7635874337153203,
-      "nba_impact": -2.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Michael Porter Jr.",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7611057278405506,
-      "nba_impact": 0.5,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Andre Drummond",
-      "draft_year": 2012,
-      "position": "C",
-      "similarity_score": 0.7507162827775462,
-      "nba_impact": 1.0,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Ed Davis",
-      "draft_year": 2010,
-      "position": "C",
-      "similarity_score": 0.7358214017662132,
-      "nba_impact": -1.8,
-      "nba_seasons": 12
-    }
-  ],
-  "Henri Veesaar": [
-    {
-      "name": "Ryan Kalkbrenner",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.8523322711325396,
-      "nba_impact": 0.3,
-      "nba_seasons": 1
-    },
-    {
-      "name": "TJ Leaf",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.8373571392108565,
-      "nba_impact": -0.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kel'el Ware",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.8146836210585784,
-      "nba_impact": 1.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Luka Garza",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7800149348619267,
-      "nba_impact": 1.2,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Patrick Patterson",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.7575407771902618,
-      "nba_impact": -0.9,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Frank Kaminsky",
-      "draft_year": 2015,
-      "position": "PF",
-      "similarity_score": 0.7382193878142624,
-      "nba_impact": -1.1,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Cory Jefferson",
-      "draft_year": 2014,
-      "position": "PF",
-      "similarity_score": 0.7363402658911635,
-      "nba_impact": -0.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Marvin Bagley III",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7006143532881592,
-      "nba_impact": -0.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Zach Edey",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.6999480159052658,
-      "nba_impact": 2.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Chandler Parsons",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.6962611471885354,
-      "nba_impact": -0.3,
-      "nba_seasons": 9
-    }
-  ],
-  "Zuby Ejiofor": [
-    {
-      "name": "Grant Williams",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.8479378634971511,
-      "nba_impact": -1.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Kyle Filipowski",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.824546811755217,
-      "nba_impact": 1.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Brandon Clarke",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7911817789698594,
-      "nba_impact": 0.6,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Kyle Anderson",
-      "draft_year": 2014,
-      "position": "PF",
-      "similarity_score": 0.7745138001382601,
-      "nba_impact": -0.2,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Ekpe Udoh",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.7674457195262796,
-      "nba_impact": -2.5,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Trayce Jackson-Davis",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7670579921716165,
-      "nba_impact": -2.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Herbert Jones",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7633861662444779,
-      "nba_impact": 2.6,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Wendell Carter Jr.",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.744815098056604,
-      "nba_impact": 0.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Josh Jackson",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.7410966423674783,
-      "nba_impact": -3.2,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Evan Turner",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.7381200157703132,
-      "nba_impact": -3.2,
-      "nba_seasons": 10
-    }
-  ],
-  "Dailyn Swain": [
-    {
-      "name": "Kyle Anderson",
-      "draft_year": 2014,
-      "position": "PF",
-      "similarity_score": 0.871601855594375,
-      "nba_impact": -0.2,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Wesley Iwundu",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.8681791705173143,
-      "nba_impact": -2.3,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Paolo Banchero",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.8552628625638845,
-      "nba_impact": 1.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Grant Williams",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.8501027357348387,
-      "nba_impact": -1.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Evan Turner",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.845576724614832,
-      "nba_impact": -3.2,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Anthony Black",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.8447851254118774,
-      "nba_impact": -0.2,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Ben Simmons",
-      "draft_year": 2016,
-      "position": "PF",
-      "similarity_score": 0.8051989848489467,
-      "nba_impact": 2.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Derik Queen",
-      "draft_year": 2025,
-      "position": "C",
-      "similarity_score": 0.7784316957526964,
-      "nba_impact": -0.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Dalen Terry",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.7666306161856762,
-      "nba_impact": -1.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Troy Brown",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7610235601418875,
-      "nba_impact": -1.4,
-      "nba_seasons": 6
-    }
-  ],
-  "Aday Mara": [
-    {
-      "name": "Brandon Clarke",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.8424882889754239,
-      "nba_impact": 0.6,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Evan Mobley",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.827514474134784,
-      "nba_impact": 2.6,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Chet Holmgren",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.8211865997063157,
-      "nba_impact": 4.7,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Markieff Morris",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.7939279477733441,
-      "nba_impact": -1.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Zach Edey",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7896912380044965,
-      "nba_impact": 2.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Wendell Carter Jr.",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.788026530460604,
-      "nba_impact": 0.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Ryan Kalkbrenner",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.7778671752609208,
-      "nba_impact": 0.3,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Jordan Bell",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.7739535419694905,
-      "nba_impact": -0.8,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Zion Williamson",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7624747395538471,
-      "nba_impact": 2.1,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Greg Monroe",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.7424857679905776,
-      "nba_impact": -0.1,
-      "nba_seasons": 10
-    }
-  ],
-  "Alex Condon": [
-    {
-      "name": "Oso Ighodaro",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.8634003390966472,
-      "nba_impact": -0.1,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Trayce Jackson-Davis",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.8312182939018864,
-      "nba_impact": -2.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Greg Monroe",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.8152916641608854,
-      "nba_impact": -0.1,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Danny Wolf",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.735532298171703,
-      "nba_impact": -0.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Paolo Banchero",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.7112442597222326,
-      "nba_impact": 1.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Grant Williams",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7066896186732454,
-      "nba_impact": -1.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Chandler Parsons",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.7013267971149721,
-      "nba_impact": -0.3,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Kyle Filipowski",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.6999911883969505,
-      "nba_impact": 1.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Darius Morris",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.6966922143397967,
-      "nba_impact": -3.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Devin Ebanks",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.6914841015143366,
-      "nba_impact": -1.9,
-      "nba_seasons": 3
-    }
-  ],
-  "Morez Johnson Jr.": [
-    {
-      "name": "Jared Sullinger",
-      "draft_year": 2012,
-      "position": "PF",
-      "similarity_score": 0.8762713369281037,
-      "nba_impact": 1.3,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Markieff Morris",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.8410346331472169,
-      "nba_impact": -1.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Marcus Morris",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.8283230709252911,
-      "nba_impact": -1.3,
-      "nba_seasons": 13
-    },
-    {
-      "name": "Zach Edey",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.8256696958294514,
-      "nba_impact": 2.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Wendell Carter Jr.",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.8010495831129638,
-      "nba_impact": 0.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Marvin Bagley III",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7970654442155019,
-      "nba_impact": -0.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Zion Williamson",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.788985935811455,
-      "nba_impact": 2.1,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Patrick Patterson",
-      "draft_year": 2010,
-      "position": "PF",
-      "similarity_score": 0.7615012211189032,
-      "nba_impact": -0.9,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Rui Hachimura",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7569239334547797,
-      "nba_impact": -1.7,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Michael Kidd-Gilchrist",
-      "draft_year": 2012,
-      "position": "PF",
-      "similarity_score": 0.7417994368362582,
-      "nba_impact": 1.4,
-      "nba_seasons": 8
-    }
-  ],
-  "Flory Bidunga": [
-    {
-      "name": "Tristan Thompson",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.839294196440507,
-      "nba_impact": -2.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Jordan Bell",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.8391022714609924,
-      "nba_impact": -0.8,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Trayce Jackson-Davis",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.8132976375786947,
-      "nba_impact": -2.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Montrezl Harrell",
-      "draft_year": 2015,
-      "position": "PF",
-      "similarity_score": 0.7981886424396913,
-      "nba_impact": 0.1,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Neemias Queta",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7905762783920571,
-      "nba_impact": 1.3,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Onyeka Okongwu",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.7639010657159582,
-      "nba_impact": 1.3,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Oso Ighodaro",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7626717466103419,
-      "nba_impact": -0.1,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Ryan Kalkbrenner",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.7437080712851389,
-      "nba_impact": 0.3,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Evan Mobley",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7424118620680231,
-      "nba_impact": 2.6,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Kenneth Faried",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.7242619198072067,
-      "nba_impact": 0.4,
-      "nba_seasons": 8
-    }
-  ],
-  "Koa Peat": [
-    {
-      "name": "Aaron Gordon",
-      "draft_year": 2014,
-      "position": "PF",
-      "similarity_score": 0.8174078574991999,
-      "nba_impact": 1.5,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Dalen Terry",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.8013305803259712,
-      "nba_impact": -1.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Paolo Banchero",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.7808056788197599,
-      "nba_impact": 1.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Scottie Barnes",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7759645060307514,
-      "nba_impact": 2.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "PJ Washington",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7663139309419686,
-      "nba_impact": -0.4,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Chandler Parsons",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.7555078032357101,
-      "nba_impact": -0.3,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Jarace Walker",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7446392656953955,
-      "nba_impact": -2.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "TJ Leaf",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.7408509069560814,
-      "nba_impact": -0.8,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Kyle Filipowski",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7401637215348007,
-      "nba_impact": 1.2,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Josh Jackson",
-      "draft_year": 2017,
-      "position": "PF",
-      "similarity_score": 0.735319024156885,
-      "nba_impact": -3.2,
-      "nba_seasons": 5
-    }
-  ],
-  "Caleb Wilson": [
-    {
-      "name": "Evan Mobley",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7747666872245664,
-      "nba_impact": 2.6,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Onyeka Okongwu",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.7321976524402447,
-      "nba_impact": 1.3,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Ryan Kalkbrenner",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.7227055622584577,
-      "nba_impact": 0.3,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Kel'el Ware",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7060516724354668,
-      "nba_impact": 1.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Marvin Bagley III",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7018649940116997,
-      "nba_impact": -0.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Jonathan Mogbo",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.6958083134925295,
-      "nba_impact": -2.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Grant Williams",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.6911915068448231,
-      "nba_impact": -1.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Ben Simmons",
-      "draft_year": 2016,
-      "position": "PF",
-      "similarity_score": 0.6867311975975992,
-      "nba_impact": 2.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Zion Williamson",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.6858817901855174,
-      "nba_impact": 2.1,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Trayce Jackson-Davis",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.6823267841231204,
-      "nba_impact": -2.4,
-      "nba_seasons": 3
-    }
-  ],
-  "Chris Cenac Jr": [
-    {
-      "name": "Noah Clowney",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.9210488251498723,
-      "nba_impact": -0.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kelly Oubre",
-      "draft_year": 2015,
-      "position": "PF",
-      "similarity_score": 0.7905456706116067,
-      "nba_impact": -1.7,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Aaron Gordon",
-      "draft_year": 2014,
-      "position": "PF",
-      "similarity_score": 0.7740240067796498,
-      "nba_impact": 1.5,
-      "nba_seasons": 12
-    },
-    {
-      "name": "Moritz Wagner",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7733058619928068,
-      "nba_impact": -1.8,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Jarace Walker",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7729636420043597,
-      "nba_impact": -2.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kevon Looney",
-      "draft_year": 2015,
-      "position": "PF",
-      "similarity_score": 0.7611256282230927,
-      "nba_impact": 1.0,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Jordan Walsh",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7444492139591719,
-      "nba_impact": 1.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jarred Vanderbilt",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7380160404290226,
-      "nba_impact": -0.3,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Keldon Johnson",
-      "draft_year": 2019,
-      "position": "SF",
-      "similarity_score": 0.7323711921473901,
-      "nba_impact": -0.5,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Cheick Diallo",
-      "draft_year": 2016,
-      "position": "PF",
-      "similarity_score": 0.7203762061453491,
-      "nba_impact": -3.0,
-      "nba_seasons": 5
-    }
-  ],
-  "Nate Ament": [
-    {
-      "name": "Quincy Miller",
-      "draft_year": 2012,
-      "position": "PF",
-      "similarity_score": 0.8507906524696822,
-      "nba_impact": 0.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jabari Smith",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.8250267962950744,
-      "nba_impact": 1.1,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Paolo Banchero",
-      "draft_year": 2022,
-      "position": "PF",
-      "similarity_score": 0.7955997760333049,
-      "nba_impact": 1.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Jaylen Brown",
-      "draft_year": 2016,
-      "position": "PF",
-      "similarity_score": 0.7709079449785878,
-      "nba_impact": -0.2,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Anthony Black",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7636142805374724,
-      "nba_impact": -0.2,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kelly Oubre",
-      "draft_year": 2015,
-      "position": "PF",
-      "similarity_score": 0.7622501982615746,
-      "nba_impact": -1.7,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Julian Phillips",
-      "draft_year": 2023,
-      "position": "PF",
-      "similarity_score": 0.7604736745766751,
-      "nba_impact": 0.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Ace Bailey",
-      "draft_year": 2025,
-      "position": "PF",
-      "similarity_score": 0.7464657232302931,
-      "nba_impact": 0.5,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Patrick Williams",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.7304407778589959,
-      "nba_impact": -1.7,
-      "nba_seasons": 6
-    },
-    {
-      "name": "PJ Washington",
-      "draft_year": 2019,
-      "position": "PF",
-      "similarity_score": 0.7263724696528153,
-      "nba_impact": -0.4,
-      "nba_seasons": 7
-    }
-  ],
-  "Hannes Steinbach": [
-    {
-      "name": "Nikola Vucevic",
-      "draft_year": 2011,
-      "position": "PF",
-      "similarity_score": 0.8589911998107342,
-      "nba_impact": 1.1,
-      "nba_seasons": 15
-    },
-    {
-      "name": "Jalen Smith",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.8402953369896324,
-      "nba_impact": 0.7,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Charles Bassey",
-      "draft_year": 2021,
-      "position": "PF",
-      "similarity_score": 0.7834134889918478,
-      "nba_impact": -2.1,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Isaiah Stewart",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.7770831572109753,
-      "nba_impact": 0.2,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Marvin Bagley III",
-      "draft_year": 2018,
-      "position": "PF",
-      "similarity_score": 0.7693171551006663,
-      "nba_impact": -0.9,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Zach Edey",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7148688742653315,
-      "nba_impact": 2.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Kel'el Ware",
-      "draft_year": 2024,
-      "position": "PF",
-      "similarity_score": 0.7118058700623762,
-      "nba_impact": 1.3,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Onyeka Okongwu",
-      "draft_year": 2020,
-      "position": "PF",
-      "similarity_score": 0.7084480365962331,
-      "nba_impact": 1.3,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Jared Sullinger",
-      "draft_year": 2012,
-      "position": "PF",
-      "similarity_score": 0.706714515130084,
-      "nba_impact": 1.3,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Pascal Siakam",
-      "draft_year": 2016,
-      "position": "PF",
-      "similarity_score": 0.6952913990464658,
-      "nba_impact": 2.3,
-      "nba_seasons": 10
-    }
-  ],
-  "Ryan Conwell": [
-    {
-      "name": "Carsen Edwards",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.873570274273288,
-      "nba_impact": -2.8,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jordan Crawford",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.813786032437759,
-      "nba_impact": -3.2,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Keyonte George",
-      "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.7972515551162052,
-      "nba_impact": -1.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Shelvin Mack",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7752825350762891,
-      "nba_impact": -2.8,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Terry Rozier",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7721447170927673,
-      "nba_impact": -2.0,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Coby White",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7538374550110476,
-      "nba_impact": 0.4,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Cameron Thomas",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7502263681982841,
-      "nba_impact": -2.5,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Brandon Knight",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7461260737069355,
-      "nba_impact": -2.5,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Jalen Wilson",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.7441487262786526,
-      "nba_impact": -1.8,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Kasparas Jakucionis",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7263665439828337,
-      "nba_impact": 2.7,
-      "nba_seasons": 1
-    }
-  ],
-  "Richie Saunders": [
-    {
-      "name": "Chris Duarte",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.8042014066374146,
-      "nba_impact": -2.5,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Cedric Coward",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.719777046313806,
-      "nba_impact": 0.2,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Josh Hart",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7186710526478881,
-      "nba_impact": 0.5,
-      "nba_seasons": 9
-    },
-    {
       "name": "Terrence Shannon Jr.",
       "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7170615614851354,
+      "position": "Wing",
+      "similarity_score": 0.7906187858994456,
       "nba_impact": -2.4,
       "nba_seasons": 2
-    },
-    {
-      "name": "Lazar Hayward",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.6980188295715481,
-      "nba_impact": -4.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Davon Reed",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.6882804128494135,
-      "nba_impact": -3.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Damyean Dotson",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.6880348351310437,
-      "nba_impact": -3.2,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Kris Murray",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.6839764811183819,
-      "nba_impact": -1.4,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jimmy Butler",
-      "draft_year": 2011,
-      "position": "SF",
-      "similarity_score": 0.6818827763120812,
-      "nba_impact": 5.3,
-      "nba_seasons": 15
-    },
-    {
-      "name": "Markel Brown",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.6802544954010059,
-      "nba_impact": -3.3,
-      "nba_seasons": 3
-    }
-  ],
-  "Cameron Carr": [
-    {
-      "name": "Markel Brown",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.8387827009022275,
-      "nba_impact": -3.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Devin Carter",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.8092517772311625,
-      "nba_impact": -0.7,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Marshon Brooks",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7931783862511266,
-      "nba_impact": -3.1,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Terrence Shannon Jr.",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7844285485868967,
-      "nba_impact": -2.4,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Derrick White",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7692780247586088,
-      "nba_impact": 2.6,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Klay Thompson",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7615774785824465,
-      "nba_impact": -0.1,
-      "nba_seasons": 13
     },
     {
       "name": "Dalton Knecht",
       "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7539268633141456,
+      "position": "Wing",
+      "similarity_score": 0.7770532997278576,
       "nba_impact": -2.5,
       "nba_seasons": 2
     },
     {
-      "name": "Jaden Ivey",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.740240936826881,
-      "nba_impact": -1.9,
+      "name": "Sindarius Thornwell",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.7635541195718936,
+      "nba_impact": -2.4,
       "nba_seasons": 4
     },
     {
-      "name": "Bradley Beal",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.7399569974168005,
-      "nba_impact": 0.9,
-      "nba_seasons": 14
+      "name": "De'Andre Hunter",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7625838518456562,
+      "nba_impact": -1.3,
+      "nba_seasons": 7
     },
     {
-      "name": "Allen Crabbe",
-      "draft_year": 2013,
-      "position": "SG",
-      "similarity_score": 0.7377802829796123,
-      "nba_impact": -2.1,
+      "name": "Terance Mann",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7493764659521633,
+      "nba_impact": -1.3,
       "nba_seasons": 7
+    },
+    {
+      "name": "Jimmy Butler",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7338044319873576,
+      "nba_impact": 5.3,
+      "nba_seasons": 15
+    },
+    {
+      "name": "Cory Jefferson",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7287320169701508,
+      "nba_impact": -0.9,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Mikal Bridges",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.725961090958559,
+      "nba_impact": 1.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Adreian Payne",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7059638338560328,
+      "nba_impact": -4.5,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Christian Braun",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.7009309804132127,
+      "nba_impact": -0.1,
+      "nba_seasons": 4
     }
   ],
   "Isaiah Evans": [
     {
       "name": "Jordan Hawkins",
       "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.8739562393175575,
+      "position": "Wing",
+      "similarity_score": 0.9141934542797858,
       "nba_impact": -4.3,
       "nba_seasons": 3
     },
     {
-      "name": "Malik Monk",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.833064649979582,
-      "nba_impact": -2.4,
-      "nba_seasons": 9
-    },
-    {
       "name": "Devin Booker",
       "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.8054355311454116,
+      "position": "Wing",
+      "similarity_score": 0.90594587569539,
       "nba_impact": 2.6,
       "nba_seasons": 11
     },
     {
-      "name": "Tyler Herro",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7767190216475175,
-      "nba_impact": -0.2,
-      "nba_seasons": 7
+      "name": "Gary Trent Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8807791370865601,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
     },
     {
       "name": "Jordan Poole",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7639006807621267,
+      "position": "Wing",
+      "similarity_score": 0.846211569075773,
       "nba_impact": -1.1,
       "nba_seasons": 7
     },
     {
-      "name": "Gary Trent Jr.",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7516031794483875,
-      "nba_impact": -1.8,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Ochai Agbaji",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7513714267330984,
-      "nba_impact": -2.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Cameron Thomas",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7471375859071179,
-      "nba_impact": -2.5,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Dalton Knecht",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.732625583413753,
-      "nba_impact": -2.5,
-      "nba_seasons": 2
-    },
-    {
-      "name": "AJ Griffin",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7281363340875202,
-      "nba_impact": 1.0,
-      "nba_seasons": 2
-    }
-  ],
-  "Labaron Philon": [
-    {
-      "name": "Coby White",
+      "name": "De'Andre Hunter",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.8011307187565913,
-      "nba_impact": 0.4,
+      "position": "Wing",
+      "similarity_score": 0.8433321674644296,
+      "nba_impact": -1.3,
       "nba_seasons": 7
     },
     {
-      "name": "Nik Stauskas",
+      "name": "Rodney Hood",
       "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.7827715843138732,
-      "nba_impact": -3.6,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Reggie Jackson",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7585188295803655,
-      "nba_impact": -0.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Rob Dillingham",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7566115092360604,
-      "nba_impact": -1.5,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Malik Monk",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7474719796021252,
-      "nba_impact": -2.4,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Landry Shamet",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7459630616027138,
-      "nba_impact": -0.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "D'Angelo Russell",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7332674244619182,
-      "nba_impact": -0.4,
-      "nba_seasons": 11
-    },
-    {
-      "name": "Jerome Robinson",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7272704992844952,
-      "nba_impact": -3.0,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Malcolm Brogdon",
-      "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7243585997054982,
-      "nba_impact": 0.8,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Greivis Vasquez",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.7104673348225921,
-      "nba_impact": -1.6,
-      "nba_seasons": 7
-    }
-  ],
-  "Paul McNeil, Jr.": [
-    {
-      "name": "Justin Anderson",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.8476128540779984,
-      "nba_impact": -3.1,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Doron Lamb",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.8232155308589495,
-      "nba_impact": -2.7,
-      "nba_seasons": 2
-    },
-    {
-      "name": "AJ Griffin",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.8172139682119826,
-      "nba_impact": 1.0,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Gary Trent Jr.",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7894766408865475,
+      "position": "Wing",
+      "similarity_score": 0.842061884718349,
       "nba_impact": -1.8,
       "nba_seasons": 8
     },
     {
-      "name": "Darius Garland",
+      "name": "Tyler Herro",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7692499072618006,
-      "nba_impact": 1.6,
+      "position": "Wing",
+      "similarity_score": 0.8409116983010301,
+      "nba_impact": -0.2,
       "nba_seasons": 7
+    },
+    {
+      "name": "Kon Knueppel",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.827523621032006,
+      "nba_impact": 5.0,
+      "nba_seasons": 1
     },
     {
       "name": "Luke Kennard",
       "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7690706452252374,
+      "position": "Wing",
+      "similarity_score": 0.8228271323458192,
       "nba_impact": -0.3,
       "nba_seasons": 9
     },
     {
-      "name": "Jaylen Wells",
-      "draft_year": 2024,
-      "position": "SF",
-      "similarity_score": 0.7664825403879842,
+      "name": "Tre Johnson",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8182607066911438,
+      "nba_impact": 1.1,
+      "nba_seasons": 1
+    }
+  ],
+  "Paul McNeil, Jr.": [
+    {
+      "name": "Saddiq Bey",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.9212119577537932,
+      "nba_impact": -0.4,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Rodney Hood",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8802506471792042,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Jase Richardson",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8798180865458336,
+      "nba_impact": 0.6,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Jett Howard",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8749617927982132,
+      "nba_impact": -2.1,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Trey Murphy III",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8726286370083063,
+      "nba_impact": 0.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Gary Trent Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8691475917214622,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Justin Anderson",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8677296373859715,
+      "nba_impact": -3.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "AJ Griffin",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8541697827403787,
       "nba_impact": 1.0,
       "nba_seasons": 2
     },
     {
-      "name": "Nik Stauskas",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.7638453714483096,
-      "nba_impact": -3.6,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Immanuel Quickley",
-      "draft_year": 2020,
-      "position": "SG",
-      "similarity_score": 0.7594788303535163,
-      "nba_impact": 2.0,
-      "nba_seasons": 6
-    },
-    {
-      "name": "Aaron Nesmith",
-      "draft_year": 2020,
-      "position": "SG",
-      "similarity_score": 0.7575248617033055,
-      "nba_impact": 0.0,
-      "nba_seasons": 6
-    }
-  ],
-  "Christian Anderson": [
-    {
-      "name": "Landry Shamet",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.8685396152469553,
-      "nba_impact": -0.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Tyler Kolek",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.8341574811111134,
-      "nba_impact": -0.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Jared Butler",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.819412964725363,
-      "nba_impact": -1.1,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Ty Jerome",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.815464544815814,
-      "nba_impact": 0.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Lonzo Ball",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.8029041978895757,
-      "nba_impact": 1.7,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Reggie Jackson",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7987546087247588,
-      "nba_impact": -0.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Andrew Nembhard",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7886835526662246,
-      "nba_impact": -0.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Tyrese Haliburton",
-      "draft_year": 2020,
-      "position": "SG",
-      "similarity_score": 0.7683183188013447,
-      "nba_impact": 4.1,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Coby White",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7639758864852908,
-      "nba_impact": 0.4,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Rob Dillingham",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7562876686750706,
-      "nba_impact": -1.5,
-      "nba_seasons": 2
-    }
-  ],
-  "Bennett Stirtz": [
-    {
-      "name": "Marcus Sasser",
-      "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.8639887573277125,
-      "nba_impact": -1.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Malcolm Brogdon",
-      "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.8559916615482077,
-      "nba_impact": 0.8,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Landry Shamet",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.8112090037039201,
-      "nba_impact": -0.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Andrew Nembhard",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.8044819993047283,
-      "nba_impact": -0.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "Charles Jenkins",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.781308447584399,
-      "nba_impact": -4.0,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Ty Jerome",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7686879689022861,
-      "nba_impact": 0.2,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Tyler Kolek",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7670510953961862,
-      "nba_impact": -0.9,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Kam Jones",
+      "name": "Tre Johnson",
       "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7625915617022807,
-      "nba_impact": -2.2,
+      "position": "Wing",
+      "similarity_score": 0.8387217903878286,
+      "nba_impact": 1.1,
       "nba_seasons": 1
     },
     {
-      "name": "Grayson Allen",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7255630735169665,
-      "nba_impact": -1.4,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Jared Butler",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7178506287122433,
-      "nba_impact": -1.1,
+      "name": "Malaki Branham",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8303124510489448,
+      "nba_impact": -2.4,
       "nba_seasons": 4
     }
   ],
-  "Brayden Burries": [
+  "Juke Harris": [
     {
-      "name": "Josh Hart",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.8144022635575021,
-      "nba_impact": 0.5,
+      "name": "James Anderson",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8288991219731996,
+      "nba_impact": -2.9,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Johnny Davis",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8025520852418506,
+      "nba_impact": -3.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Malik Beasley",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7904668999332745,
+      "nba_impact": -1.2,
       "nba_seasons": 9
     },
     {
-      "name": "Donte DiVincenzo",
+      "name": "Doug McDermott",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7872245477357267,
+      "nba_impact": -3.6,
+      "nba_seasons": 12
+    },
+    {
+      "name": "Bryce McGowens",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.7839930812226623,
+      "nba_impact": -1.5,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Alec Burks",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.772484833833357,
+      "nba_impact": -1.6,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Dalton Knecht",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7445514960046471,
+      "nba_impact": -2.5,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Jalen Wilson",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7426403009909668,
+      "nba_impact": -1.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Collin Sexton",
       "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7184433431553707,
-      "nba_impact": 0.6,
+      "position": "Wing",
+      "similarity_score": 0.7422532576280643,
+      "nba_impact": -2.2,
       "nba_seasons": 8
     },
     {
-      "name": "D'Angelo Russell",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7068757837813184,
-      "nba_impact": -0.4,
+      "name": "Luke Babbitt",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.7391597974104038,
+      "nba_impact": -2.5,
+      "nba_seasons": 8
+    }
+  ],
+  "Morez Johnson Jr.": [
+    {
+      "name": "Markieff Morris",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.9035986387631616,
+      "nba_impact": -1.7,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Jared Sullinger",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.9018791955143595,
+      "nba_impact": 1.3,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Marcus Morris",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.8825265404525364,
+      "nba_impact": -1.3,
+      "nba_seasons": 13
+    },
+    {
+      "name": "Wendell Carter Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8783167030193633,
+      "nba_impact": 0.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Zion Williamson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8702760034282093,
+      "nba_impact": 2.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Patrick Patterson",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8648390169609477,
+      "nba_impact": -0.9,
       "nba_seasons": 11
     },
     {
-      "name": "Xavier Henry",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.6984269380468958,
+      "name": "PJ Washington",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.850411545779824,
+      "nba_impact": -0.4,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Grant Williams",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8411911079604029,
+      "nba_impact": -1.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Jalen Smith",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8387956905541845,
+      "nba_impact": 0.7,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Brandon Clarke",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8372187858917237,
+      "nba_impact": 0.6,
+      "nba_seasons": 7
+    }
+  ],
+  "Flory Bidunga": [
+    {
+      "name": "Trayce Jackson-Davis",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.9200226112698446,
       "nba_impact": -2.4,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Tristan Thompson",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.9157665568672577,
+      "nba_impact": -2.7,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Montrezl Harrell",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.9011469535103172,
+      "nba_impact": 0.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Onyeka Okongwu",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.885046549895109,
+      "nba_impact": 1.3,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Rondae Hollis-Jefferson",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.86297267222044,
+      "nba_impact": -0.3,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Isaiah Stewart",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8541614884384376,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Kenneth Faried",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.850424784012177,
+      "nba_impact": 0.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Collin Murray-Boyles",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8457478408997312,
+      "nba_impact": 1.1,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Jordan Mickey",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8440965486642333,
+      "nba_impact": -2.1,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Ryan Dunn",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8361517474180151,
+      "nba_impact": -1.2,
+      "nba_seasons": 2
+    }
+  ],
+  "Allen Graves": [
+    {
+      "name": "Chuma Okeke",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8445655322173835,
+      "nba_impact": -2.1,
       "nba_seasons": 5
     },
     {
       "name": "Jae Crowder",
       "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.6852612424829587,
+      "position": "Wing",
+      "similarity_score": 0.8365398596107596,
       "nba_impact": 0.5,
       "nba_seasons": 13
     },
     {
-      "name": "Buddy Hield",
-      "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.6835766569616062,
-      "nba_impact": -1.1,
+      "name": "Otto Porter",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.8020471716815405,
+      "nba_impact": 2.8,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Devin Vassell",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.7920692441787722,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Jaylen Clark",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7908432521253272,
+      "nba_impact": 0.3,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Victor Oladipo",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.7731461115750391,
+      "nba_impact": 0.7,
       "nba_seasons": 10
     },
     {
-      "name": "Darrun Hilliard",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.6834498087544141,
-      "nba_impact": -1.5,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Luke Kennard",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.6832946765403913,
-      "nba_impact": -0.3,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Marcus Sasser",
-      "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.6760508227075801,
-      "nba_impact": -1.6,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Ochai Agbaji",
+      "name": "Keegan Murray",
       "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.6716841121145742,
-      "nba_impact": -2.0,
+      "position": "Wing",
+      "similarity_score": 0.7692347559525445,
+      "nba_impact": 0.8,
       "nba_seasons": 4
+    },
+    {
+      "name": "Mikal Bridges",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.7676048182646971,
+      "nba_impact": 1.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Matisse Thybulle",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7587060514593189,
+      "nba_impact": 0.8,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Delon Wright",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.7574293174778282,
+      "nba_impact": 0.8,
+      "nba_seasons": 10
     }
   ],
-  "Meleek Thomas": [
+  "Koa Peat": [
+    {
+      "name": "Aaron Gordon",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8521497951052914,
+      "nba_impact": 1.5,
+      "nba_seasons": 12
+    },
+    {
+      "name": "R.J. Barrett",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8121223310105583,
+      "nba_impact": -1.0,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Stephon Castle",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8040665537947331,
+      "nba_impact": 2.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Will Riley",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.7784219036254443,
+      "nba_impact": 0.1,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Sam Dekker",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.778167044444485,
+      "nba_impact": -0.9,
+      "nba_seasons": 5
+    },
+    {
+      "name": "PJ Washington",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7651500490364394,
+      "nba_impact": -0.4,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Christian Braun",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.7649294360118988,
+      "nba_impact": -0.1,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Justise Winslow",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.7601793723422903,
+      "nba_impact": 0.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Keldon Johnson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7524817100435421,
+      "nba_impact": -0.5,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Donte DiVincenzo",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.7516577609402593,
+      "nba_impact": 0.6,
+      "nba_seasons": 8
+    }
+  ],
+  "Caleb Wilson": [
+    {
+      "name": "Onyeka Okongwu",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8821734803354189,
+      "nba_impact": 1.3,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Obi Toppin",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.848154759592791,
+      "nba_impact": 0.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Montrezl Harrell",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8242242239759845,
+      "nba_impact": 0.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Zion Williamson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8239671630590331,
+      "nba_impact": 2.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Collin Murray-Boyles",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8178635928171005,
+      "nba_impact": 1.1,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Jalen Smith",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8122169388202247,
+      "nba_impact": 0.7,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Kenneth Faried",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7993307736462152,
+      "nba_impact": 0.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Trayce Jackson-Davis",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7978293596830182,
+      "nba_impact": -2.4,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Jonathan Mogbo",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7885929649939767,
+      "nba_impact": -2.3,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Isaiah Stewart",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.7858485363631342,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    }
+  ],
+  "Kingston Flemings": [
+    {
+      "name": "Tre Jones",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.9460924779243272,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Wendell Moore Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.9458922677337958,
+      "nba_impact": -2.9,
+      "nba_seasons": 4
+    },
     {
       "name": "Ty Jerome",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.8112823032739414,
+      "position": "Wing",
+      "similarity_score": 0.943460799975512,
       "nba_impact": 0.2,
       "nba_seasons": 7
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.9257497765635758,
+      "nba_impact": 5.5,
+      "nba_seasons": 8
     },
     {
       "name": "Andrew Nembhard",
       "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7779612298150609,
+      "position": "Wing",
+      "similarity_score": 0.9187168889375639,
       "nba_impact": -0.9,
       "nba_seasons": 4
     },
     {
-      "name": "Darrun Hilliard",
+      "name": "Andrew Harrison",
       "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7735597562746044,
-      "nba_impact": -1.5,
+      "position": "Wing",
+      "similarity_score": 0.9132884524773179,
+      "nba_impact": -1.3,
       "nba_seasons": 3
-    },
-    {
-      "name": "Donovan Mitchell",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7695725361982182,
-      "nba_impact": 2.8,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Gary Trent Jr.",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.755010614152962,
-      "nba_impact": -1.8,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Reed Sheppard",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7136197164698785,
-      "nba_impact": 0.6,
-      "nba_seasons": 2
     },
     {
       "name": "Grayson Allen",
       "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7124969498087466,
+      "position": "Wing",
+      "similarity_score": 0.8988846854985257,
       "nba_impact": -1.4,
       "nba_seasons": 8
     },
     {
-      "name": "Malcolm Brogdon",
-      "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7124694524325184,
-      "nba_impact": 0.8,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Gradey Dick",
-      "draft_year": 2023,
-      "position": "SF",
-      "similarity_score": 0.6967264097813339,
-      "nba_impact": -1.1,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Jase Richardson",
-      "draft_year": 2025,
-      "position": "SF",
-      "similarity_score": 0.6950643407284025,
-      "nba_impact": 0.6,
-      "nba_seasons": 1
-    }
-  ],
-  "Darryn Peterson": [
-    {
-      "name": "Cameron Thomas",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7936045287245621,
-      "nba_impact": -2.5,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Tre Johnson",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7920842884899755,
-      "nba_impact": 1.1,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Malik Monk",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7639693933254781,
-      "nba_impact": -2.4,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Gary Trent Jr.",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7548373223766178,
-      "nba_impact": -1.8,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Josh Okogie",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7491819069476073,
-      "nba_impact": -0.3,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Jordan Hawkins",
-      "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.7379565613773429,
-      "nba_impact": -4.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Moses Moody",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7309115303729901,
-      "nba_impact": 0.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Jeremy Lamb",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.7184383058492632,
-      "nba_impact": -0.2,
-      "nba_seasons": 10
-    },
-    {
-      "name": "Jayson Tatum",
-      "draft_year": 2017,
-      "position": "SF",
-      "similarity_score": 0.7025943150835365,
-      "nba_impact": 4.6,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Immanuel Quickley",
-      "draft_year": 2020,
-      "position": "SG",
-      "similarity_score": 0.7016859556043555,
-      "nba_impact": 2.0,
-      "nba_seasons": 6
-    }
-  ],
-  "Keaton Wagler": [
-    {
-      "name": "Donte DiVincenzo",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7595632831169894,
-      "nba_impact": 0.6,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Luke Kennard",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7523639639586979,
-      "nba_impact": -0.3,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Bennedict Mathurin",
-      "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7279481899042426,
-      "nba_impact": -0.9,
-      "nba_seasons": 4
-    },
-    {
-      "name": "D'Angelo Russell",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7165771314954443,
-      "nba_impact": -0.4,
-      "nba_seasons": 11
-    },
-    {
       "name": "Denzel Valentine",
       "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7090564936062844,
+      "position": "Wing",
+      "similarity_score": 0.8966373274779231,
       "nba_impact": -2.2,
       "nba_seasons": 5
     },
     {
-      "name": "V.J. Edgecombe",
+      "name": "D'Angelo Russell",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8952635212776525,
+      "nba_impact": -0.4,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Kendall Marshall",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8952337686171481,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
+    }
+  ],
+  "Dame Sarr": [
+    {
+      "name": "Hamidou Diallo",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8643883949645881,
+      "nba_impact": -1.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Peyton Watson",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8532760379512436,
+      "nba_impact": -2.1,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Zach LaVine",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8421124436902032,
+      "nba_impact": -1.3,
+      "nba_seasons": 12
+    },
+    {
+      "name": "Malachi Richardson",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8124172136450625,
+      "nba_impact": -2.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Nick Smith Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8067320857815414,
+      "nba_impact": -4.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Keldon Johnson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8046952907982974,
+      "nba_impact": -0.5,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Cory Joseph",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.8043548931469879,
+      "nba_impact": -1.4,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Kelly Oubre",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.7934371381617307,
+      "nba_impact": -1.7,
+      "nba_seasons": 11
+    },
+    {
+      "name": "DeAndre Liggins",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7906679217422588,
+      "nba_impact": -4.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Cam Reddish",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7885105697376911,
+      "nba_impact": -2.6,
+      "nba_seasons": 6
+    }
+  ],
+  "Meleek Thomas": [
+    {
+      "name": "Jase Richardson",
       "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.698466659455806,
-      "nba_impact": 1.7,
+      "position": "Wing",
+      "similarity_score": 0.9094945109121231,
+      "nba_impact": 0.6,
       "nba_seasons": 1
     },
     {
       "name": "Ty Jerome",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.6975076586926765,
+      "position": "Wing",
+      "similarity_score": 0.8753952582596705,
       "nba_impact": 0.2,
       "nba_seasons": 7
     },
     {
-      "name": "Reggie Jackson",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.6968616054824002,
-      "nba_impact": -0.7,
-      "nba_seasons": 14
+      "name": "Kon Knueppel",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8679087611338381,
+      "nba_impact": 5.0,
+      "nba_seasons": 1
     },
     {
-      "name": "Lonzo Ball",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.6691562405937221,
-      "nba_impact": 1.7,
-      "nba_seasons": 7
+      "name": "Tyty Washington Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8623095156766629,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
     },
     {
-      "name": "Greivis Vasquez",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.6662426140304943,
-      "nba_impact": -1.6,
-      "nba_seasons": 7
+      "name": "Gradey Dick",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8606484053976846,
+      "nba_impact": -1.1,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Andrew Nembhard",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8553323000248882,
+      "nba_impact": -0.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Wendell Moore Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8537575034502223,
+      "nba_impact": -2.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Dion Waiters",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8531132911844375,
+      "nba_impact": -1.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Tre Jones",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8426541767283855,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Malcolm Brogdon",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.842453797223303,
+      "nba_impact": 0.8,
+      "nba_seasons": 9
     }
   ],
-  "Mikel Brown Jr.": [
+  "Darryn Peterson": [
     {
-      "name": "Jordan Poole",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.8090827075679339,
-      "nba_impact": -1.1,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Cameron Thomas",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7986657234760184,
-      "nba_impact": -2.5,
-      "nba_seasons": 5
+      "name": "Ja'Kobe Walter",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8970538377491521,
+      "nba_impact": 0.9,
+      "nba_seasons": 2
     },
     {
       "name": "Tre Johnson",
       "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7802489752205402,
+      "position": "Wing",
+      "similarity_score": 0.8701676357831976,
       "nba_impact": 1.1,
       "nba_seasons": 1
     },
     {
-      "name": "Spencer Dinwiddie",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.7554486007160108,
-      "nba_impact": -0.2,
-      "nba_seasons": 11
+      "name": "Gradey Dick",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8620789820477743,
+      "nba_impact": -1.1,
+      "nba_seasons": 3
     },
+    {
+      "name": "Gary Trent Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8545010620181552,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Moses Moody",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8220327447123201,
+      "nba_impact": 0.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Nick Smith Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8167818084550829,
+      "nba_impact": -4.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Jayson Tatum",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.805513026551613,
+      "nba_impact": 4.6,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Jordan Hawkins",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8049078954562177,
+      "nba_impact": -4.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Rodney Hood",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7882469847179194,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.7805843227005786,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
+    }
+  ],
+  "Amari Allen": [
+    {
+      "name": "Ty Jerome",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8606274535610132,
+      "nba_impact": 0.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Andre Jackson Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8563071138088694,
+      "nba_impact": -3.4,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Dalen Terry",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8558373404064803,
+      "nba_impact": -1.5,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Franz Wagner",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8551778589277435,
+      "nba_impact": 5.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Sion James",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8121557173357208,
+      "nba_impact": 1.0,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Christian Braun",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8025338925789216,
+      "nba_impact": -0.1,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Wendell Moore Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.800776517247187,
+      "nba_impact": -2.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Tre Jones",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.7988093802706893,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Jalen Pickett",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7985766214938301,
+      "nba_impact": -1.9,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Reggie Bullock",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.7967980102959591,
+      "nba_impact": -1.0,
+      "nba_seasons": 11
+    }
+  ],
+  "AJ Dybantsa": [
+    {
+      "name": "Alec Burks",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.899994125806729,
+      "nba_impact": -1.6,
+      "nba_seasons": 14
+    },
+    {
+      "name": "R.J. Barrett",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8728217737664525,
+      "nba_impact": -1.0,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Collin Sexton",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8378068526296925,
+      "nba_impact": -2.2,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Jarrett Culver",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.834442288012299,
+      "nba_impact": -2.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Kasparas Jakucionis",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8121978412315016,
+      "nba_impact": 2.7,
+      "nba_seasons": 1
+    },
+    {
+      "name": "James Anderson",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.8097470387883257,
+      "nba_impact": -2.9,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Grant Williams",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8086053945939851,
+      "nba_impact": -1.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Paolo Banchero",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8058355763838829,
+      "nba_impact": 1.0,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Rui Hachimura",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7832839824842088,
+      "nba_impact": -1.7,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Derrick Williams",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7817183225448514,
+      "nba_impact": -3.2,
+      "nba_seasons": 7
+    }
+  ],
+  "Keaton Wagler": [
+    {
+      "name": "Kon Knueppel",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8839694836749437,
+      "nba_impact": 5.0,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Wendell Moore Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8779237244511822,
+      "nba_impact": -2.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Ty Jerome",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8685674972301101,
+      "nba_impact": 0.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Tre Jones",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.857871784540982,
+      "nba_impact": 0.2,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Andrew Harrison",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8493232598254659,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Denzel Valentine",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.8486254755895988,
+      "nba_impact": -2.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Jase Richardson",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8449915955224561,
+      "nba_impact": 0.6,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Nik Stauskas",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.844980960321905,
+      "nba_impact": -3.6,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.8373582759526852,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8357511201199166,
+      "nba_impact": 5.5,
+      "nba_seasons": 8
+    }
+  ],
+  "Nate Ament": [
+    {
+      "name": "Brandon Miller",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.85812700113,
+      "nba_impact": 0.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Stanley Johnson",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.8434556043666797,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Jabari Parker",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8396573395818581,
+      "nba_impact": -0.7,
+      "nba_seasons": 8
+    },
+    {
+      "name": "R.J. Barrett",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8247918219903261,
+      "nba_impact": -1.0,
+      "nba_seasons": 7
+    },
+    {
+      "name": "James Young",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8155997371158852,
+      "nba_impact": -0.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Jeremiah Fears",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8046636226106305,
+      "nba_impact": 0.7,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Cam Reddish",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7932297061827369,
+      "nba_impact": -2.6,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Harrison Barnes",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7903071327257158,
+      "nba_impact": -0.8,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Brice Sensabaugh",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.786341128761304,
+      "nba_impact": -1.2,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Andrew Wiggins",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7784057613343067,
+      "nba_impact": -0.9,
+      "nba_seasons": 12
+    }
+  ],
+  "Mikel Brown Jr.": [
     {
       "name": "Tyrese Maxey",
       "draft_year": 2020,
-      "position": "SF",
-      "similarity_score": 0.7447232377686577,
+      "position": "Wing",
+      "similarity_score": 0.8812862221022879,
       "nba_impact": 1.7,
       "nba_seasons": 6
     },
     {
       "name": "Nik Stauskas",
       "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.7380900652295634,
+      "position": "Wing",
+      "similarity_score": 0.8717094321144541,
       "nba_impact": -3.6,
       "nba_seasons": 6
     },
     {
-      "name": "Nah'Shon Hyland",
+      "name": "Jordan Poole",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8567708712115423,
+      "nba_impact": -1.1,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Tre Johnson",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.855443165102759,
+      "nba_impact": 1.1,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Tre Mann",
       "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.7303823971142003,
-      "nba_impact": 0.2,
+      "position": "Wing",
+      "similarity_score": 0.8483654931910134,
+      "nba_impact": -2.1,
       "nba_seasons": 5
     },
     {
-      "name": "Jerome Robinson",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.7272666462759825,
-      "nba_impact": -3.0,
+      "name": "Jaden Springer",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8456937916695719,
+      "nba_impact": -0.5,
       "nba_seasons": 4
     },
     {
-      "name": "Brandon Knight",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.7237518304624888,
-      "nba_impact": -2.5,
+      "name": "Edmond Sumner",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.8384793458811544,
+      "nba_impact": -2.1,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Tony Snell",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.8376712190179287,
+      "nba_impact": -2.8,
       "nba_seasons": 9
     },
     {
-      "name": "Elliot Williams",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.7102689971199205,
-      "nba_impact": -4.5,
+      "name": "Andrew Harrison",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.834898974922964,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Malaki Branham",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8277379242770575,
+      "nba_impact": -2.4,
+      "nba_seasons": 4
+    }
+  ],
+  "Neoklis Avdalas": [
+    {
+      "name": "Tyrone Wallace",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.9185495248584135,
+      "nba_impact": -2.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Darius Morris",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.8975840007936677,
+      "nba_impact": -3.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Bronny James",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8939786963011676,
+      "nba_impact": -1.5,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Tyty Washington Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8848068400792337,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Carlton Carrington",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8811894900370074,
+      "nba_impact": -2.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Egor Demin",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8718326986389897,
+      "nba_impact": 2.4,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Kendall Marshall",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8673252048815181,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Scottie Barnes",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8569084852089741,
+      "nba_impact": 2.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Dalano Banton",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8557162017087043,
+      "nba_impact": -3.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Tyrese Maxey",
+      "draft_year": 2020,
+      "position": "Wing",
+      "similarity_score": 0.8501497999296022,
+      "nba_impact": 1.7,
+      "nba_seasons": 6
+    }
+  ],
+  "Cameron Boozer": [
+    {
+      "name": "Paolo Banchero",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8941429519131796,
+      "nba_impact": 1.0,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Cooper Flagg",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.8901386720913471,
+      "nba_impact": 2.2,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Grant Williams",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8859165953933366,
+      "nba_impact": -1.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Thomas Robinson",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8494541935341586,
+      "nba_impact": -4.1,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Jared Sullinger",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.8421942745380553,
+      "nba_impact": 1.3,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Zion Williamson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8379694033644194,
+      "nba_impact": 2.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Wendell Carter Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8336954764902353,
+      "nba_impact": 0.4,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Ben Simmons",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.83108146768426,
+      "nba_impact": 2.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Derrick Williams",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.8229535980670601,
+      "nba_impact": -3.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Jarrett Culver",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8212212341576908,
+      "nba_impact": -2.4,
       "nba_seasons": 4
     }
   ],
   "Tounde Yessoufou": [
     {
+      "name": "T.J. Warren",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.8554371622656611,
+      "nba_impact": -0.9,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Moe Harkless",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7909619325088464,
+      "nba_impact": -1.8,
+      "nba_seasons": 10
+    },
+    {
       "name": "Lazar Hayward",
       "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.8740868443626941,
+      "position": "Wing",
+      "similarity_score": 0.7794053574049298,
       "nba_impact": -4.1,
       "nba_seasons": 3
     },
     {
-      "name": "Marshon Brooks",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.8372429703194038,
-      "nba_impact": -3.1,
-      "nba_seasons": 5
-    },
-    {
-      "name": "V.J. Edgecombe",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.8295984464411994,
-      "nba_impact": 1.7,
-      "nba_seasons": 1
-    },
-    {
-      "name": "Bradley Beal",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.8246434157930149,
-      "nba_impact": 0.9,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Terrence Ross",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.8124527017077257,
-      "nba_impact": -2.0,
+      "name": "Kelly Oubre",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.77806348094083,
+      "nba_impact": -1.7,
       "nba_seasons": 11
     },
     {
-      "name": "Moses Moody",
-      "draft_year": 2021,
-      "position": "SG",
-      "similarity_score": 0.8061960686668126,
-      "nba_impact": 0.0,
-      "nba_seasons": 5
-    },
-    {
-      "name": "Jae Crowder",
-      "draft_year": 2012,
-      "position": "SG",
-      "similarity_score": 0.8034325496320684,
-      "nba_impact": 0.5,
-      "nba_seasons": 13
-    },
-    {
-      "name": "Terry Rozier",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7890851511686752,
-      "nba_impact": -2.0,
+      "name": "Iman Shumpert",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7745053341203034,
+      "nba_impact": 0.4,
       "nba_seasons": 10
     },
     {
-      "name": "Kentavious Caldwell-Pope",
-      "draft_year": 2013,
-      "position": "SG",
-      "similarity_score": 0.7758795510247836,
-      "nba_impact": 0.0,
-      "nba_seasons": 13
+      "name": "Andrew Wiggins",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7669259205984211,
+      "nba_impact": -0.9,
+      "nba_seasons": 12
     },
     {
-      "name": "Dominique Jones",
-      "draft_year": 2010,
-      "position": "SG",
-      "similarity_score": 0.7737899415499709,
+      "name": "Chuma Okeke",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7552624279423605,
+      "nba_impact": -2.1,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Harrison Barnes",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7393271638974601,
+      "nba_impact": -0.8,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Tari Eason",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.7384214386534387,
+      "nba_impact": 1.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Jaylen Clark",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.737879585984919,
+      "nba_impact": 0.3,
+      "nba_seasons": 2
+    }
+  ],
+  "Alijah Arenas": [
+    {
+      "name": "Brandon Boston Jr.",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.9538752126476968,
+      "nba_impact": -3.5,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Nick Smith Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.9528503711307132,
+      "nba_impact": -4.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Ziaire Williams",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.9470452387301433,
+      "nba_impact": -1.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Michael Porter Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.9311688179523734,
+      "nba_impact": 0.5,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Max Christie",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.9309700457933026,
+      "nba_impact": -1.7,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Caleb Houstan",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.928156959797132,
+      "nba_impact": -0.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Ja'Kobe Walter",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.8903507113132869,
+      "nba_impact": 0.9,
+      "nba_seasons": 2
+    },
+    {
+      "name": "James Bouknight",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.887940321439312,
+      "nba_impact": -1.5,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Josh Christopher",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8748235261914634,
       "nba_impact": -3.2,
       "nba_seasons": 3
+    },
+    {
+      "name": "Bryce McGowens",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8668373964921767,
+      "nba_impact": -1.5,
+      "nba_seasons": 4
     }
   ],
   "Braylon Mullins": [
     {
       "name": "Gary Trent Jr.",
       "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.8409907892069663,
+      "position": "Wing",
+      "similarity_score": 0.9180328449032453,
       "nba_impact": -1.8,
       "nba_seasons": 8
     },
     {
-      "name": "Lonnie Walker IV",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.8339585814258814,
-      "nba_impact": -3.1,
+      "name": "Gradey Dick",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8898312282695571,
+      "nba_impact": -1.1,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Caleb Houstan",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.878328781672236,
+      "nba_impact": -0.4,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Jordan Poole",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.8671634089357365,
+      "nba_impact": -1.1,
       "nba_seasons": 7
     },
     {
       "name": "Tyler Herro",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.8157188055427314,
+      "position": "Wing",
+      "similarity_score": 0.8640841052045298,
       "nba_impact": -0.2,
       "nba_seasons": 7
     },
     {
-      "name": "Jordan Poole",
-      "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.798857626239238,
-      "nba_impact": -1.1,
-      "nba_seasons": 7
-    },
-    {
-      "name": "Jordan Hawkins",
-      "draft_year": 2023,
-      "position": "SG",
-      "similarity_score": 0.7804333220280539,
-      "nba_impact": -4.3,
+      "name": "Joshua Primo",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.861394700172005,
+      "nba_impact": 0.9,
       "nba_seasons": 3
     },
     {
-      "name": "Devin Booker",
-      "draft_year": 2015,
-      "position": "SG",
-      "similarity_score": 0.7516207144875167,
-      "nba_impact": 2.6,
-      "nba_seasons": 11
+      "name": "Nick Smith Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.8594131011525525,
+      "nba_impact": -4.6,
+      "nba_seasons": 3
     },
     {
-      "name": "Davon Reed",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7402987981379932,
-      "nba_impact": -3.0,
+      "name": "Lonnie Walker IV",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.8536641759592205,
+      "nba_impact": -3.1,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Brandon Boston Jr.",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.8510800439288941,
+      "nba_impact": -3.5,
       "nba_seasons": 4
     },
     {
-      "name": "Donovan Mitchell",
-      "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7336267036197148,
-      "nba_impact": 2.8,
-      "nba_seasons": 9
-    },
-    {
-      "name": "Malachi Richardson",
-      "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7149865389230419,
-      "nba_impact": -2.3,
-      "nba_seasons": 3
-    },
-    {
-      "name": "Tre Johnson",
-      "draft_year": 2025,
-      "position": "SG",
-      "similarity_score": 0.7140115043923136,
-      "nba_impact": 1.1,
-      "nba_seasons": 1
+      "name": "Max Christie",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.8508346799431161,
+      "nba_impact": -1.7,
+      "nba_seasons": 4
     }
   ],
-  "Darius Acuff Jr.": [
+  "Ryan Conwell": [
     {
-      "name": "Landry Shamet",
-      "draft_year": 2018,
-      "position": "SG",
-      "similarity_score": 0.8611309572393,
-      "nba_impact": -0.5,
-      "nba_seasons": 8
-    },
-    {
-      "name": "Reggie Jackson",
-      "draft_year": 2011,
-      "position": "SG",
-      "similarity_score": 0.8433557378771588,
-      "nba_impact": -0.7,
-      "nba_seasons": 14
-    },
-    {
-      "name": "Rob Dillingham",
-      "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.835745045257817,
-      "nba_impact": -1.5,
-      "nba_seasons": 2
-    },
-    {
-      "name": "Nik Stauskas",
-      "draft_year": 2014,
-      "position": "SG",
-      "similarity_score": 0.8125087565961675,
-      "nba_impact": -3.6,
+      "name": "Jordan Crawford",
+      "draft_year": 2010,
+      "position": "Guard",
+      "similarity_score": 0.8571494048630051,
+      "nba_impact": -3.2,
       "nba_seasons": 6
     },
     {
-      "name": "Ty Jerome",
+      "name": "Carsen Edwards",
       "draft_year": 2019,
-      "position": "SG",
-      "similarity_score": 0.7968211820375044,
-      "nba_impact": 0.2,
-      "nba_seasons": 7
+      "position": "Guard",
+      "similarity_score": 0.8263546092101488,
+      "nba_impact": -2.8,
+      "nba_seasons": 3
     },
+    {
+      "name": "Shelvin Mack",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.8238858850543618,
+      "nba_impact": -2.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Joseph Young",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.8082734748893159,
+      "nba_impact": -4.5,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Keyonte George",
+      "draft_year": 2023,
+      "position": "Guard",
+      "similarity_score": 0.7953725993816974,
+      "nba_impact": -1.4,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Terry Rozier",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.7886337898725788,
+      "nba_impact": -2.0,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Jared McCain",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7665832679776277,
+      "nba_impact": 0.7,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Jalen Wilson",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7652189177409727,
+      "nba_impact": -1.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Cameron Thomas",
+      "draft_year": 2021,
+      "position": "Guard",
+      "similarity_score": 0.7602506723751743,
+      "nba_impact": -2.5,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Jaden Ivey",
+      "draft_year": 2022,
+      "position": "Guard",
+      "similarity_score": 0.7506755751316774,
+      "nba_impact": -1.9,
+      "nba_seasons": 4
+    }
+  ],
+  "Braden Smith": [
     {
       "name": "Tyler Kolek",
       "draft_year": 2024,
-      "position": "SG",
-      "similarity_score": 0.7890201746167036,
+      "position": "Guard",
+      "similarity_score": 0.9062681311932994,
       "nba_impact": -0.9,
       "nba_seasons": 2
     },
     {
-      "name": "Denzel Valentine",
+      "name": "Jamal Shead",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.8823975318953583,
+      "nba_impact": 0.0,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Trey Burke",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.8688456735329708,
+      "nba_impact": -2.5,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Devonte' Graham",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.8328968072884864,
+      "nba_impact": -1.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Tyler Ulis",
       "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7768007726079378,
-      "nba_impact": -2.2,
+      "position": "Guard",
+      "similarity_score": 0.8198970144955886,
+      "nba_impact": -0.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Monte Morris",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.8193720117775538,
+      "nba_impact": -0.2,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Tyus Jones",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.7970966109357958,
+      "nba_impact": -0.8,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Jevon Carter",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.7818212903403192,
+      "nba_impact": -1.9,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Kendall Marshall",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7786741957300254,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Lorenzo Brown",
+      "draft_year": 2013,
+      "position": "Wing",
+      "similarity_score": 0.7689115151483366,
+      "nba_impact": -2.9,
+      "nba_seasons": 5
+    }
+  ],
+  "Labaron Philon": [
+    {
+      "name": "Jalen Brunson",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.8663947991141716,
+      "nba_impact": 1.3,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Jimmer Fredette",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.7844602707049997,
+      "nba_impact": -4.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Frank Mason III",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.7611951727943191,
+      "nba_impact": -3.2,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Walter Clayton Jr.",
+      "draft_year": 2025,
+      "position": "Guard",
+      "similarity_score": 0.7138806364389954,
+      "nba_impact": -1.6,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Trae Young",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.7103481472946513,
+      "nba_impact": 2.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Malik Monk",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.7041338602063492,
+      "nba_impact": -2.4,
+      "nba_seasons": 9
+    },
+    {
+      "name": "John Jenkins",
+      "draft_year": 2012,
+      "position": "Guard",
+      "similarity_score": 0.6917180042965221,
+      "nba_impact": -4.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.6890798843912989,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Nolan Smith",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.6825155469772655,
+      "nba_impact": -4.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Landry Shamet",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.6772934185296475,
+      "nba_impact": -0.5,
+      "nba_seasons": 8
+    }
+  ],
+  "Christian Anderson": [
+    {
+      "name": "Landry Shamet",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.8200587296244668,
+      "nba_impact": -0.5,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Jalen Brunson",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.816419832490112,
+      "nba_impact": 1.3,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Trey Burke",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.7637803680507391,
+      "nba_impact": -2.5,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Tyus Jones",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.7599616116847467,
+      "nba_impact": -0.8,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Kevin Huerter",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.746252582530254,
+      "nba_impact": 1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Tyler Ulis",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.7190658267500254,
+      "nba_impact": -0.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Jared Butler",
+      "draft_year": 2021,
+      "position": "Guard",
+      "similarity_score": 0.7173758669222241,
+      "nba_impact": -1.1,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Kyrie Irving",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.7142766818558748,
+      "nba_impact": 3.6,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Davion Mitchell",
+      "draft_year": 2021,
+      "position": "Guard",
+      "similarity_score": 0.7076413907344195,
+      "nba_impact": -1.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Shane Larkin",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.6880827028608756,
+      "nba_impact": -3.2,
+      "nba_seasons": 4
+    }
+  ],
+  "Tyler Tanner": [
+    {
+      "name": "Trey Burke",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.8414928246358155,
+      "nba_impact": -2.5,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Jevon Carter",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.7834959532398611,
+      "nba_impact": -1.9,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Reed Sheppard",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7804669878077912,
+      "nba_impact": 0.6,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Tyus Jones",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.7456001026601935,
+      "nba_impact": -0.8,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Tyler Ulis",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.7443005946606309,
+      "nba_impact": -0.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Delon Wright",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.735139413437006,
+      "nba_impact": 0.8,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Monte Morris",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.7157250646014266,
+      "nba_impact": -0.2,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Marcus Smart",
+      "draft_year": 2014,
+      "position": "Guard",
+      "similarity_score": 0.7067655744098393,
+      "nba_impact": 1.6,
+      "nba_seasons": 12
+    },
+    {
+      "name": "Kahlil Felder",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.7012272176023946,
+      "nba_impact": -2.7,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Jamal Shead",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.6977964627900566,
+      "nba_impact": 0.0,
+      "nba_seasons": 2
+    }
+  ],
+  "Bennett Stirtz": [
+    {
+      "name": "Jalen Brunson",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.8360271558785151,
+      "nba_impact": 1.3,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Marcus Sasser",
+      "draft_year": 2023,
+      "position": "Guard",
+      "similarity_score": 0.8247150879741789,
+      "nba_impact": -1.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Landry Shamet",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.7625185268970123,
+      "nba_impact": -0.5,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Tyler Ulis",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.740147305950126,
+      "nba_impact": -0.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Javon Small",
+      "draft_year": 2025,
+      "position": "Guard",
+      "similarity_score": 0.7387800753149703,
+      "nba_impact": 0.7,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Charles Jenkins",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.7339743625627233,
+      "nba_impact": -4.0,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Malachi Flynn",
+      "draft_year": 2020,
+      "position": "Guard",
+      "similarity_score": 0.7270395311145277,
+      "nba_impact": -3.6,
       "nba_seasons": 5
     },
     {
       "name": "Malcolm Brogdon",
       "draft_year": 2016,
-      "position": "SG",
-      "similarity_score": 0.7457477445619916,
+      "position": "Wing",
+      "similarity_score": 0.7149750263284227,
       "nba_impact": 0.8,
       "nba_seasons": 9
     },
     {
-      "name": "Andrew Nembhard",
+      "name": "Payton Pritchard",
+      "draft_year": 2020,
+      "position": "Guard",
+      "similarity_score": 0.711610375175008,
+      "nba_impact": 0.0,
+      "nba_seasons": 6
+    },
+    {
+      "name": "John Jenkins",
+      "draft_year": 2012,
+      "position": "Guard",
+      "similarity_score": 0.7069316669760675,
+      "nba_impact": -4.0,
+      "nba_seasons": 6
+    }
+  ],
+  "Brayden Burries": [
+    {
+      "name": "Will Richard",
+      "draft_year": 2025,
+      "position": "Guard",
+      "similarity_score": 0.7958112381778575,
+      "nba_impact": -0.1,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Jared McCain",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7653914987899413,
+      "nba_impact": 0.7,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Buddy Hield",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.7437640632212328,
+      "nba_impact": -1.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Devin Carter",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7398351608466467,
+      "nba_impact": -0.7,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Shabazz Napier",
+      "draft_year": 2014,
+      "position": "Guard",
+      "similarity_score": 0.7365483193637332,
+      "nba_impact": -1.4,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Bradley Beal",
+      "draft_year": 2012,
+      "position": "Guard",
+      "similarity_score": 0.7353838095320644,
+      "nba_impact": 0.9,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Jaden Ivey",
       "draft_year": 2022,
-      "position": "SG",
-      "similarity_score": 0.7311975663365113,
-      "nba_impact": -0.9,
+      "position": "Guard",
+      "similarity_score": 0.7269020032241149,
+      "nba_impact": -1.9,
       "nba_seasons": 4
     },
     {
-      "name": "Lonzo Ball",
+      "name": "KJ Simpson",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7249890959167076,
+      "nba_impact": -2.8,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Walter Clayton Jr.",
+      "draft_year": 2025,
+      "position": "Guard",
+      "similarity_score": 0.713480122545076,
+      "nba_impact": -1.6,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Jordan Crawford",
+      "draft_year": 2010,
+      "position": "Guard",
+      "similarity_score": 0.704956742423043,
+      "nba_impact": -3.2,
+      "nba_seasons": 6
+    }
+  ],
+  "Ebuka Okorie": [
+    {
+      "name": "Cameron Thomas",
+      "draft_year": 2021,
+      "position": "Guard",
+      "similarity_score": 0.7669217295156732,
+      "nba_impact": -2.5,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Sharife Cooper",
+      "draft_year": 2021,
+      "position": "Guard",
+      "similarity_score": 0.7340631510155622,
+      "nba_impact": -2.9,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Damian Lillard",
+      "draft_year": 2012,
+      "position": "Guard",
+      "similarity_score": 0.7266814047159025,
+      "nba_impact": 4.3,
+      "nba_seasons": 13
+    },
+    {
+      "name": "Josh Okogie",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.706104298681022,
+      "nba_impact": -0.3,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Isaiah Canaan",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.6928590856698249,
+      "nba_impact": -3.3,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Malik Monk",
       "draft_year": 2017,
-      "position": "SG",
-      "similarity_score": 0.7299583343590772,
-      "nba_impact": 1.7,
+      "position": "Guard",
+      "similarity_score": 0.6927423029644681,
+      "nba_impact": -2.4,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Charles Jenkins",
+      "draft_year": 2011,
+      "position": "Guard",
+      "similarity_score": 0.6865869315275361,
+      "nba_impact": -4.0,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Moses Moody",
+      "draft_year": 2021,
+      "position": "Wing",
+      "similarity_score": 0.6854067998535591,
+      "nba_impact": 0.0,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Gary Harris",
+      "draft_year": 2014,
+      "position": "Guard",
+      "similarity_score": 0.6749987252157408,
+      "nba_impact": -0.7,
+      "nba_seasons": 12
+    },
+    {
+      "name": "Immanuel Quickley",
+      "draft_year": 2020,
+      "position": "Guard",
+      "similarity_score": 0.6737795907823609,
+      "nba_impact": 2.0,
+      "nba_seasons": 6
+    }
+  ],
+  "Darius Acuff Jr.": [
+    {
+      "name": "Trey Burke",
+      "draft_year": 2013,
+      "position": "Guard",
+      "similarity_score": 0.8430630073768997,
+      "nba_impact": -2.5,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Jalen Brunson",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.8347249809277633,
+      "nba_impact": 1.3,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Tyler Ulis",
+      "draft_year": 2016,
+      "position": "Guard",
+      "similarity_score": 0.8306000004213656,
+      "nba_impact": -0.8,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Landry Shamet",
+      "draft_year": 2018,
+      "position": "Guard",
+      "similarity_score": 0.7984230886137644,
+      "nba_impact": -0.5,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Frank Mason III",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.7824214269769791,
+      "nba_impact": -3.2,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Tyus Jones",
+      "draft_year": 2015,
+      "position": "Guard",
+      "similarity_score": 0.7604205702824083,
+      "nba_impact": -0.8,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Nik Stauskas",
+      "draft_year": 2014,
+      "position": "Wing",
+      "similarity_score": 0.7580799659660167,
+      "nba_impact": -3.6,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Monte Morris",
+      "draft_year": 2017,
+      "position": "Guard",
+      "similarity_score": 0.7484715546870886,
+      "nba_impact": -0.2,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Rob Dillingham",
+      "draft_year": 2024,
+      "position": "Guard",
+      "similarity_score": 0.7457292457694835,
+      "nba_impact": -1.5,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Luke Kennard",
+      "draft_year": 2017,
+      "position": "Wing",
+      "similarity_score": 0.7213897490078867,
+      "nba_impact": -0.3,
+      "nba_seasons": 9
+    }
+  ],
+  "Henri Veesaar": [
+    {
+      "name": "Frank Kaminsky",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.8640043540291547,
+      "nba_impact": -1.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Kel'el Ware",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.8262365023553921,
+      "nba_impact": 1.3,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Evan Mobley",
+      "draft_year": 2021,
+      "position": "Big",
+      "similarity_score": 0.7502252564362857,
+      "nba_impact": 2.6,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Donovan Clingan",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7483486891489013,
+      "nba_impact": 3.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Pelle Larsson",
+      "draft_year": 2024,
+      "position": "Wing",
+      "similarity_score": 0.7286598121557499,
+      "nba_impact": 0.0,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Kyle Filipowski",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7281320737249208,
+      "nba_impact": 1.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Jalen Pickett",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7262066002921423,
+      "nba_impact": -1.9,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Denzel Valentine",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7140750724867249,
+      "nba_impact": -2.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Greg Monroe",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.7067380522063624,
+      "nba_impact": -0.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Caris LeVert",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7049684310840205,
+      "nba_impact": -0.6,
+      "nba_seasons": 10
+    }
+  ],
+  "Aday Mara": [
+    {
+      "name": "Danny Wolf",
+      "draft_year": 2025,
+      "position": "Big",
+      "similarity_score": 0.8113272520348258,
+      "nba_impact": -0.2,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Donovan Clingan",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.8016488081062407,
+      "nba_impact": 3.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Frank Kaminsky",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7985810970633609,
+      "nba_impact": -1.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Evan Mobley",
+      "draft_year": 2021,
+      "position": "Big",
+      "similarity_score": 0.7981895753610881,
+      "nba_impact": 2.6,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Greg Monroe",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.789646335480529,
+      "nba_impact": -0.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Zach Edey",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7722822583825062,
+      "nba_impact": 2.9,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Chet Holmgren",
+      "draft_year": 2022,
+      "position": "Big",
+      "similarity_score": 0.7695301064361233,
+      "nba_impact": 4.7,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Karl-Anthony Towns",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7576100266826338,
+      "nba_impact": 3.9,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Kyle Filipowski",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7378979235065035,
+      "nba_impact": 1.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Joel Embiid",
+      "draft_year": 2014,
+      "position": "Big",
+      "similarity_score": 0.7367027565482918,
+      "nba_impact": 5.8,
+      "nba_seasons": 10
+    }
+  ],
+  "Motiejus Krivas": [
+    {
+      "name": "Karl-Anthony Towns",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7937587932967434,
+      "nba_impact": 3.9,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Tyler Zeller",
+      "draft_year": 2012,
+      "position": "Big",
+      "similarity_score": 0.7510734231104774,
+      "nba_impact": -2.5,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Cody Zeller",
+      "draft_year": 2013,
+      "position": "Big",
+      "similarity_score": 0.7327957718675624,
+      "nba_impact": 0.6,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Willie Cauley-Stein",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7253584435026006,
+      "nba_impact": -1.3,
       "nba_seasons": 7
+    },
+    {
+      "name": "Gorgui Dieng",
+      "draft_year": 2013,
+      "position": "Big",
+      "similarity_score": 0.7206001974862115,
+      "nba_impact": -2.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Zach Edey",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7014344169630868,
+      "nba_impact": 2.9,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Derik Queen",
+      "draft_year": 2025,
+      "position": "Big",
+      "similarity_score": 0.6980726898906745,
+      "nba_impact": -0.2,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Cole Aldrich",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.696905806931768,
+      "nba_impact": -2.5,
+      "nba_seasons": 8
+    },
+    {
+      "name": "DeMarcus Cousins",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.6869254959788496,
+      "nba_impact": 0.5,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Christian Braun",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.6757309637585256,
+      "nba_impact": -0.1,
+      "nba_seasons": 4
+    }
+  ],
+  "Alex Condon": [
+    {
+      "name": "Greg Monroe",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.9058675513287571,
+      "nba_impact": -0.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Kyle Filipowski",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.8774714741249603,
+      "nba_impact": 1.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Frank Kaminsky",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.8679815360153311,
+      "nba_impact": -1.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Danny Wolf",
+      "draft_year": 2025,
+      "position": "Big",
+      "similarity_score": 0.864655978978393,
+      "nba_impact": -0.2,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Evan Mobley",
+      "draft_year": 2021,
+      "position": "Big",
+      "similarity_score": 0.8021587441848892,
+      "nba_impact": 2.6,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Donovan Clingan",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7791258228087412,
+      "nba_impact": 3.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Kendall Marshall",
+      "draft_year": 2012,
+      "position": "Wing",
+      "similarity_score": 0.7702136278227985,
+      "nba_impact": -1.8,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Darius Morris",
+      "draft_year": 2011,
+      "position": "Wing",
+      "similarity_score": 0.7601327129160116,
+      "nba_impact": -3.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Denzel Valentine",
+      "draft_year": 2016,
+      "position": "Wing",
+      "similarity_score": 0.7566426570735358,
+      "nba_impact": -2.2,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Greivis Vasquez",
+      "draft_year": 2010,
+      "position": "Wing",
+      "similarity_score": 0.7538969850317794,
+      "nba_impact": -1.6,
+      "nba_seasons": 7
+    }
+  ],
+  "Patrick Ngongba": [
+    {
+      "name": "Donovan Clingan",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.8473187300474514,
+      "nba_impact": 3.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Frank Kaminsky",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.8457116116716985,
+      "nba_impact": -1.1,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Kyle Filipowski",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.8027332287114453,
+      "nba_impact": 1.2,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Evan Mobley",
+      "draft_year": 2021,
+      "position": "Big",
+      "similarity_score": 0.7863333209007295,
+      "nba_impact": 2.6,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Sion James",
+      "draft_year": 2025,
+      "position": "Wing",
+      "similarity_score": 0.7631657590308607,
+      "nba_impact": 1.0,
+      "nba_seasons": 1
+    },
+    {
+      "name": "Greg Monroe",
+      "draft_year": 2010,
+      "position": "Big",
+      "similarity_score": 0.7601711852887647,
+      "nba_impact": -0.1,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Ty Jerome",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.7526581424489969,
+      "nba_impact": 0.2,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Wendell Moore Jr.",
+      "draft_year": 2022,
+      "position": "Wing",
+      "similarity_score": 0.7500644718958489,
+      "nba_impact": -2.9,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Andrew Harrison",
+      "draft_year": 2015,
+      "position": "Wing",
+      "similarity_score": 0.7459049815623564,
+      "nba_impact": -1.3,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Trey Lyles",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7436797511243805,
+      "nba_impact": -1.5,
+      "nba_seasons": 10
+    }
+  ],
+  "Jayden Quaintance": [
+    {
+      "name": "Harry Giles",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.8649071008406808,
+      "nba_impact": -2.7,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Mitch McGary",
+      "draft_year": 2014,
+      "position": "Big",
+      "similarity_score": 0.8508642445807655,
+      "nba_impact": -1.1,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Steven Adams",
+      "draft_year": 2013,
+      "position": "Big",
+      "similarity_score": 0.812534416099536,
+      "nba_impact": 2.5,
+      "nba_seasons": 12
+    },
+    {
+      "name": "Festus Ezeli",
+      "draft_year": 2012,
+      "position": "Big",
+      "similarity_score": 0.8024275646519601,
+      "nba_impact": -2.9,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Jarrett Allen",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.7913996486033787,
+      "nba_impact": 3.1,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Yves Missi",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7616530227877778,
+      "nba_impact": -2.3,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Andre Drummond",
+      "draft_year": 2012,
+      "position": "Big",
+      "similarity_score": 0.7595546459211286,
+      "nba_impact": 1.0,
+      "nba_seasons": 14
+    },
+    {
+      "name": "Michael Porter Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.7546728794725117,
+      "nba_impact": 0.5,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Nick Smith Jr.",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7522424110192916,
+      "nba_impact": -4.6,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Damian Jones",
+      "draft_year": 2016,
+      "position": "Big",
+      "similarity_score": 0.7482037507812367,
+      "nba_impact": -4.5,
+      "nba_seasons": 8
+    }
+  ],
+  "Chris Cenac Jr": [
+    {
+      "name": "Perry Jones III",
+      "draft_year": 2012,
+      "position": "Big",
+      "similarity_score": 0.8595337011258017,
+      "nba_impact": -3.9,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Moritz Wagner",
+      "draft_year": 2018,
+      "position": "Big",
+      "similarity_score": 0.8136849738047831,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Trey Lyles",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.7815499686445022,
+      "nba_impact": -1.5,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Harry Giles",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.7547706669213581,
+      "nba_impact": -2.7,
+      "nba_seasons": 4
+    },
+    {
+      "name": "Lauri Markkanen",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.6942372194383544,
+      "nba_impact": 2.0,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Tony Bradley",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.6890184360376042,
+      "nba_impact": 0.0,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Gradey Dick",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.6865309467353626,
+      "nba_impact": -1.1,
+      "nba_seasons": 3
+    },
+    {
+      "name": "Keldon Johnson",
+      "draft_year": 2019,
+      "position": "Wing",
+      "similarity_score": 0.6857156089220904,
+      "nba_impact": -0.5,
+      "nba_seasons": 7
+    },
+    {
+      "name": "Gary Trent Jr.",
+      "draft_year": 2018,
+      "position": "Wing",
+      "similarity_score": 0.6692659158238174,
+      "nba_impact": -1.8,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Deyonta Davis",
+      "draft_year": 2016,
+      "position": "Big",
+      "similarity_score": 0.6550909855287512,
+      "nba_impact": -1.0,
+      "nba_seasons": 3
+    }
+  ],
+  "Hannes Steinbach": [
+    {
+      "name": "Arnett Moultrie",
+      "draft_year": 2012,
+      "position": "Big",
+      "similarity_score": 0.8358086199242116,
+      "nba_impact": -1.7,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Deandre Ayton",
+      "draft_year": 2018,
+      "position": "Big",
+      "similarity_score": 0.8313980968809211,
+      "nba_impact": -0.7,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Bobby Portis",
+      "draft_year": 2015,
+      "position": "Big",
+      "similarity_score": 0.8165012195786849,
+      "nba_impact": -1.3,
+      "nba_seasons": 11
+    },
+    {
+      "name": "Domantas Sabonis",
+      "draft_year": 2016,
+      "position": "Big",
+      "similarity_score": 0.7927643986054762,
+      "nba_impact": 1.7,
+      "nba_seasons": 10
+    },
+    {
+      "name": "Kel'el Ware",
+      "draft_year": 2024,
+      "position": "Big",
+      "similarity_score": 0.7691592245781622,
+      "nba_impact": 1.3,
+      "nba_seasons": 2
+    },
+    {
+      "name": "Henry Ellenson",
+      "draft_year": 2016,
+      "position": "Big",
+      "similarity_score": 0.7621986245843886,
+      "nba_impact": -0.1,
+      "nba_seasons": 5
+    },
+    {
+      "name": "Marvin Bagley III",
+      "draft_year": 2018,
+      "position": "Big",
+      "similarity_score": 0.7619464447916191,
+      "nba_impact": -0.9,
+      "nba_seasons": 8
+    },
+    {
+      "name": "Zeke Nnaji",
+      "draft_year": 2020,
+      "position": "Big",
+      "similarity_score": 0.7046138777254369,
+      "nba_impact": -2.1,
+      "nba_seasons": 6
+    },
+    {
+      "name": "Lauri Markkanen",
+      "draft_year": 2017,
+      "position": "Big",
+      "similarity_score": 0.7027041159457672,
+      "nba_impact": 2.0,
+      "nba_seasons": 9
+    },
+    {
+      "name": "Brandin Podziemski",
+      "draft_year": 2023,
+      "position": "Wing",
+      "similarity_score": 0.7002362736981176,
+      "nba_impact": 2.1,
+      "nba_seasons": 3
     }
   ]
 }

@@ -8,7 +8,7 @@ interface PositionFilterProps {
   positionCounts: Record<Position | 'ALL', number>;
 }
 
-const positions: (Position | 'ALL')[] = ['ALL', 'PG', 'SG', 'SF', 'PF', 'C'];
+const positions: (Position | 'ALL')[] = ['ALL', 'Guard', 'Wing', 'Big'];
 
 export default function PositionFilter({
   selectedPosition,
