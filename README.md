@@ -179,27 +179,6 @@ Generates 54 static HTML pages in `out/` directory.
 
 ---
 
-## Deployment
-
-### Deploy to Vercel (Free)
-
-1. **Push to GitHub** (already done)
-2. **Connect to Vercel:**
-   - Visit https://vercel.com/
-   - Click "Add New Project"
-   - Import `srmenon02/nba-draft-model`
-   - **Set Root Directory:** `frontend` ⚠️
-   - Deploy
-
-3. **Configuration:**
-   - Framework: Next.js (auto-detected)
-   - Build Command: `npm run build`
-   - Output Directory: `out`
-
-Live in ~2-3 minutes at `your-project.vercel.app`
-
----
-
 ## Data Sources
 
 - **College Statistics:** Basketball-Reference.com (2010-2026)
