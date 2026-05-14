@@ -29,11 +29,6 @@ export default function AboutPage() {
               by analyzing college performance data and physical attributes. The goal is to
               predict NBA success and identify similar player comparisons based on playing style.
             </p>
-            <p>
-              Built as a portfolio project, this model demonstrates end-to-end data science
-              workflow: from data collection and feature engineering to model training,
-              interpretation, and deployment.
-            </p>
           </div>
         </section>
 
@@ -135,23 +130,6 @@ export default function AboutPage() {
         <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
           <h2 className="text-2xl font-bold text-brand-100 mb-6">Data Sources</h2>
           <div className="space-y-4 text-base text-brand-300">
-            <div className="flex items-start gap-3">
-              <ExternalLink size={18} className="text-accent mt-0.5 flex-shrink-0" />
-              <div>
-                <a
-                  href="https://www.basketball-reference.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-bold text-brand-100 hover:text-accent transition-colors text-lg"
-                >
-                  Basketball-Reference.com
-                </a>
-                <p className="text-brand-300 mt-2 leading-relaxed">
-                  College basketball statistics and NBA career data. All scraping respects robots.txt
-                  and includes 3-second rate limiting.
-                </p>
-              </div>
-            </div>
 
             <div className="flex items-start gap-3">
               <ExternalLink size={18} className="text-accent mt-0.5 flex-shrink-0" />
@@ -246,12 +224,6 @@ export default function AboutPage() {
                 <li>Deployed on Vercel</li>
               </ul>
             </div>
-          </div>
-          <div className="mt-6 p-5 bg-brand-700 rounded-xl border-2 border-brand-600">
-            <p className="text-brand-200 leading-relaxed">
-              <strong className="text-brand-100">Architecture:</strong> Jamstack — Offline Python pipeline generates static JSON → Next.js static
-              site generation → Vercel CDN (free tier, $0 cost)
-            </p>
           </div>
         </section>
 

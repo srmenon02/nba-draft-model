@@ -1,112 +1,112 @@
 [
   {
     "feature": "age_scaled",
-    "importance": 0.6648548736995509,
-    "importance_pct": 23.58734123479248
-  },
-  {
-    "feature": "defensive_composite",
-    "importance": 0.21392226733247136,
-    "importance_pct": 7.589411940705324
-  },
-  {
-    "feature": "ast_to_tov",
-    "importance": 0.16755223702460914,
-    "importance_pct": 5.944322506596008
-  },
-  {
-    "feature": "rim_pct",
-    "importance": 0.15396477227253036,
-    "importance_pct": 5.462274197557322
-  },
-  {
-    "feature": "ft_pct",
-    "importance": 0.148107096315412,
-    "importance_pct": 5.254458917698476
-  },
-  {
-    "feature": "versatility_score",
-    "importance": 0.1392465388475896,
-    "importance_pct": 4.940109123793736
-  },
-  {
-    "feature": "rebounding_composite",
-    "importance": 0.13419656558741472,
-    "importance_pct": 4.760949058603101
-  },
-  {
-    "feature": "oreb_per_40",
-    "importance": 0.13188174746452327,
-    "importance_pct": 4.678825264191697
-  },
-  {
-    "feature": "international",
-    "importance": 0.11909019277302679,
-    "importance_pct": 4.225013797408067
-  },
-  {
-    "feature": "playmaking_composite",
-    "importance": 0.1179297072805157,
-    "importance_pct": 4.183842756339253
-  },
-  {
-    "feature": "tov_per_40",
-    "importance": 0.10827676541219383,
-    "importance_pct": 3.8413812015329096
-  },
-  {
-    "feature": "sos",
-    "importance": 0.09679089763690224,
-    "importance_pct": 3.4338921489431575
-  },
-  {
-    "feature": "dreb_per_40",
-    "importance": 0.09647134487813039,
-    "importance_pct": 3.422555238796542
+    "importance": 0.6206956711793722,
+    "importance_pct": 21.609079539491987
   },
   {
     "feature": "stl_per_40",
-    "importance": 0.09158553839469541,
-    "importance_pct": 3.2492193886873633
+    "importance": 0.2065766205341485,
+    "importance_pct": 7.191818521369801
+  },
+  {
+    "feature": "dreb_per_40",
+    "importance": 0.17430721686120998,
+    "importance_pct": 6.068382120829817
+  },
+  {
+    "feature": "versatility_score",
+    "importance": 0.17049401208301812,
+    "importance_pct": 5.935628101141308
+  },
+  {
+    "feature": "ft_pct",
+    "importance": 0.16594053605591366,
+    "importance_pct": 5.777102062988168
+  },
+  {
+    "feature": "defensive_composite",
+    "importance": 0.16513039975853577,
+    "importance_pct": 5.748897742415728
+  },
+  {
+    "feature": "tov_per_40",
+    "importance": 0.13981663891836157,
+    "importance_pct": 4.867617113537418
+  },
+  {
+    "feature": "ast_to_tov",
+    "importance": 0.13776807929990412,
+    "importance_pct": 4.796297963441645
+  },
+  {
+    "feature": "international",
+    "importance": 0.13366047075455725,
+    "importance_pct": 4.653294485416991
+  },
+  {
+    "feature": "oreb_per_40",
+    "importance": 0.1308643174376525,
+    "importance_pct": 4.5559483909697684
+  },
+  {
+    "feature": "rim_pct",
+    "importance": 0.12789207459075405,
+    "importance_pct": 4.452471864434184
   },
   {
     "feature": "ts_pct",
-    "importance": 0.08890956414559749,
-    "importance_pct": 3.154282703636433
-  },
-  {
-    "feature": "pts_per_40",
-    "importance": 0.06621542267502516,
-    "importance_pct": 2.3491529225784613
-  },
-  {
-    "feature": "height",
-    "importance": 0.06116230311496698,
-    "importance_pct": 2.1698812347587246
-  },
-  {
-    "feature": "scoring_volume_efficiency",
-    "importance": 0.05260024874741486,
-    "importance_pct": 1.8661215632464696
-  },
-  {
-    "feature": "blks_per_40",
-    "importance": 0.05090965355481421,
-    "importance_pct": 1.8061435932033538
-  },
-  {
-    "feature": "team_strength",
-    "importance": 0.048108654562577846,
-    "importance_pct": 1.7067713517688339
-  },
-  {
-    "feature": "three_pt_pct",
-    "importance": 0.03960106066850536,
-    "importance_pct": 1.4049437978097297
+    "importance": 0.08595374552649396,
+    "importance_pct": 2.9924186844578538
   },
   {
     "feature": "ast_per_40",
-    "importance": 0.02731613024753301,
-    "importance_pct": 0.9691060573525472
+    "importance": 0.07700219751281959,
+    "importance_pct": 2.6807768895964053
+  },
+  {
+    "feature": "blks_per_40",
+    "importance": 0.07651487877833663,
+    "importance_pct": 2.6638112335052035
+  },
+  {
+    "feature": "playmaking_composite",
+    "importance": 0.06978161894888543,
+    "importance_pct": 2.429397568370056
+  },
+  {
+    "feature": "sos",
+    "importance": 0.06927777880976622,
+    "importance_pct": 2.4118567312948938
+  },
+  {
+    "feature": "rebounding_composite",
+    "importance": 0.059696544516057416,
+    "importance_pct": 2.0782928552236046
+  },
+  {
+    "feature": "pts_per_40",
+    "importance": 0.057114279223130816,
+    "importance_pct": 1.988393120622757
+  },
+  {
+    "feature": "height",
+    "importance": 0.0538356391749291,
+    "importance_pct": 1.8742495928479666
+  },
+  {
+    "feature": "scoring_volume_efficiency",
+    "importance": 0.05281873895433336,
+    "importance_pct": 1.8388469329440764
+  },
+  {
+    "feature": "team_strength",
+    "importance": 0.05278829016219646,
+    "importance_pct": 1.8377868798428236
+  },
+  {
+    "feature": "three_pt_pct",
+    "importance": 0.04445391744743966,
+    "importance_pct": 1.5476316052575338
   }
 ]

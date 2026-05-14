@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-14T15:56:49.147177",
+  "generatedAt": "2026-05-14T18:26:27.598072",
   "draftYear": 2026,
   "modelVersion": "1.0.0",
   "modelPerformance": {
-    "spearmanRho": 0.3826094490981223,
-    "rmse": 1.7011568274776185,
-    "mae": 1.322996157450117
+    "spearmanRho": 0.41002960203102196,
+    "rmse": 1.673380210141253,
+    "mae": 1.294246548878985
   },
   "dataSource": "nba_api, manual compilation of public statistics",
   "lastUpdated": "2026-05-14"
