@@ -129,3 +129,8 @@ templates/
 docs/
 part*.md
 .github/copilot-instructions.md
+
+# Template Repository Files (not part of NBA Draft Model)
+.claude/
+CHANGELOG.md
+CITATION.cff
