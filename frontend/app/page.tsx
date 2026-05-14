@@ -17,11 +17,9 @@ export default function HomePage() {
   const positionCounts = useMemo(() => {
     const counts: Record<Position | 'ALL', number> = {
       ALL: allProspects.length,
-      PG: 0,
-      SG: 0,
-      SF: 0,
-      PF: 0,
-      C: 0,
+      Guard: 0,
+      Wing: 0,
+      Big: 0,
     };
     
     allProspects.forEach((prospect) => {
