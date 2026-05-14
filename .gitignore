@@ -119,3 +119,13 @@ temp/
 
 # macOS
 .DS_Store
+
+# Agent/MVP Generation Files (kept locally, not in repo)
+AGENTS.md
+MEMORY.md
+REVIEW-CHECKLIST.md
+agent_docs/
+templates/
+docs/
+part*.md
+.github/copilot-instructions.md
