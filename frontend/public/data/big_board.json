@@ -22,44 +22,58 @@
       "rimPct": 0.5986159169550173,
       "assistToTurnover": 1.6354166666666667
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 85.5,
+      "weight": 252.8,
+      "verticalMax": 35.0,
+      "standingReach": 108.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.75,
+      "handWidth": 9.75,
+      "wingspanToHeight": 1.0654205607476634,
+      "bodyMassIndex": 27.595757028755543,
+      "reachAdvantage": 27.75
+    },
     "prediction": {
-      "nbaImpact": 2.072413206100464,
-      "grade": "A-",
+      "nbaImpact": 1.381251573562622,
+      "grade": "B+",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.8475073960268803,
-          "value": 0.0008333333333333334
+          "contribution": 0.7406187573642641,
+          "value": 8.333333333333333e-05
         },
         {
           "feature": "stl_per_40",
-          "contribution": 0.501211320140342,
+          "contribution": 0.3023853951076768,
           "value": 1.6653574234092694
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.25877071984292827,
-          "value": 1.6354166666666667
+          "feature": "oreb_per_40",
+          "contribution": 0.28380643845801906,
+          "value": 4.021995286724273
         }
       ],
       "negativeFactors": [
         {
+          "feature": "weight",
+          "contribution": -0.0965629291093471,
+          "value": 1.9511206109609125
+        },
+        {
           "feature": "tov_per_40",
-          "contribution": -0.10219634120466606,
+          "contribution": -0.09164049409179026,
           "value": 3.016496465043205
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.06445663960470001,
-          "value": 0.5986159169550173
-        },
-        {
-          "feature": "international",
-          "contribution": -0.04779335878235858,
-          "value": 0.0
+          "feature": "ft_pct",
+          "contribution": -0.0640656868214434,
+          "value": 0.7892857142857143
         }
       ]
     },
@@ -88,8 +102,22 @@
       "rimPct": 0.5853658536585366,
       "assistToTurnover": 1.3617021276595744
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 84.25,
+      "weight": 210.8,
+      "verticalMax": 39.5,
+      "standingReach": 108.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 9.75,
+      "wingspanToHeight": 1.0369230769230768,
+      "bodyMassIndex": 22.448079526627215,
+      "reachAdvantage": 26.75
+    },
     "prediction": {
-      "nbaImpact": 1.3129667043685913,
+      "nbaImpact": 1.2303189039230347,
       "grade": "B+",
       "confidence": "medium"
     },
@@ -97,35 +125,35 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.8814276919857009,
-          "value": 0.0025
+          "contribution": 0.700027358347588,
+          "value": 0.00025
         },
         {
           "feature": "defensive_composite",
-          "contribution": 0.5357862262195452,
+          "contribution": 0.3788234517405912,
           "value": 3.15
         },
         {
-          "feature": "oreb_per_40",
-          "contribution": 0.33930217960792386,
-          "value": 3.6208732694355694
+          "feature": "dreb_per_40",
+          "contribution": 0.2723344522575867,
+          "value": 8.413205537806176
         }
       ],
       "negativeFactors": [
         {
-          "feature": "ft_pct",
-          "contribution": -0.221428385999871,
-          "value": 0.712707182320442
+          "feature": "versatility_score",
+          "contribution": -0.13878005765834633,
+          "value": 53.91794720252167
         },
         {
           "feature": "sos",
-          "contribution": -0.15158536271619782,
+          "contribution": -0.10940274554399812,
           "value": 5.7
         },
         {
-          "feature": "tov_per_40",
-          "contribution": -0.13869899207469533,
-          "value": 2.5026624068157615
+          "feature": "ft_pct",
+          "contribution": -0.10645357285607226,
+          "value": 0.712707182320442
         }
       ]
     },
@@ -154,180 +182,62 @@
       "rimPct": 0.6609195402298851,
       "assistToTurnover": 0.7966101694915254
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 86.25,
+      "weight": 248.0,
+      "verticalMax": 35.5,
+      "standingReach": 108.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.0486322188449848,
+      "bodyMassIndex": 25.771232712188542,
+      "reachAdvantage": 25.75
+    },
     "prediction": {
-      "nbaImpact": 1.2797415256500244,
+      "nbaImpact": 1.0024127960205078,
       "grade": "B+",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
+          "feature": "age_scaled",
+          "contribution": 0.6048674499235895,
+          "value": 0.0002833333333333332
+        },
+        {
           "feature": "rebounding_composite",
-          "contribution": 0.8362131783482143,
+          "contribution": 0.49794687470421195,
           "value": 10.63253012048193
         },
         {
-          "feature": "age_scaled",
-          "contribution": 0.6844305905313897,
-          "value": 0.0028333333333333322
-        },
-        {
-          "feature": "international",
-          "contribution": 0.3552502097748458,
-          "value": 1.0
+          "feature": "defensive_composite",
+          "contribution": 0.3030077946296304,
+          "value": 2.546666666666667
         }
       ],
       "negativeFactors": [
         {
-          "feature": "ast_to_tov",
-          "contribution": -0.34635570968681834,
-          "value": 0.7966101694915254
+          "feature": "ast_per_40",
+          "contribution": -0.21825834365599617,
+          "value": 1.8059558117195005
         },
         {
           "feature": "stl_per_40",
-          "contribution": -0.22555507939280373,
+          "contribution": -0.14445267620078306,
           "value": 1.229586935638809
         },
         {
-          "feature": "playmaking_composite",
-          "contribution": -0.16918499328253067,
-          "value": 0.5280898876404494
+          "feature": "versatility_score",
+          "contribution": -0.0958804452188351,
+          "value": 53.42836584585864
         }
       ]
     },
     "rank": 3
-  },
-  {
-    "id": "meleek-thomas",
-    "name": "Meleek Thomas",
-    "position": "Wing",
-    "height": 77.0,
-    "age": 19.5,
-    "international": false,
-    "stats": {
-      "points": 579.0,
-      "assists": 92.0,
-      "rebounds": 142.0,
-      "steals": 57.0,
-      "blocks": 7.0,
-      "gamesPlayed": 37,
-      "minutesPerGame": 30.5
-    },
-    "metrics": {
-      "trueShooting": 0.5681818181818182,
-      "freeThrowPct": 0.8425925925925926,
-      "threePointPct": 0.416243654822335,
-      "rimPct": 0.5892857142857143,
-      "assistToTurnover": 2.4864864864864864
-    },
-    "prediction": {
-      "nbaImpact": 0.7889199256896973,
-      "grade": "B",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.8002761741411131,
-          "value": 0.0025
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": 0.24243015488277056,
-          "value": 75.137878995747
-        },
-        {
-          "feature": "tov_per_40",
-          "contribution": 0.21126856636588595,
-          "value": 1.3114754098360655
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.13558973428170787,
-          "value": 1.7675675675675677
-        },
-        {
-          "feature": "scoring_volume_efficiency",
-          "contribution": -0.12423036991124403,
-          "value": 0.7760317214638353
-        },
-        {
-          "feature": "blks_per_40",
-          "contribution": -0.10512465638481555,
-          "value": 0.24811696942844483
-        }
-      ]
-    },
-    "rank": 4
-  },
-  {
-    "id": "darryn-peterson",
-    "name": "Darryn Peterson",
-    "position": "Wing",
-    "height": 77.0,
-    "age": 19.1,
-    "international": false,
-    "stats": {
-      "points": 484.0,
-      "assists": 38.0,
-      "rebounds": 101.0,
-      "steals": 34.0,
-      "blocks": 15.0,
-      "gamesPlayed": 24,
-      "minutesPerGame": 29.0
-    },
-    "metrics": {
-      "trueShooting": 0.6018702745722244,
-      "freeThrowPct": 0.8257575757575758,
-      "threePointPct": 0.3818181818181818,
-      "rimPct": 0.5636363636363636,
-      "assistToTurnover": 1.0
-    },
-    "prediction": {
-      "nbaImpact": 0.6055960655212402,
-      "grade": "B",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.9209341636326697,
-          "value": 0.0018333333333333357
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": 0.3075362901412407,
-          "value": 1.9540229885057472
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": 0.28925423903333747,
-          "value": 2.1666666666666665
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "rim_pct",
-          "contribution": -0.22970172363970123,
-          "value": 0.5636363636363636
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.1922790546217287,
-          "value": 58.390151515151516
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.1427001397313113,
-          "value": 0.9770114942528736
-        }
-      ]
-    },
-    "rank": 5
   },
   {
     "id": "allen-graves",
@@ -352,8 +262,22 @@
       "rimPct": 0.5670103092783505,
       "assistToTurnover": 2.5416666666666665
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 84.0,
+      "weight": 225.6,
+      "verticalMax": 34.0,
+      "standingReach": 106.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.053291536050157,
+      "bodyMassIndex": 24.93635872288991,
+      "reachAdvantage": 26.75
+    },
     "prediction": {
-      "nbaImpact": 0.5661972761154175,
+      "nbaImpact": 0.7087386846542358,
       "grade": "B",
       "confidence": "medium"
     },
@@ -361,39 +285,39 @@
       "positiveFactors": [
         {
           "feature": "stl_per_40",
-          "contribution": 0.5596288612875042,
+          "contribution": 0.46434762940875124,
           "value": 3.3836543466944295
         },
         {
           "feature": "defensive_composite",
-          "contribution": 0.3463193770113154,
+          "contribution": 0.3620939795593066,
           "value": 3.0411764705882356
         },
         {
           "feature": "tov_per_40",
-          "contribution": 0.28642605924361136,
+          "contribution": 0.3150700426702649,
           "value": 1.24934929724102
         }
       ],
       "negativeFactors": [
         {
           "feature": "sos",
-          "contribution": -0.5326139475890121,
+          "contribution": -0.3378725277250443,
           "value": 4.1
         },
         {
           "feature": "age_scaled",
-          "contribution": -0.0961656012211223,
-          "value": 0.0038333333333333344
+          "contribution": -0.10814603156296118,
+          "value": 0.00038333333333333345
         },
         {
-          "feature": "scoring_volume_efficiency",
-          "contribution": -0.06866813697424547,
-          "value": 0.9641697082785333
+          "feature": "vertical_max",
+          "contribution": -0.07693516367295643,
+          "value": 34.0
         }
       ]
     },
-    "rank": 6
+    "rank": 4
   },
   {
     "id": "kingston-flemings",
@@ -418,8 +342,22 @@
       "rimPct": 0.5490196078431373,
       "assistToTurnover": 2.909090909090909
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 75.5,
+      "weight": 183.4,
+      "verticalMax": 40.5,
+      "standingReach": 98.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.0134228187919463,
+      "bodyMassIndex": 23.229620287374445,
+      "reachAdvantage": 24.0
+    },
     "prediction": {
-      "nbaImpact": 0.5229010581970215,
+      "nbaImpact": 0.5975534319877625,
       "grade": "B",
       "confidence": "medium"
     },
@@ -427,39 +365,119 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.8485157314850711,
-          "value": 0.0018333333333333357
+          "contribution": 0.6886664311976495,
+          "value": 0.00018333333333333358
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.20403873371150422,
+          "value": 1.9097962315627932
         },
         {
           "feature": "ft_pct",
-          "contribution": 0.2780164267585081,
+          "contribution": 0.2038107693423422,
           "value": 0.8449612403100775
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": 0.2503589844563976,
-          "value": 76.95934356311716
         }
       ],
       "negativeFactors": [
         {
           "feature": "rim_pct",
-          "contribution": -0.3291693142441824,
+          "contribution": -0.15871562025680833,
           "value": 0.5490196078431373
         },
         {
           "feature": "oreb_per_40",
-          "contribution": -0.17312294237519976,
+          "contribution": -0.15131342591366218,
           "value": 0.6479665785659477
         },
         {
           "feature": "defensive_composite",
-          "contribution": -0.15133268334688998,
+          "contribution": -0.13147131022427003,
           "value": 1.9027027027027028
         }
       ]
     },
-    "rank": 7
+    "rank": 5
+  },
+  {
+    "id": "meleek-thomas",
+    "name": "Meleek Thomas",
+    "position": "Wing",
+    "height": 77.0,
+    "age": 19.5,
+    "international": false,
+    "stats": {
+      "points": 579.0,
+      "assists": 92.0,
+      "rebounds": 142.0,
+      "steals": 57.0,
+      "blocks": 7.0,
+      "gamesPlayed": 37,
+      "minutesPerGame": 30.5
+    },
+    "metrics": {
+      "trueShooting": 0.5681818181818182,
+      "freeThrowPct": 0.8425925925925926,
+      "threePointPct": 0.416243654822335,
+      "rimPct": 0.5892857142857143,
+      "assistToTurnover": 2.4864864864864864
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.75,
+      "weight": 189.6,
+      "verticalMax": 38.0,
+      "standingReach": 100.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.0,
+      "handWidth": 7.5,
+      "wingspanToHeight": 1.05,
+      "bodyMassIndex": 23.695786666666663,
+      "reachAdvantage": 25.0
+    },
+    "prediction": {
+      "nbaImpact": 0.5835145115852356,
+      "grade": "B",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.6577037774615598,
+          "value": 0.00025
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.28153501380126855,
+          "value": 1.3114754098360655
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.2249178852771922,
+          "value": 75.137878995747
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.12937765836962783,
+          "value": 1.7675675675675677
+        },
+        {
+          "feature": "height",
+          "contribution": -0.11247071800563409,
+          "value": -1.426009135102015
+        },
+        {
+          "feature": "blks_per_40",
+          "contribution": -0.08214831345106419,
+          "value": 0.24811696942844483
+        }
+      ]
+    },
+    "rank": 6
   },
   {
     "id": "aday-mara",
@@ -484,8 +502,22 @@
       "rimPct": 0.7222222222222222,
       "assistToTurnover": 1.2278481012658229
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 90.0,
+      "weight": 259.8,
+      "verticalMax": 28.0,
+      "standingReach": 117.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.0344827586206895,
+      "bodyMassIndex": 24.129924692826,
+      "reachAdvantage": 30.0
+    },
     "prediction": {
-      "nbaImpact": 0.30705776810646057,
+      "nbaImpact": 0.4068431854248047,
       "grade": "B-",
       "confidence": "medium"
     },
@@ -493,567 +525,39 @@
       "positiveFactors": [
         {
           "feature": "blks_per_40",
-          "contribution": 0.9042967866764081,
+          "contribution": 1.0938816504928341,
           "value": 4.401709401709402
         },
         {
           "feature": "ts_pct",
-          "contribution": 0.4006680592547684,
+          "contribution": 0.31315147399674265,
           "value": 0.8812818645302257
         },
         {
           "feature": "defensive_composite",
-          "contribution": 0.32392063627152573,
+          "contribution": 0.28734937238944125,
           "value": 3.44
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8008625187652129,
-          "value": 0.004666666666666668
+          "contribution": -0.573642601054732,
+          "value": 0.00046666666666666677
         },
         {
           "feature": "stl_per_40",
-          "contribution": -0.27648387161648963,
+          "contribution": -0.27454080213602555,
           "value": 0.5982905982905983
         },
         {
           "feature": "ft_pct",
-          "contribution": -0.2750302518537382,
+          "contribution": -0.26240493332948156,
           "value": 0.5642857142857143
         }
       ]
     },
-    "rank": 8
-  },
-  {
-    "id": "tounde-yessoufou",
-    "name": "Tounde Yessoufou",
-    "position": "Wing",
-    "height": 77.0,
-    "age": 19.7,
-    "international": true,
-    "stats": {
-      "points": 587.0,
-      "assists": 52.0,
-      "rebounds": 194.0,
-      "steals": 65.0,
-      "blocks": 20.0,
-      "gamesPlayed": 33,
-      "minutesPerGame": 32.6
-    },
-    "metrics": {
-      "trueShooting": 0.5786671924290221,
-      "freeThrowPct": 0.7384615384615385,
-      "threePointPct": 0.2960893854748603,
-      "rimPct": 0.632183908045977,
-      "assistToTurnover": 0.8387096774193549
-    },
-    "prediction": {
-      "nbaImpact": 0.28113698959350586,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.7888558102291724,
-          "value": 0.0028333333333333322
-        },
-        {
-          "feature": "rim_pct",
-          "contribution": 0.3448999548041053,
-          "value": 0.632183908045977
-        },
-        {
-          "feature": "international",
-          "contribution": 0.33143558010651386,
-          "value": 1.0
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ft_pct",
-          "contribution": -0.24403693268731314,
-          "value": 0.7384615384615385
-        },
-        {
-          "feature": "ast_per_40",
-          "contribution": -0.2222568603714795,
-          "value": 1.9334448782301543
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": -0.19829426765945568,
-          "value": 0.8387096774193549
-        }
-      ]
-    },
-    "rank": 9
-  },
-  {
-    "id": "paul-mcneil,-jr.",
-    "name": "Paul McNeil, Jr.",
-    "position": "Wing",
-    "height": 77.0,
-    "age": 19.7,
-    "international": false,
-    "stats": {
-      "points": 470.0,
-      "assists": 28.0,
-      "rebounds": 121.0,
-      "steals": 21.0,
-      "blocks": 13.0,
-      "gamesPlayed": 34,
-      "minutesPerGame": 28.6
-    },
-    "metrics": {
-      "trueShooting": 0.6482400970980912,
-      "freeThrowPct": 0.8240740740740741,
-      "threePointPct": 0.4268292682926829,
-      "rimPct": 0.5833333333333334,
-      "assistToTurnover": 2.0
-    },
-    "prediction": {
-      "nbaImpact": 0.2602989375591278,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.6916221553526286,
-          "value": 0.0028333333333333322
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": 0.25844841285333114,
-          "value": 2.0
-        },
-        {
-          "feature": "tov_per_40",
-          "contribution": 0.17734433427614596,
-          "value": 1.0811603654567417
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.13851013395707218,
-          "value": 0.8638420403126285
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.12201745605229267,
-          "value": 1.076470588235294
-        },
-        {
-          "feature": "international",
-          "contribution": -0.09954358856383787,
-          "value": 0.0
-        }
-      ]
-    },
-    "rank": 10
-  },
-  {
-    "id": "tyler-tanner",
-    "name": "Tyler Tanner",
-    "position": "Guard",
-    "height": 72.0,
-    "age": 20.0,
-    "international": false,
-    "stats": {
-      "points": 702.0,
-      "assists": 184.0,
-      "rebounds": 131.0,
-      "steals": 86.0,
-      "blocks": 12.0,
-      "gamesPlayed": 36,
-      "minutesPerGame": 33.5
-    },
-    "metrics": {
-      "trueShooting": 0.640604467805519,
-      "freeThrowPct": 0.8532110091743119,
-      "threePointPct": 0.3680981595092024,
-      "rimPct": 0.6136363636363636,
-      "assistToTurnover": 2.7058823529411766
-    },
-    "prediction": {
-      "nbaImpact": 0.2559974789619446,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "stl_per_40",
-          "contribution": 0.35073297754837657,
-          "value": 2.8524046434494195
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": 0.3468365354905361,
-          "value": 2.788888888888889
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": 0.2663178043119248,
-          "value": 0.8532110091743119
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.20572936403973752,
-          "value": 0.4975124378109453
-        },
-        {
-          "feature": "height",
-          "contribution": -0.13706079776379831,
-          "value": 72.0
-        },
-        {
-          "feature": "tov_per_40",
-          "contribution": -0.1079330212455623,
-          "value": 2.255389718076285
-        }
-      ]
-    },
-    "rank": 11
-  },
-  {
-    "id": "brayden-burries",
-    "name": "Brayden Burries",
-    "position": "Guard",
-    "height": 76.0,
-    "age": 20.4,
-    "international": false,
-    "stats": {
-      "points": 626.0,
-      "assists": 95.0,
-      "rebounds": 191.0,
-      "steals": 59.0,
-      "blocks": 8.0,
-      "gamesPlayed": 39,
-      "minutesPerGame": 29.8
-    },
-    "metrics": {
-      "trueShooting": 0.646213560161863,
-      "freeThrowPct": 0.8047337278106509,
-      "threePointPct": 0.3910614525139664,
-      "rimPct": 0.6065573770491803,
-      "assistToTurnover": 1.6666666666666667
-    },
-    "prediction": {
-      "nbaImpact": 0.1991918683052063,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "stl_per_40",
-          "contribution": 0.35829325408403934,
-          "value": 2.030631560832903
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": 0.16546506716451626,
-          "value": 1.6666666666666667
-        },
-        {
-          "feature": "scoring_volume_efficiency",
-          "contribution": 0.1454153495736192,
-          "value": 1.0817462707654084
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.18569938934465147,
-          "value": 0.7227671657201858
-        },
-        {
-          "feature": "international",
-          "contribution": -0.08093393192037332,
-          "value": 0.0
-        },
-        {
-          "feature": "rebounding_composite",
-          "contribution": -0.07842406176496297,
-          "value": 4.832995951417004
-        }
-      ]
-    },
-    "rank": 12
-  },
-  {
-    "id": "flory-bidunga",
-    "name": "Flory Bidunga",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 20.7,
-    "international": true,
-    "stats": {
-      "points": 464.0,
-      "assists": 52.0,
-      "rebounds": 314.0,
-      "steals": 26.0,
-      "blocks": 91.0,
-      "gamesPlayed": 35,
-      "minutesPerGame": 31.6
-    },
-    "metrics": {
-      "trueShooting": 0.8654133094598628,
-      "freeThrowPct": 0.6542056074766355,
-      "threePointPct": 0.0,
-      "rimPct": 0.6201550387596899,
-      "assistToTurnover": 0.9629629629629628
-    },
-    "prediction": {
-      "nbaImpact": 0.17896027863025665,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "oreb_per_40",
-          "contribution": 0.627465853341665,
-          "value": 3.8336347197106693
-        },
-        {
-          "feature": "international",
-          "contribution": 0.2823353701120252,
-          "value": 1.0
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": 0.22813812314119303,
-          "value": 7.522603978300181
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ft_pct",
-          "contribution": -0.2691032949203093,
-          "value": 0.6542056074766355
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.21070375423688364,
-          "value": 0.9403254972875226
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": -0.17489254088687464,
-          "value": 0.9629629629629628
-        }
-      ]
-    },
-    "rank": 13
-  },
-  {
-    "id": "yaxel-lendeborg",
-    "name": "Yaxel Lendeborg",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 23.3,
-    "international": false,
-    "stats": {
-      "points": 603.0,
-      "assists": 129.0,
-      "rebounds": 271.0,
-      "steals": 45.0,
-      "blocks": 49.0,
-      "gamesPlayed": 40,
-      "minutesPerGame": 30.1
-    },
-    "metrics": {
-      "trueShooting": 0.7001857872735717,
-      "freeThrowPct": 0.8242424242424242,
-      "threePointPct": 0.3722222222222222,
-      "rimPct": 0.672,
-      "assistToTurnover": 3.0714285714285716
-    },
-    "prediction": {
-      "nbaImpact": 0.13891758024692535,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "versatility_score",
-          "contribution": 0.4282984956101115,
-          "value": 79.68650793650792
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": 0.31486244248321316,
-          "value": 2.5949999999999998
-        },
-        {
-          "feature": "rim_pct",
-          "contribution": 0.18905946587887118,
-          "value": 0.672
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": -1.2335776527927789,
-          "value": 0.008833333333333334
-        },
-        {
-          "feature": "international",
-          "contribution": -0.06902774395326114,
-          "value": 0.0
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.04995715469882196,
-          "value": 1.495016611295681
-        }
-      ]
-    },
-    "rank": 14
-  },
-  {
-    "id": "keaton-wagler",
-    "name": "Keaton Wagler",
-    "position": "Guard",
-    "height": 78.0,
-    "age": 19.3,
-    "international": false,
-    "stats": {
-      "points": 663.0,
-      "assists": 157.0,
-      "rebounds": 188.0,
-      "steals": 34.0,
-      "blocks": 14.0,
-      "gamesPlayed": 37,
-      "minutesPerGame": 33.9
-    },
-    "metrics": {
-      "trueShooting": 0.604882855266039,
-      "freeThrowPct": 0.7962962962962963,
-      "threePointPct": 0.3972602739726027,
-      "rimPct": 0.5793103448275863,
-      "assistToTurnover": 2.378787878787879
-    },
-    "prediction": {
-      "nbaImpact": 0.13856665790081024,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.7785673993996022,
-          "value": 0.002166666666666668
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": 0.3489466277046167,
-          "value": 70.00039267162555
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": 0.10877845901520733,
-          "value": 2.378787878787879
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "dreb_per_40",
-          "contribution": -0.3461456577476513,
-          "value": 3.731164793111696
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.22763809921904182,
-          "value": 1.372972972972973
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.10641397237397578,
-          "value": 1.0842701108187833
-        }
-      ]
-    },
-    "rank": 15
-  },
-  {
-    "id": "mikel-brown-jr.",
-    "name": "Mikel Brown Jr.",
-    "position": "Guard",
-    "height": 77.0,
-    "age": 19.8,
-    "international": false,
-    "stats": {
-      "points": 382.0,
-      "assists": 99.0,
-      "rebounds": 70.0,
-      "steals": 26.0,
-      "blocks": 3.0,
-      "gamesPlayed": 21,
-      "minutesPerGame": 29.2
-    },
-    "metrics": {
-      "trueShooting": 0.6069658065336214,
-      "freeThrowPct": 0.8442622950819673,
-      "threePointPct": 0.34375,
-      "rimPct": 0.6166666666666667,
-      "assistToTurnover": 1.523076923076923
-    },
-    "prediction": {
-      "nbaImpact": 0.12744201719760895,
-      "grade": "B-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.5980361742395147,
-          "value": 0.0030000000000000014
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": 0.4729422405231459,
-          "value": 1.696020874103066
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": 0.2865410570984193,
-          "value": 0.8442622950819673
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.28186835421900247,
-          "value": 1.4095238095238096
-        },
-        {
-          "feature": "blks_per_40",
-          "contribution": -0.24338136928254614,
-          "value": 0.19569471624266147
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.14728583734035872,
-          "value": 56.51053113553113
-        }
-      ]
-    },
-    "rank": 16
+    "rank": 7
   },
   {
     "id": "aj-dybantsa",
@@ -1078,48 +582,222 @@
       "rimPct": 0.6617647058823529,
       "assistToTurnover": 1.2037037037037035
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -0.013830323703587055,
-      "grade": "C+",
+      "nbaImpact": 0.33331483602523804,
+      "grade": "B-",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.7581675135232365,
-          "value": 0.0016666666666666668
+          "contribution": 0.7387450490508001,
+          "value": 0.00016666666666666666
         },
         {
           "feature": "rim_pct",
-          "contribution": 0.2611322366045693,
+          "contribution": 0.2234867188072174,
           "value": 0.6617647058823529
         },
         {
           "feature": "scoring_volume_efficiency",
-          "contribution": 0.20082946704482013,
+          "contribution": 0.18746023864380787,
           "value": 1.4634913883011473
         }
       ],
       "negativeFactors": [
         {
+          "feature": "versatility_score",
+          "contribution": -0.17750767139451845,
+          "value": 52.145145145145136
+        },
+        {
           "feature": "defensive_composite",
-          "contribution": -0.23571333621405255,
+          "contribution": -0.17516404439752198,
           "value": 1.4685714285714286
         },
         {
           "feature": "stl_per_40",
-          "contribution": -0.19625744639838838,
+          "contribution": -0.12570463267288037,
           "value": 1.2151067323481117
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.1881082106324635,
-          "value": 52.145145145145136
         }
       ]
     },
-    "rank": 17
+    "rank": 8
+  },
+  {
+    "id": "keaton-wagler",
+    "name": "Keaton Wagler",
+    "position": "Guard",
+    "height": 78.0,
+    "age": 19.3,
+    "international": false,
+    "stats": {
+      "points": 663.0,
+      "assists": 157.0,
+      "rebounds": 188.0,
+      "steals": 34.0,
+      "blocks": 14.0,
+      "gamesPlayed": 37,
+      "minutesPerGame": 33.9
+    },
+    "metrics": {
+      "trueShooting": 0.604882855266039,
+      "freeThrowPct": 0.7962962962962963,
+      "threePointPct": 0.3972602739726027,
+      "rimPct": 0.5793103448275863,
+      "assistToTurnover": 2.378787878787879
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.25,
+      "weight": 188.0,
+      "verticalMax": 36.0,
+      "standingReach": 100.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.0,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.0162337662337662,
+      "bodyMassIndex": 22.29111148591668,
+      "reachAdvantage": 23.0
+    },
+    "prediction": {
+      "nbaImpact": 0.2788989841938019,
+      "grade": "B-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.6772535815668691,
+          "value": 0.0002166666666666668
+        },
+        {
+          "feature": "wingspan_to_height",
+          "contribution": 0.23685013653938564,
+          "value": 1.0162337662337662
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.23263481978745182,
+          "value": 70.00039267162555
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "dreb_per_40",
+          "contribution": -0.22427966457563547,
+          "value": 3.731164793111696
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.12043769488453257,
+          "value": 1.372972972972973
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.09387123695935826,
+          "value": 1.0842701108187833
+        }
+      ]
+    },
+    "rank": 9
+  },
+  {
+    "id": "darryn-peterson",
+    "name": "Darryn Peterson",
+    "position": "Wing",
+    "height": 77.0,
+    "age": 19.1,
+    "international": false,
+    "stats": {
+      "points": 484.0,
+      "assists": 38.0,
+      "rebounds": 101.0,
+      "steals": 34.0,
+      "blocks": 15.0,
+      "gamesPlayed": 24,
+      "minutesPerGame": 29.0
+    },
+    "metrics": {
+      "trueShooting": 0.6018702745722244,
+      "freeThrowPct": 0.8257575757575758,
+      "threePointPct": 0.3818181818181818,
+      "rimPct": 0.5636363636363636,
+      "assistToTurnover": 1.0
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 81.75,
+      "weight": 198.8,
+      "verticalMax": 37.5,
+      "standingReach": 103.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.068627450980392,
+      "bodyMassIndex": 23.880797983681493,
+      "reachAdvantage": 26.5
+    },
+    "prediction": {
+      "nbaImpact": 0.028411393985152245,
+      "grade": "B-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.7392528755115155,
+          "value": 0.00018333333333333358
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.22048540543099598,
+          "value": 1.9540229885057472
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.12815318555495112,
+          "value": 2.1666666666666665
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "versatility_score",
+          "contribution": -0.2095560534781187,
+          "value": 58.390151515151516
+        },
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.13224157866812786,
+          "value": -0.31787346545985634
+        },
+        {
+          "feature": "rim_pct",
+          "contribution": -0.10568742505369746,
+          "value": 0.5636363636363636
+        }
+      ]
+    },
+    "rank": 10
   },
   {
     "id": "christian-anderson",
@@ -1144,8 +822,22 @@
       "rimPct": 0.7121212121212122,
       "assistToTurnover": 2.238532110091743
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.25,
+      "weight": 180.4,
+      "verticalMax": 40.5,
+      "standingReach": 96.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 8.25,
+      "wingspanToHeight": 1.071917808219178,
+      "bodyMassIndex": 23.79831112779133,
+      "reachAdvantage": 23.5
+    },
     "prediction": {
-      "nbaImpact": -0.08484140783548355,
+      "nbaImpact": -0.01955956220626831,
       "grade": "C+",
       "confidence": "medium"
     },
@@ -1153,35 +845,595 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.616224071683899,
-          "value": 0.0030000000000000014
+          "contribution": 0.5433291845731627,
+          "value": 0.00030000000000000014
         },
         {
           "feature": "rim_pct",
-          "contribution": 0.5406512654296179,
+          "contribution": 0.28052411776758274,
           "value": 0.7121212121212122
         },
         {
           "feature": "versatility_score",
-          "contribution": 0.25728934243017315,
+          "contribution": 0.25872060663199853,
           "value": 72.40863112422745
         }
       ],
       "negativeFactors": [
         {
           "feature": "dreb_per_40",
-          "contribution": -0.6616076960819963,
+          "contribution": -0.5930561008364228,
           "value": 3.0934343434343434
         },
         {
+          "feature": "oreb_per_40",
+          "contribution": -0.1403451632751076,
+          "value": 0.6313131313131313
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.1297715674011911,
+          "value": 1.7454545454545456
+        }
+      ]
+    },
+    "rank": 11
+  },
+  {
+    "id": "paul-mcneil-jr",
+    "name": "Paul McNeil, Jr.",
+    "position": "Wing",
+    "height": 77.0,
+    "age": 19.7,
+    "international": false,
+    "stats": {
+      "points": 470.0,
+      "assists": 28.0,
+      "rebounds": 121.0,
+      "steals": 21.0,
+      "blocks": 13.0,
+      "gamesPlayed": 34,
+      "minutesPerGame": 28.6
+    },
+    "metrics": {
+      "trueShooting": 0.6482400970980912,
+      "freeThrowPct": 0.8240740740740741,
+      "threePointPct": 0.4268292682926829,
+      "rimPct": 0.5833333333333334,
+      "assistToTurnover": 2.0
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -0.057742971926927567,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.6123052226303487,
+          "value": 0.0002833333333333332
+        },
+        {
           "feature": "tov_per_40",
-          "contribution": -0.2610125689368163,
-          "value": 3.4406565656565657
+          "contribution": 0.23713889751703318,
+          "value": 1.0811603654567417
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.18890024839463282,
+          "value": 67.6829268292683
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.16597273019237482,
+          "value": 0.8638420403126285
+        },
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.1635779397163008,
+          "value": -0.4116536039743045
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.13006136197435234,
+          "value": 1.1517893870835045
+        }
+      ]
+    },
+    "rank": 12
+  },
+  {
+    "id": "tyler-tanner",
+    "name": "Tyler Tanner",
+    "position": "Guard",
+    "height": 72.0,
+    "age": 20.0,
+    "international": false,
+    "stats": {
+      "points": 702.0,
+      "assists": 184.0,
+      "rebounds": 131.0,
+      "steals": 86.0,
+      "blocks": 12.0,
+      "gamesPlayed": 36,
+      "minutesPerGame": 33.5
+    },
+    "metrics": {
+      "trueShooting": 0.640604467805519,
+      "freeThrowPct": 0.8532110091743119,
+      "threePointPct": 0.3680981595092024,
+      "rimPct": 0.6136363636363636,
+      "assistToTurnover": 2.7058823529411766
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 76.25,
+      "weight": 166.8,
+      "verticalMax": 39.0,
+      "standingReach": 93.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.25,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.0777385159010602,
+      "bodyMassIndex": 23.426018554358276,
+      "reachAdvantage": 22.25
+    },
+    "prediction": {
+      "nbaImpact": -0.07619167119264603,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.3112424552554683,
+          "value": 2.8524046434494195
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.30777019199116956,
+          "value": 2.788888888888889
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.21020243342547695,
+          "value": 77.47975059144312
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "height",
+          "contribution": -0.13126660861569095,
+          "value": -1.688616653453856
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": -0.12461942589719428,
+          "value": 2.255389718076285
         },
         {
           "feature": "oreb_per_40",
-          "contribution": -0.21401469089680028,
-          "value": 0.6313131313131313
+          "contribution": -0.11986760366755557,
+          "value": 0.4975124378109453
+        }
+      ]
+    },
+    "rank": 13
+  },
+  {
+    "id": "tounde-yessoufou",
+    "name": "Tounde Yessoufou",
+    "position": "Wing",
+    "height": 77.0,
+    "age": 19.7,
+    "international": true,
+    "stats": {
+      "points": 587.0,
+      "assists": 52.0,
+      "rebounds": 194.0,
+      "steals": 65.0,
+      "blocks": 20.0,
+      "gamesPlayed": 33,
+      "minutesPerGame": 32.6
+    },
+    "metrics": {
+      "trueShooting": 0.5786671924290221,
+      "freeThrowPct": 0.7384615384615385,
+      "threePointPct": 0.2960893854748603,
+      "rimPct": 0.632183908045977,
+      "assistToTurnover": 0.8387096774193549
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 82.0,
+      "weight": 219.8,
+      "verticalMax": 38.0,
+      "standingReach": 103.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.0,
+      "wingspanToHeight": 1.0754098360655735,
+      "bodyMassIndex": 26.576838484278426,
+      "reachAdvantage": 26.75
+    },
+    "prediction": {
+      "nbaImpact": -0.08405619859695435,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.6340912609997833,
+          "value": 0.0002833333333333332
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.323236468547423,
+          "value": 2.696969696969697
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.3001821856774694,
+          "value": 2.416806097787693
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.2221422714789455,
+          "value": -0.5257153801004902
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.21547743852953521,
+          "value": 1.9334448782301543
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.13727717071163412,
+          "value": 50.87482320046746
+        }
+      ]
+    },
+    "rank": 14
+  },
+  {
+    "id": "yaxel-lendeborg",
+    "name": "Yaxel Lendeborg",
+    "position": "Wing",
+    "height": 81.0,
+    "age": 23.3,
+    "international": false,
+    "stats": {
+      "points": 603.0,
+      "assists": 129.0,
+      "rebounds": 271.0,
+      "steals": 45.0,
+      "blocks": 49.0,
+      "gamesPlayed": 40,
+      "minutesPerGame": 30.1
+    },
+    "metrics": {
+      "trueShooting": 0.7001857872735717,
+      "freeThrowPct": 0.8242424242424242,
+      "threePointPct": 0.3722222222222222,
+      "rimPct": 0.672,
+      "assistToTurnover": 3.0714285714285716
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 87.25,
+      "weight": 241.4,
+      "verticalMax": 32.0,
+      "standingReach": 108.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.0804953560371515,
+      "bodyMassIndex": 26.02600619195046,
+      "reachAdvantage": 27.75
+    },
+    "prediction": {
+      "nbaImpact": -0.11561548709869385,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.34733684846510093,
+          "value": 1.3953488372093024
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.2777479019358146,
+          "value": 2.5949999999999998
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.2309249324928399,
+          "value": 79.68650793650792
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.9525508064567587,
+          "value": 0.0008833333333333334
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.0794051523814548,
+          "value": 1.495016611295681
+        },
+        {
+          "feature": "weight",
+          "contribution": -0.0697561448477969,
+          "value": 1.3510109295739794
+        }
+      ]
+    },
+    "rank": 15
+  },
+  {
+    "id": "chris-cenac-jr",
+    "name": "Chris Cenac Jr",
+    "position": "Big",
+    "height": 83.0,
+    "age": 19.0,
+    "international": false,
+    "stats": {
+      "points": 352.0,
+      "assists": 27.0,
+      "rebounds": 291.0,
+      "steals": 28.0,
+      "blocks": 18.0,
+      "gamesPlayed": 37,
+      "minutesPerGame": 24.8
+    },
+    "metrics": {
+      "trueShooting": 0.6185856881765781,
+      "freeThrowPct": 0.6206896551724138,
+      "threePointPct": 0.3333333333333333,
+      "rimPct": 0.5714285714285714,
+      "assistToTurnover": 0.8181818181818182
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -0.22235628962516785,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.7392143447015064,
+          "value": 0.00016666666666666666
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.28964891956586925,
+          "value": 9.067131647776808
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.24045527374196074,
+          "value": 1.4385353095030513
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "ft_pct",
+          "contribution": -0.2156379722838043,
+          "value": 0.6206896551724138
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.14294402550535315,
+          "value": 47.731367731367726
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.14245835360500733,
+          "value": 1.2205754141238012
+        }
+      ]
+    },
+    "rank": 16
+  },
+  {
+    "id": "ebuka-okorie",
+    "name": "Ebuka Okorie",
+    "position": "Guard",
+    "height": 74.0,
+    "age": 19.3,
+    "international": false,
+    "stats": {
+      "points": 719.0,
+      "assists": 111.0,
+      "rebounds": 113.0,
+      "steals": 49.0,
+      "blocks": 10.0,
+      "gamesPlayed": 31,
+      "minutesPerGame": 35.1
+    },
+    "metrics": {
+      "trueShooting": 0.6047708767916021,
+      "freeThrowPct": 0.831858407079646,
+      "threePointPct": 0.3539325842696629,
+      "rimPct": 0.5474137931034483,
+      "assistToTurnover": 1.913793103448276
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 79.75,
+      "weight": 186.0,
+      "verticalMax": 37.5,
+      "standingReach": 98.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.0887372013651877,
+      "bodyMassIndex": 24.369858705401345,
+      "reachAdvantage": 24.75
+    },
+    "prediction": {
+      "nbaImpact": -0.22771106660366058,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.6392504759204137,
+          "value": 0.0002166666666666668
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.1858265423881156,
+          "value": 1.8013050271114786
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": 0.12572365902288227,
+          "value": 64.04731849370711
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "dreb_per_40",
+          "contribution": -0.2751228649131193,
+          "value": 3.3085194375516953
+        },
+        {
+          "feature": "rim_pct",
+          "contribution": -0.1548448285867213,
+          "value": 0.5474137931034483
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.15029778541065753,
+          "value": 1.967741935483871
+        }
+      ]
+    },
+    "rank": 17
+  },
+  {
+    "id": "brayden-burries",
+    "name": "Brayden Burries",
+    "position": "Guard",
+    "height": 76.0,
+    "age": 20.4,
+    "international": false,
+    "stats": {
+      "points": 626.0,
+      "assists": 95.0,
+      "rebounds": 191.0,
+      "steals": 59.0,
+      "blocks": 8.0,
+      "gamesPlayed": 39,
+      "minutesPerGame": 29.8
+    },
+    "metrics": {
+      "trueShooting": 0.646213560161863,
+      "freeThrowPct": 0.8047337278106509,
+      "threePointPct": 0.3910614525139664,
+      "rimPct": 0.6065573770491803,
+      "assistToTurnover": 1.6666666666666667
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.0,
+      "weight": 215.4,
+      "verticalMax": 38.5,
+      "standingReach": 98.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.25,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.0297029702970295,
+      "bodyMassIndex": 26.389778779858187,
+      "reachAdvantage": 22.75
+    },
+    "prediction": {
+      "nbaImpact": -0.315523236989975,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.32162735324200925,
+          "value": 2.030631560832903
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.09137618832518252,
+          "value": 5.850972293925314
+        },
+        {
+          "feature": "scoring_volume_efficiency",
+          "contribution": 0.08970465460240994,
+          "value": 1.0817462707654084
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.25495735504094286,
+          "value": -0.6564918322347434
+        },
+        {
+          "feature": "oreb_per_40",
+          "contribution": -0.16685951215319564,
+          "value": 0.7227671657201858
+        },
+        {
+          "feature": "age_scaled",
+          "contribution": -0.12382176581874718,
+          "value": 0.00039999999999999975
         }
       ]
     },
@@ -1210,8 +1462,22 @@
       "rimPct": 0.5958904109589042,
       "assistToTurnover": 1.603448275862069
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 83.25,
+      "weight": 245.0,
+      "verticalMax": 37.5,
+      "standingReach": 104.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.0537974683544304,
+      "bodyMassIndex": 27.597340169844575,
+      "reachAdvantage": 25.0
+    },
     "prediction": {
-      "nbaImpact": -0.12441452592611313,
+      "nbaImpact": -0.33126795291900635,
       "grade": "C+",
       "confidence": "medium"
     },
@@ -1219,34 +1485,34 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.8744159249864443,
-          "value": 0.0016666666666666668
+          "contribution": 0.741426936469554,
+          "value": 0.00016666666666666666
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.1716860000409984,
-          "value": 1.603448275862069
+          "feature": "scoring_volume_efficiency",
+          "contribution": 0.13454811632329103,
+          "value": 1.0954412452655333
         },
         {
-          "feature": "dreb_per_40",
-          "contribution": 0.12724214951669302,
-          "value": 5.0359712230215825
+          "feature": "playmaking_composite",
+          "contribution": 0.10382810387076163,
+          "value": 0.8760547196505856
         }
       ],
       "negativeFactors": [
         {
           "feature": "ft_pct",
-          "contribution": -0.37817541767168333,
+          "contribution": -0.2760953957081905,
           "value": 0.6234567901234568
         },
         {
-          "feature": "defensive_composite",
-          "contribution": -0.2470427707588414,
-          "value": 1.4722222222222223
+          "feature": "stl_per_40",
+          "contribution": -0.1851346055045724,
+          "value": 0.9192645883293364
         },
         {
           "feature": "versatility_score",
-          "contribution": -0.1548389375295338,
+          "contribution": -0.14289267926847524,
           "value": 57.701149425287355
         }
       ]
@@ -1254,70 +1520,164 @@
     "rank": 19
   },
   {
-    "id": "patrick-ngongba",
-    "name": "Patrick Ngongba",
+    "id": "jayden-quaintance",
+    "name": "Jayden Quaintance",
     "position": "Big",
     "height": 83.0,
-    "age": 19.9,
+    "age": 18.5,
     "international": false,
     "stats": {
-      "points": 323.0,
-      "assists": 64.0,
-      "rebounds": 186.0,
-      "steals": 19.0,
-      "blocks": 34.0,
-      "gamesPlayed": 32,
-      "minutesPerGame": 21.9
+      "points": 20.0,
+      "assists": 2.0,
+      "rebounds": 20.0,
+      "steals": 2.0,
+      "blocks": 3.0,
+      "gamesPlayed": 4,
+      "minutesPerGame": 16.8
     },
     "metrics": {
-      "trueShooting": 0.8049242424242424,
-      "freeThrowPct": 0.6641221374045801,
-      "threePointPct": 0.2580645161290322,
-      "rimPct": 0.6063829787234043,
-      "assistToTurnover": 1.5238095238095235
+      "trueShooting": 0.5980861244019139,
+      "freeThrowPct": 0.3076923076923077,
+      "threePointPct": 0.0,
+      "rimPct": 0.625,
+      "assistToTurnover": 0.3333333333333333
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 89.25,
+      "weight": 253.4,
+      "verticalMax": null,
+      "standingReach": 109.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.5,
+      "handWidth": 11.0,
+      "wingspanToHeight": 1.101851851851852,
+      "bodyMassIndex": 27.151379362901995,
+      "reachAdvantage": 28.0
     },
     "prediction": {
-      "nbaImpact": -0.19358134269714355,
+      "nbaImpact": -0.36617010831832886,
       "grade": "C+",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
-          "feature": "ts_pct",
-          "contribution": 0.2110490363069848,
-          "value": 0.8049242424242424
-        },
-        {
-          "feature": "height",
-          "contribution": 0.172369774098375,
-          "value": 83.0
+          "feature": "age_scaled",
+          "contribution": 0.758888196823192,
+          "value": 8.333333333333333e-05
         },
         {
           "feature": "oreb_per_40",
-          "contribution": 0.16371957774093487,
-          "value": 3.995433789954338
+          "contribution": 0.29327956654074394,
+          "value": 4.761904761904762
+        },
+        {
+          "feature": "pts_per_40",
+          "contribution": 0.1322119085460293,
+          "value": 11.904761904761905
         }
       ],
       "negativeFactors": [
         {
-          "feature": "ft_pct",
-          "contribution": -0.24400084520029663,
-          "value": 0.6641221374045801
+          "feature": "ast_to_tov",
+          "contribution": -0.3152348487542904,
+          "value": 0.3333333333333333
         },
         {
-          "feature": "stl_per_40",
-          "contribution": -0.19121627430954224,
-          "value": 1.0844748858447488
+          "feature": "playmaking_composite",
+          "contribution": -0.252198567685234,
+          "value": -1.1649201054822185
         },
         {
-          "feature": "tov_per_40",
-          "contribution": -0.11183216527094875,
-          "value": 2.397260273972603
+          "feature": "ast_per_40",
+          "contribution": -0.153804865059899,
+          "value": 1.1904761904761905
         }
       ]
     },
     "rank": 20
+  },
+  {
+    "id": "mikel-brown-jr",
+    "name": "Mikel Brown Jr.",
+    "position": "Guard",
+    "height": 77.0,
+    "age": 19.8,
+    "international": false,
+    "stats": {
+      "points": 382.0,
+      "assists": 99.0,
+      "rebounds": 70.0,
+      "steals": 26.0,
+      "blocks": 3.0,
+      "gamesPlayed": 21,
+      "minutesPerGame": 29.2
+    },
+    "metrics": {
+      "trueShooting": 0.6069658065336214,
+      "freeThrowPct": 0.8442622950819673,
+      "threePointPct": 0.34375,
+      "rimPct": 0.6166666666666667,
+      "assistToTurnover": 1.523076923076923
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -0.3748164474964142,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": 0.5735377346745179,
+          "value": 0.00030000000000000014
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": 0.2071897843329958,
+          "value": 1.696020874103066
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": 0.2013378526768362,
+          "value": 0.8442622950819673
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "blks_per_40",
+          "contribution": -0.2153405526092238,
+          "value": 0.19569471624266147
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.15682875677677138,
+          "value": 56.51053113553113
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.14676310141970003,
+          "value": 1.4095238095238096
+        }
+      ]
+    },
+    "rank": 21
   },
   {
     "id": "amari-allen",
@@ -1342,114 +1702,302 @@
       "rimPct": 0.5742574257425742,
       "assistToTurnover": 2.272727272727273
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 80.0,
+      "weight": 204.6,
+      "verticalMax": 42.5,
+      "standingReach": 99.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.25,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.035598705501618,
+      "bodyMassIndex": 24.102604706695573,
+      "reachAdvantage": 22.25
+    },
     "prediction": {
-      "nbaImpact": -0.3547956645488739,
+      "nbaImpact": -0.42644786834716797,
       "grade": "C+",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
+          "feature": "sos",
+          "contribution": 0.14974385890539507,
+          "value": 8.8
+        },
+        {
           "feature": "dreb_per_40",
-          "contribution": 0.21043086436705435,
+          "contribution": 0.14102888959745058,
           "value": 7.49113475177305
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.17762420612520405,
-          "value": 2.272727272727273
-        },
-        {
-          "feature": "sos",
-          "contribution": 0.15065602807100026,
-          "value": 8.8
+          "feature": "playmaking_composite",
+          "contribution": 0.12154798991788103,
+          "value": 1.9113118366443493
         }
       ],
       "negativeFactors": [
         {
           "feature": "ft_pct",
-          "contribution": -0.2200520626846606,
+          "contribution": -0.12638347486642246,
           "value": 0.7378640776699029
         },
         {
-          "feature": "stl_per_40",
-          "contribution": -0.1570002089161901,
-          "value": 1.4627659574468086
+          "feature": "age_scaled",
+          "contribution": -0.12609898473601788,
+          "value": 0.0003333333333333333
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.10579088498714703,
-          "value": 0.5742574257425742
+          "feature": "stl_per_40",
+          "contribution": -0.115106160662194,
+          "value": 1.4627659574468086
         }
       ]
     },
-    "rank": 21
+    "rank": 22
   },
   {
-    "id": "chris-cenac-jr",
-    "name": "Chris Cenac Jr",
+    "id": "flory-bidunga",
+    "name": "Flory Bidunga",
     "position": "Big",
-    "height": 83.0,
-    "age": 19.0,
-    "international": false,
+    "height": 81.0,
+    "age": 20.7,
+    "international": true,
     "stats": {
-      "points": 352.0,
-      "assists": 27.0,
-      "rebounds": 291.0,
-      "steals": 28.0,
-      "blocks": 18.0,
-      "gamesPlayed": 37,
-      "minutesPerGame": 24.8
+      "points": 464.0,
+      "assists": 52.0,
+      "rebounds": 314.0,
+      "steals": 26.0,
+      "blocks": 91.0,
+      "gamesPlayed": 35,
+      "minutesPerGame": 31.6
     },
     "metrics": {
-      "trueShooting": 0.6185856881765781,
-      "freeThrowPct": 0.6206896551724138,
-      "threePointPct": 0.3333333333333333,
-      "rimPct": 0.5714285714285714,
-      "assistToTurnover": 0.8181818181818182
+      "trueShooting": 0.8654133094598628,
+      "freeThrowPct": 0.6542056074766355,
+      "threePointPct": 0.0,
+      "rimPct": 0.6201550387596899,
+      "assistToTurnover": 0.9629629629629628
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 87.25,
+      "weight": 228.6,
+      "verticalMax": 40.5,
+      "standingReach": 106.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.25,
+      "handWidth": 10.5,
+      "wingspanToHeight": 1.0940438871473357,
+      "bodyMassIndex": 25.267959237821955,
+      "reachAdvantage": 26.75
     },
     "prediction": {
-      "nbaImpact": -0.377472847700119,
+      "nbaImpact": -0.4570441246032715,
       "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.3507583335574184,
+          "value": 3.8628571428571425
+        },
+        {
+          "feature": "oreb_per_40",
+          "contribution": 0.3161185429602557,
+          "value": 3.8336347197106693
+        },
+        {
+          "feature": "ts_pct",
+          "contribution": 0.24776715914509734,
+          "value": 0.8654133094598628
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.23344649143079865,
+          "value": 0.9403254972875226
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": -0.19815471245698174,
+          "value": 0.6542056074766355
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.17945010784291188,
+          "value": 1.8806509945750451
+        }
+      ]
+    },
+    "rank": 23
+  },
+  {
+    "id": "patrick-ngongba",
+    "name": "Patrick Ngongba",
+    "position": "Big",
+    "height": 83.0,
+    "age": 19.9,
+    "international": false,
+    "stats": {
+      "points": 323.0,
+      "assists": 64.0,
+      "rebounds": 186.0,
+      "steals": 19.0,
+      "blocks": 34.0,
+      "gamesPlayed": 32,
+      "minutesPerGame": 21.9
+    },
+    "metrics": {
+      "trueShooting": 0.8049242424242424,
+      "freeThrowPct": 0.6641221374045801,
+      "threePointPct": 0.2580645161290322,
+      "rimPct": 0.6063829787234043,
+      "assistToTurnover": 1.5238095238095235
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -0.49399012327194214,
+      "grade": "C+",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "oreb_per_40",
+          "contribution": 0.3284503678335067,
+          "value": 3.995433789954338
+        },
+        {
+          "feature": "ts_pct",
+          "contribution": 0.2125691534685237,
+          "value": 0.8049242424242424
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.1151043700187334,
+          "value": 6.621004566210046
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "ft_pct",
+          "contribution": -0.1903720348218114,
+          "value": 0.6641221374045801
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.1409668381734542,
+          "value": 1.0844748858447488
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.13168205193015842,
+          "value": 1.86875
+        }
+      ]
+    },
+    "rank": 24
+  },
+  {
+    "id": "darius-acuff-jr",
+    "name": "Darius Acuff Jr.",
+    "position": "Guard",
+    "height": 75.0,
+    "age": 19.3,
+    "international": false,
+    "stats": {
+      "points": 845.0,
+      "assists": 232.0,
+      "rebounds": 111.0,
+      "steals": 30.0,
+      "blocks": 11.0,
+      "gamesPlayed": 36,
+      "minutesPerGame": 35.1
+    },
+    "metrics": {
+      "trueShooting": 0.6196831915517748,
+      "freeThrowPct": 0.8090909090909091,
+      "threePointPct": 0.4396135265700483,
+      "rimPct": 0.5920398009950248,
+      "assistToTurnover": 2.9743589743589745
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.5,
+      "weight": 185.8,
+      "verticalMax": 36.5,
+      "standingReach": 98.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.0608108108108107,
+      "bodyMassIndex": 23.852702702702704,
+      "reachAdvantage": 24.5
+    },
+    "prediction": {
+      "nbaImpact": -0.5057854652404785,
+      "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.7510274960968302,
-          "value": 0.0016666666666666668
+          "contribution": 0.6705958612942688,
+          "value": 0.0002166666666666668
         },
         {
-          "feature": "dreb_per_40",
-          "contribution": 0.20131229286733066,
-          "value": 9.067131647776808
+          "feature": "versatility_score",
+          "contribution": 0.250073111321473,
+          "value": 79.39938684503902
         },
         {
-          "feature": "tov_per_40",
-          "contribution": 0.18865737802710156,
-          "value": 1.4385353095030513
+          "feature": "ft_pct",
+          "contribution": 0.10354692031800443,
+          "value": 0.8090909090909091
         }
       ],
       "negativeFactors": [
         {
-          "feature": "ft_pct",
-          "contribution": -0.2716766222052238,
-          "value": 0.6206896551724138
+          "feature": "dreb_per_40",
+          "contribution": -0.644142498820545,
+          "value": 2.9756251978474197
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": -0.2311975590383387,
-          "value": 0.8181818181818182
+          "feature": "stl_per_40",
+          "contribution": -0.15737010908256077,
+          "value": 0.9496676163342829
         },
         {
           "feature": "defensive_composite",
-          "contribution": -0.1875130523160119,
-          "value": 1.3405405405405404
+          "contribution": -0.11621792118388172,
+          "value": 1.2000000000000002
         }
       ]
     },
-    "rank": 22
+    "rank": 25
   },
   {
     "id": "braylon-mullins",
@@ -1474,48 +2022,62 @@
       "rimPct": 0.5581395348837209,
       "assistToTurnover": 1.175
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -0.39404094219207764,
-      "grade": "C+",
+      "nbaImpact": -0.5742233395576477,
+      "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
+          "feature": "age_scaled",
+          "contribution": 0.6744890931229895,
+          "value": 0.0002166666666666668
+        },
+        {
           "feature": "ft_pct",
-          "contribution": 0.5847630166313231,
+          "contribution": 0.5985018739248721,
           "value": 0.8888888888888888
         },
         {
-          "feature": "age_scaled",
-          "contribution": 0.55975164065128,
-          "value": 0.002166666666666668
-        },
-        {
           "feature": "tov_per_40",
-          "contribution": 0.3189501899593909,
+          "contribution": 0.1892182368129416,
           "value": 1.7193208682570384
         }
       ],
       "negativeFactors": [
         {
-          "feature": "ts_pct",
-          "contribution": -0.24886552229813508,
-          "value": 0.556429856115108
-        },
-        {
           "feature": "dreb_per_40",
-          "contribution": -0.21013254377924437,
+          "contribution": -0.2880200978216468,
           "value": 3.739522888459059
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.17702502746619664,
-          "value": 0.5581395348837209
+          "feature": "versatility_score",
+          "contribution": -0.2483308482915163,
+          "value": 53.42019027484143
+        },
+        {
+          "feature": "ts_pct",
+          "contribution": -0.18337886316739782,
+          "value": 0.556429856115108
         }
       ]
     },
-    "rank": 23
+    "rank": 26
   },
   {
     "id": "dame-sarr",
@@ -1540,180 +2102,142 @@
       "rimPct": 0.4347826086956521,
       "assistToTurnover": 1.05
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -0.5179567933082581,
+      "nbaImpact": -0.6132447719573975,
       "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
-          "feature": "international",
-          "contribution": 0.41437792884689584,
-          "value": 1.0
-        },
-        {
           "feature": "age_scaled",
-          "contribution": 0.3519221265813364,
-          "value": 0.0028333333333333322
+          "contribution": 0.4288321201723991,
+          "value": 0.0002833333333333332
         },
         {
           "feature": "stl_per_40",
-          "contribution": 0.2683897871851959,
+          "contribution": 0.27133281713313595,
           "value": 1.6573348264277716
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.20469818622995245,
+          "value": 1.7917133258678613
         }
       ],
       "negativeFactors": [
         {
           "feature": "ft_pct",
-          "contribution": -0.4560072375544613,
+          "contribution": -0.2464924014829175,
           "value": 0.532258064516129
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.2920729884502421,
-          "value": 0.4347826086956521
+          "feature": "defensive_composite",
+          "contribution": -0.1530313487544808,
+          "value": 1.4157894736842105
         },
         {
-          "feature": "ts_pct",
-          "contribution": -0.16701921937055886,
-          "value": 0.5640835953393749
+          "feature": "rim_pct",
+          "contribution": -0.15236438997089863,
+          "value": 0.4347826086956521
         }
       ]
     },
-    "rank": 24
+    "rank": 27
   },
   {
-    "id": "ebuka-okorie",
-    "name": "Ebuka Okorie",
-    "position": "Guard",
-    "height": 74.0,
-    "age": 19.3,
+    "id": "zuby-ejiofor",
+    "name": "Zuby Ejiofor",
+    "position": "Big",
+    "height": 81.0,
+    "age": 21.8,
     "international": false,
     "stats": {
-      "points": 719.0,
-      "assists": 111.0,
-      "rebounds": 113.0,
-      "steals": 49.0,
-      "blocks": 10.0,
-      "gamesPlayed": 31,
-      "minutesPerGame": 35.1
+      "points": 604.0,
+      "assists": 131.0,
+      "rebounds": 271.0,
+      "steals": 43.0,
+      "blocks": 79.0,
+      "gamesPlayed": 37,
+      "minutesPerGame": 30.0
     },
     "metrics": {
-      "trueShooting": 0.6047708767916021,
-      "freeThrowPct": 0.831858407079646,
-      "threePointPct": 0.3539325842696629,
-      "rimPct": 0.5474137931034483,
-      "assistToTurnover": 1.913793103448276
+      "trueShooting": 0.6696824552066702,
+      "freeThrowPct": 0.7181467181467182,
+      "threePointPct": 0.3050847457627119,
+      "rimPct": 0.5909090909090909,
+      "assistToTurnover": 1.6794871794871795
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 86.0,
+      "weight": 245.2,
+      "verticalMax": 38.0,
+      "standingReach": 107.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.25,
+      "handWidth": 9.75,
+      "wingspanToHeight": 1.0817610062893082,
+      "bodyMassIndex": 27.273541394723303,
+      "reachAdvantage": 27.5
     },
     "prediction": {
-      "nbaImpact": -0.5288491249084473,
+      "nbaImpact": -0.6670333743095398,
       "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
-          "feature": "age_scaled",
-          "contribution": 0.6221296115218881,
-          "value": 0.002166666666666668
+          "feature": "defensive_composite",
+          "contribution": 0.3486198285233457,
+          "value": 3.7243243243243245
+        },
+        {
+          "feature": "oreb_per_40",
+          "contribution": 0.24312787396329627,
+          "value": 4.4324324324324325
         },
         {
           "feature": "stl_per_40",
-          "contribution": 0.24051147684625976,
-          "value": 1.8013050271114786
+          "contribution": 0.1524684654966909,
+          "value": 1.5495495495495495
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.8123367599363686,
+          "value": 0.0006333333333333334
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": -0.1310798449973975,
+          "value": 2.810810810810811
         },
         {
           "feature": "ft_pct",
-          "contribution": 0.17160811434542683,
-          "value": 0.831858407079646
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "rim_pct",
-          "contribution": -0.3732076907715741,
-          "value": 0.5474137931034483
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": -0.2870655410272088,
-          "value": 3.3085194375516953
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.15912664533184118,
-          "value": 0.8455105229298777
+          "contribution": -0.0846253667996094,
+          "value": 0.7181467181467182
         }
       ]
     },
-    "rank": 25
-  },
-  {
-    "id": "morez-johnson-jr.",
-    "name": "Morez Johnson Jr.",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 20.0,
-    "international": false,
-    "stats": {
-      "points": 524.0,
-      "assists": 48.0,
-      "rebounds": 293.0,
-      "steals": 27.0,
-      "blocks": 44.0,
-      "gamesPlayed": 40,
-      "minutesPerGame": 25.1
-    },
-    "metrics": {
-      "trueShooting": 0.7972249269717624,
-      "freeThrowPct": 0.782051282051282,
-      "threePointPct": 0.3428571428571428,
-      "rimPct": 0.6627906976744186,
-      "assistToTurnover": 0.9056603773584906
-    },
-    "prediction": {
-      "nbaImpact": -0.5822932124137878,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "dreb_per_40",
-          "contribution": 0.20203603366366113,
-          "value": 7.6892430278884465
-        },
-        {
-          "feature": "rim_pct",
-          "contribution": 0.18647953741993678,
-          "value": 0.6627906976744186
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": 0.1683312674689734,
-          "value": 3.9840637450199203
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ast_to_tov",
-          "contribution": -0.19249277177613647,
-          "value": 0.9056603773584906
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.17940635198005,
-          "value": 1.0756972111553784
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.13479119596518196,
-          "value": 52.21731805929918
-        }
-      ]
-    },
-    "rank": 26
+    "rank": 28
   },
   {
     "id": "nate-ament",
@@ -1738,8 +2262,22 @@
       "rimPct": 0.4646464646464646,
       "assistToTurnover": 1.0379746835443038
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -0.5927950143814087,
+      "nbaImpact": -0.6872447729110718,
       "grade": "C",
       "confidence": "medium"
     },
@@ -1747,167 +2285,35 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.7928654357852718,
-          "value": 0.0018333333333333357
+          "contribution": 0.7194696705104137,
+          "value": 0.00018333333333333358
         },
         {
           "feature": "dreb_per_40",
-          "contribution": 0.12768596810245963,
+          "contribution": 0.1302879229473064,
           "value": 6.1952861952861955
         },
         {
-          "feature": "rebounding_composite",
-          "contribution": 0.06847827093514176,
-          "value": 5.801393728222997
+          "feature": "height",
+          "contribution": 0.06977917394619815,
+          "value": 1.6071688037804779
         }
       ],
       "negativeFactors": [
         {
           "feature": "ts_pct",
-          "contribution": -0.1969336059291334,
+          "contribution": -0.25731387725860183,
           "value": 0.5581893255849518
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.17704448933779662,
-          "value": 0.4646464646464646
+          "feature": "defensive_composite",
+          "contribution": -0.15848056781485828,
+          "value": 1.7257142857142858
         },
         {
           "feature": "versatility_score",
-          "contribution": -0.1423843513570764,
+          "contribution": -0.15603126937105338,
           "value": 51.713080168776365
-        }
-      ]
-    },
-    "rank": 27
-  },
-  {
-    "id": "neoklis-avdalas",
-    "name": "Neoklis Avdalas",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 19.9,
-    "international": true,
-    "stats": {
-      "points": 375.0,
-      "assists": 142.0,
-      "rebounds": 96.0,
-      "steals": 18.0,
-      "blocks": 17.0,
-      "gamesPlayed": 31,
-      "minutesPerGame": 31.7
-    },
-    "metrics": {
-      "trueShooting": 0.5061548428895367,
-      "freeThrowPct": 0.6732673267326733,
-      "threePointPct": 0.3141025641025641,
-      "rimPct": 0.6363636363636364,
-      "assistToTurnover": 2.0579710144927534
-    },
-    "prediction": {
-      "nbaImpact": -0.6013681292533875,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "international",
-          "contribution": 0.5986433937071766,
-          "value": 1.0
-        },
-        {
-          "feature": "rim_pct",
-          "contribution": 0.27682722571343943,
-          "value": 0.6363636363636364
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": 0.16394530547003508,
-          "value": 2.0579710144927534
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ts_pct",
-          "contribution": -0.252219532690087,
-          "value": 0.5061548428895367
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": -0.2458757569191369,
-          "value": 0.6732673267326733
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": -0.24013585007359864,
-          "value": 3.7854889589905367
-        }
-      ]
-    },
-    "rank": 28
-  },
-  {
-    "id": "motiejus-krivas",
-    "name": "Motiejus Krivas",
-    "position": "Big",
-    "height": 86.0,
-    "age": 21.2,
-    "international": true,
-    "stats": {
-      "points": 407.0,
-      "assists": 43.0,
-      "rebounds": 318.0,
-      "steals": 28.0,
-      "blocks": 73.0,
-      "gamesPlayed": 39,
-      "minutesPerGame": 25.4
-    },
-    "metrics": {
-      "trueShooting": 0.7167511975204283,
-      "freeThrowPct": 0.7797619047619048,
-      "threePointPct": 0.3076923076923077,
-      "rimPct": 0.5274725274725275,
-      "assistToTurnover": 0.8113207547169812
-    },
-    "prediction": {
-      "nbaImpact": -0.6426202058792114,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "oreb_per_40",
-          "contribution": 0.33582466245600384,
-          "value": 4.845548152634767
-        },
-        {
-          "feature": "international",
-          "contribution": 0.30948440610652084,
-          "value": 1.0
-        },
-        {
-          "feature": "height",
-          "contribution": 0.2093659956435844,
-          "value": 86.0
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": -0.7713260358604555,
-          "value": 0.005333333333333332
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.20743240794280962,
-          "value": 1.1306279022814456
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.17430790966466944,
-          "value": 51.83115626511853
         }
       ]
     },
@@ -1936,8 +2342,22 @@
       "rimPct": 0.5978260869565217,
       "assistToTurnover": 1.3440860215053765
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 82.0,
+      "weight": 211.2,
+      "verticalMax": 36.5,
+      "standingReach": 104.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.0,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.0445859872611465,
+      "bodyMassIndex": 24.094056554018415,
+      "reachAdvantage": 26.0
+    },
     "prediction": {
-      "nbaImpact": -0.6515781879425049,
+      "nbaImpact": -0.7607734203338623,
       "grade": "C",
       "confidence": "medium"
     },
@@ -1945,105 +2365,39 @@
       "positiveFactors": [
         {
           "feature": "stl_per_40",
-          "contribution": 0.3168916917436908,
+          "contribution": 0.2880995010538977,
           "value": 1.9860627177700347
         },
         {
-          "feature": "ft_pct",
-          "contribution": 0.15499301242157437,
-          "value": 0.8131313131313131
-        },
-        {
           "feature": "dreb_per_40",
-          "contribution": 0.11821461629421849,
+          "contribution": 0.14591026931468928,
           "value": 7.10801393728223
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "versatility_score",
-          "contribution": -0.18622481834846644,
-          "value": 57.93775462499165
         },
         {
-          "feature": "tov_per_40",
-          "contribution": -0.09849740423699271,
-          "value": 3.240418118466899
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": -0.0869141957765369,
-          "value": 1.3440860215053765
-        }
-      ]
-    },
-    "rank": 30
-  },
-  {
-    "id": "henri-veesaar",
-    "name": "Henri Veesaar",
-    "position": "Big",
-    "height": 84.0,
-    "age": 21.8,
-    "international": true,
-    "stats": {
-      "points": 528.0,
-      "assists": 64.0,
-      "rebounds": 270.0,
-      "steals": 18.0,
-      "blocks": 37.0,
-      "gamesPlayed": 31,
-      "minutesPerGame": 31.4
-    },
-    "metrics": {
-      "trueShooting": 0.8037018996590355,
-      "freeThrowPct": 0.6153846153846154,
-      "threePointPct": 0.425531914893617,
-      "rimPct": 0.6597938144329897,
-      "assistToTurnover": 1.2307692307692308
-    },
-    "prediction": {
-      "nbaImpact": -0.7358167767524719,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "international",
-          "contribution": 0.3415189033940824,
-          "value": 1.0
-        },
-        {
-          "feature": "ts_pct",
-          "contribution": 0.25020793525440316,
-          "value": 0.8037018996590355
-        },
-        {
-          "feature": "height",
-          "contribution": 0.21848658915628127,
-          "value": 84.0
+          "feature": "playmaking_composite",
+          "contribution": 0.10241758424731694,
+          "value": 0.8354623857590261
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8727239864636023,
-          "value": 0.006333333333333335
+          "contribution": -0.20712229434153712,
+          "value": 0.0004166666666666667
         },
         {
-          "feature": "ft_pct",
-          "contribution": -0.22660539043848688,
-          "value": 0.6153846153846154
+          "feature": "versatility_score",
+          "contribution": -0.182195292084896,
+          "value": 57.93775462499165
         },
         {
-          "feature": "three_pt_pct",
-          "contribution": -0.16976927044772905,
-          "value": 0.425531914893617
+          "feature": "tov_per_40",
+          "contribution": -0.12583837397093647,
+          "value": 3.240418118466899
         }
       ]
     },
-    "rank": 31
+    "rank": 30
   },
   {
     "id": "pryce-sandfort",
@@ -2068,8 +2422,22 @@
       "rimPct": 0.7303370786516854,
       "assistToTurnover": 2.9166666666666665
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -0.7809599041938782,
+      "nbaImpact": -0.8349852561950684,
       "grade": "C",
       "confidence": "medium"
     },
@@ -2077,39 +2445,39 @@
       "positiveFactors": [
         {
           "feature": "versatility_score",
-          "contribution": 0.4272222767111237,
+          "contribution": 0.28182447361474744,
           "value": 77.20814132104455
         },
         {
           "feature": "tov_per_40",
-          "contribution": 0.2934326394864985,
+          "contribution": 0.273894900293624,
           "value": 1.0811603654567417
         },
         {
-          "feature": "playmaking_composite",
-          "contribution": 0.17623382176709723,
-          "value": 1.1864406779661016
+          "feature": "ft_pct",
+          "contribution": 0.14757080876496526,
+          "value": 0.8554216867469879
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8273838796469916,
-          "value": 0.006000000000000003
+          "contribution": -0.5940833304318532,
+          "value": 0.0006000000000000003
+        },
+        {
+          "feature": "rim_pct",
+          "contribution": -0.18534878105381314,
+          "value": 0.7303370786516854
         },
         {
           "feature": "oreb_per_40",
-          "contribution": -0.17892907873480296,
+          "contribution": -0.12283389439464223,
           "value": 0.7482993197278912
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.16188451632315634,
-          "value": 1.2244897959183674
         }
       ]
     },
-    "rank": 32
+    "rank": 31
   },
   {
     "id": "labaron-philon",
@@ -2134,180 +2502,62 @@
       "rimPct": 0.6467065868263473,
       "assistToTurnover": 1.9642857142857144
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.25,
+      "weight": 176.2,
+      "verticalMax": 35.0,
+      "standingReach": 99.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.0,
+      "wingspanToHeight": 1.0503355704697988,
+      "bodyMassIndex": 22.317661366605105,
+      "reachAdvantage": 25.0
+    },
     "prediction": {
-      "nbaImpact": -0.8003872632980347,
+      "nbaImpact": -0.8704034090042114,
       "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
+          "feature": "pts_per_40",
+          "contribution": 0.23915737349425956,
+          "value": 28.439737177601256
+        },
+        {
           "feature": "rim_pct",
-          "contribution": 0.24939119913947902,
+          "contribution": 0.19594301352733556,
           "value": 0.6467065868263473
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.18324871428372644,
-          "value": 1.9642857142857144
-        },
-        {
           "feature": "versatility_score",
-          "contribution": 0.1277959303792604,
+          "contribution": 0.11544071542745342,
           "value": 66.21100164203612
         }
       ],
       "negativeFactors": [
         {
-          "feature": "blks_per_40",
-          "contribution": -0.18981413446201667,
-          "value": 0.23536334215945867
+          "feature": "age_scaled",
+          "contribution": -0.18356679788343988,
+          "value": 0.00036666666666666656
         },
         {
           "feature": "defensive_composite",
-          "contribution": -0.1707908307031101,
+          "contribution": -0.14567888990918898,
           "value": 1.3696969696969699
         },
         {
-          "feature": "stl_per_40",
-          "contribution": -0.1632593030535274,
-          "value": 1.4906345003432384
-        }
-      ]
-    },
-    "rank": 33
-  },
-  {
-    "id": "jayden-quaintance",
-    "name": "Jayden Quaintance",
-    "position": "Big",
-    "height": 83.0,
-    "age": 18.5,
-    "international": false,
-    "stats": {
-      "points": 20.0,
-      "assists": 2.0,
-      "rebounds": 20.0,
-      "steals": 2.0,
-      "blocks": 3.0,
-      "gamesPlayed": 4,
-      "minutesPerGame": 16.8
-    },
-    "metrics": {
-      "trueShooting": 0.5980861244019139,
-      "freeThrowPct": 0.3076923076923077,
-      "threePointPct": 0.0,
-      "rimPct": 0.625,
-      "assistToTurnover": 0.3333333333333333
-    },
-    "prediction": {
-      "nbaImpact": -0.810003936290741,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.699732632988028,
-          "value": 0.0008333333333333334
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": 0.24485113962829036,
-          "value": 4.761904761904762
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": 0.1283314641854935,
-          "value": 7.142857142857142
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ast_to_tov",
-          "contribution": -0.4963300760528928,
-          "value": 0.3333333333333333
-        },
-        {
-          "feature": "playmaking_composite",
-          "contribution": -0.2655205429360575,
-          "value": 0.2
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.19997635711820758,
-          "value": 1.1904761904761905
-        }
-      ]
-    },
-    "rank": 34
-  },
-  {
-    "id": "zuby-ejiofor",
-    "name": "Zuby Ejiofor",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 21.8,
-    "international": false,
-    "stats": {
-      "points": 604.0,
-      "assists": 131.0,
-      "rebounds": 271.0,
-      "steals": 43.0,
-      "blocks": 79.0,
-      "gamesPlayed": 37,
-      "minutesPerGame": 30.0
-    },
-    "metrics": {
-      "trueShooting": 0.6696824552066702,
-      "freeThrowPct": 0.7181467181467182,
-      "threePointPct": 0.3050847457627119,
-      "rimPct": 0.5909090909090909,
-      "assistToTurnover": 1.6794871794871795
-    },
-    "prediction": {
-      "nbaImpact": -0.8528370261192322,
-      "grade": "C",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "defensive_composite",
-          "contribution": 0.34793584170390146,
-          "value": 3.7243243243243245
-        },
-        {
-          "feature": "ast_to_tov",
-          "contribution": 0.2205915770479193,
-          "value": 1.6794871794871795
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": 0.2199534353020848,
-          "value": 4.4324324324324325
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": -1.0214862544897336,
-          "value": 0.006333333333333335
-        },
-        {
           "feature": "tov_per_40",
-          "contribution": -0.13024834771783148,
-          "value": 2.810810810810811
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": -0.09666502003306143,
-          "value": 0.7181467181467182
+          "contribution": -0.14254347726551825,
+          "value": 3.2950867902324217
         }
       ]
     },
-    "rank": 35
+    "rank": 32
   },
   {
     "id": "alex-karaban",
@@ -2332,44 +2582,298 @@
       "rimPct": 0.5985401459854015,
       "assistToTurnover": 2.186046511627907
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 83.0,
+      "weight": 225.2,
+      "verticalMax": 33.0,
+      "standingReach": 104.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.053968253968254,
+      "bodyMassIndex": 25.528340639959687,
+      "reachAdvantage": 25.75
+    },
     "prediction": {
-      "nbaImpact": -1.0734717845916748,
-      "grade": "C-",
+      "nbaImpact": -0.9036770462989807,
+      "grade": "C",
       "confidence": "medium"
     },
     "explanation": {
       "positiveFactors": [
         {
           "feature": "tov_per_40",
-          "contribution": 0.20086002582921741,
+          "contribution": 0.26656772206657403,
           "value": 1.2573099415204678
         },
         {
-          "feature": "ft_pct",
-          "contribution": 0.14299679915919633,
-          "value": 0.8505747126436781
+          "feature": "versatility_score",
+          "contribution": 0.19880925072832223,
+          "value": 67.4891058929781
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.11441678030663455,
-          "value": 2.186046511627907
+          "feature": "ft_pct",
+          "contribution": 0.12888535212877453,
+          "value": 0.8505747126436781
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8919515684128225,
-          "value": 0.008666666666666666
+          "contribution": -0.924298092974136,
+          "value": 0.0008666666666666665
         },
         {
           "feature": "stl_per_40",
-          "contribution": -0.15932458594479426,
+          "contribution": -0.15535796267854773,
           "value": 0.9649122807017544
         },
         {
-          "feature": "international",
-          "contribution": -0.09553790591391069,
-          "value": 0.0
+          "feature": "defensive_composite",
+          "contribution": -0.10202962354927951,
+          "value": 1.815
+        }
+      ]
+    },
+    "rank": 33
+  },
+  {
+    "id": "morez-johnson-jr",
+    "name": "Morez Johnson Jr.",
+    "position": "Wing",
+    "height": 81.0,
+    "age": 20.0,
+    "international": false,
+    "stats": {
+      "points": 524.0,
+      "assists": 48.0,
+      "rebounds": 293.0,
+      "steals": 27.0,
+      "blocks": 44.0,
+      "gamesPlayed": 40,
+      "minutesPerGame": 25.1
+    },
+    "metrics": {
+      "trueShooting": 0.7972249269717624,
+      "freeThrowPct": 0.782051282051282,
+      "threePointPct": 0.3428571428571428,
+      "rimPct": 0.6627906976744186,
+      "assistToTurnover": 0.9056603773584906
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 87.5,
+      "weight": 250.6,
+      "verticalMax": 39.0,
+      "standingReach": 107.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.5,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.0802469135802468,
+      "bodyMassIndex": 26.85136412132297,
+      "reachAdvantage": 26.0
+    },
+    "prediction": {
+      "nbaImpact": -0.9422978758811951,
+      "grade": "C",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "oreb_per_40",
+          "contribution": 0.34138124684651133,
+          "value": 3.9840637450199203
+        },
+        {
+          "feature": "ts_pct",
+          "contribution": 0.16688695874027148,
+          "value": 0.7972249269717624
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.15147567035782397,
+          "value": 7.6892430278884465
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.26008128611446946,
+          "value": -0.6247902824162326
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.22251255849699433,
+          "value": 1.9123505976095618
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.17185666639243766,
+          "value": 1.0756972111553784
+        }
+      ]
+    },
+    "rank": 34
+  },
+  {
+    "id": "motiejus-krivas",
+    "name": "Motiejus Krivas",
+    "position": "Big",
+    "height": 86.0,
+    "age": 21.2,
+    "international": true,
+    "stats": {
+      "points": 407.0,
+      "assists": 43.0,
+      "rebounds": 318.0,
+      "steals": 28.0,
+      "blocks": 73.0,
+      "gamesPlayed": 39,
+      "minutesPerGame": 25.4
+    },
+    "metrics": {
+      "trueShooting": 0.7167511975204283,
+      "freeThrowPct": 0.7797619047619048,
+      "threePointPct": 0.3076923076923077,
+      "rimPct": 0.5274725274725275,
+      "assistToTurnover": 0.8113207547169812
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -0.9504661560058594,
+      "grade": "C",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "oreb_per_40",
+          "contribution": 0.3248899705584484,
+          "value": 4.845548152634767
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.2948553541019483,
+          "value": 2.964102564102564
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.14021277971261617,
+          "value": 7.995154451847366
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.7445196057099621,
+          "value": 0.0005333333333333333
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.18159871572647623,
+          "value": 1.7363214213607916
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.1382372982880785,
+          "value": 51.83115626511853
+        }
+      ]
+    },
+    "rank": 35
+  },
+  {
+    "id": "henri-veesaar",
+    "name": "Henri Veesaar",
+    "position": "Big",
+    "height": 84.0,
+    "age": 21.8,
+    "international": true,
+    "stats": {
+      "points": 528.0,
+      "assists": 64.0,
+      "rebounds": 270.0,
+      "steals": 18.0,
+      "blocks": 37.0,
+      "gamesPlayed": 31,
+      "minutesPerGame": 31.4
+    },
+    "metrics": {
+      "trueShooting": 0.8037018996590355,
+      "freeThrowPct": 0.6153846153846154,
+      "threePointPct": 0.425531914893617,
+      "rimPct": 0.6597938144329897,
+      "assistToTurnover": 1.2307692307692308
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 86.0,
+      "weight": 227.2,
+      "verticalMax": 32.5,
+      "standingReach": 111.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.75,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.033033033033033,
+      "bodyMassIndex": 23.04597931264598,
+      "reachAdvantage": 27.75
+    },
+    "prediction": {
+      "nbaImpact": -1.0264232158660889,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "ts_pct",
+          "contribution": 0.2824476379521039,
+          "value": 0.8037018996590355
+        },
+        {
+          "feature": "rim_pct",
+          "contribution": 0.14513549664799047,
+          "value": 0.6597938144329897
+        },
+        {
+          "feature": "playmaking_composite",
+          "contribution": 0.1331393669587465,
+          "value": 1.2157088470972979
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.8546330833579509,
+          "value": 0.0006333333333333334
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": -0.19404038090772013,
+          "value": 0.6153846153846154
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.1694147710626641,
+          "value": 0.7396753647010479
         }
       ]
     },
@@ -2398,8 +2902,22 @@
       "rimPct": 0.5714285714285714,
       "assistToTurnover": 1.8764044943820224
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 82.75,
+      "weight": 246.2,
+      "verticalMax": 33.0,
+      "standingReach": 104.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 9.0,
+      "handWidth": 10.0,
+      "wingspanToHeight": 1.037617554858934,
+      "bodyMassIndex": 27.213348925423293,
+      "reachAdvantage": 24.75
+    },
     "prediction": {
-      "nbaImpact": -1.182659387588501,
+      "nbaImpact": -1.0612236261367798,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -2407,35 +2925,35 @@
       "positiveFactors": [
         {
           "feature": "defensive_composite",
-          "contribution": 0.28648016736272497,
+          "contribution": 0.26111316913738847,
           "value": 2.6228571428571428
         },
         {
           "feature": "stl_per_40",
-          "contribution": 0.2280387871777544,
+          "contribution": 0.24067998808637567,
           "value": 2.1081830790568654
         },
         {
-          "feature": "ast_to_tov",
-          "contribution": 0.1117948262752699,
-          "value": 1.8764044943820224
+          "feature": "dreb_per_40",
+          "contribution": 0.12442770887318315,
+          "value": 7.175219602404068
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -1.1158867937284618,
-          "value": 0.006999999999999998
+          "contribution": -0.858713707715577,
+          "value": 0.0006999999999999999
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": -0.13937818563106108,
+          "value": 3.2917244567730006
         },
         {
           "feature": "ft_pct",
-          "contribution": -0.15287173560663717,
+          "contribution": -0.13603419804831549,
           "value": 0.6995305164319249
-        },
-        {
-          "feature": "ts_pct",
-          "contribution": -0.13618173498223174,
-          "value": 0.5882714028482566
         }
       ]
     },
@@ -2464,8 +2982,22 @@
       "rimPct": 0.6888888888888889,
       "assistToTurnover": 1.2682926829268293
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 80.75,
+      "weight": 204.8,
+      "verticalMax": null,
+      "standingReach": 102.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 10.25,
+      "wingspanToHeight": 1.0487012987012987,
+      "bodyMassIndex": 24.283083150615617,
+      "reachAdvantage": 25.5
+    },
     "prediction": {
-      "nbaImpact": -1.2198638916015625,
+      "nbaImpact": -1.085508942604065,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -2473,303 +3005,39 @@
       "positiveFactors": [
         {
           "feature": "stl_per_40",
-          "contribution": 0.19784966902094608,
+          "contribution": 0.2531118876851943,
           "value": 2.198083067092652
         },
         {
-          "feature": "rim_pct",
-          "contribution": 0.18680837083303806,
-          "value": 0.6888888888888889
+          "feature": "versatility_score",
+          "contribution": 0.17398833170799272,
+          "value": 60.3299856527977
         },
         {
-          "feature": "scoring_volume_efficiency",
-          "contribution": 0.11753147357732666,
-          "value": 1.097537037283022
+          "feature": "rim_pct",
+          "contribution": 0.15011751102473664,
+          "value": 0.6888888888888889
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -1.0862118813395738,
-          "value": 0.0105
+          "contribution": -0.9569959766516576,
+          "value": 0.0010500000000000002
         },
         {
           "feature": "tov_per_40",
-          "contribution": -0.09842996628318286,
+          "contribution": -0.11608798863937632,
           "value": 2.0958466453674123
         },
         {
-          "feature": "international",
-          "contribution": -0.07478610552521897,
-          "value": 0.0
+          "feature": "defensive_composite",
+          "contribution": -0.06399870594982437,
+          "value": 2.056
         }
       ]
     },
     "rank": 38
-  },
-  {
-    "id": "darius-acuff-jr.",
-    "name": "Darius Acuff Jr.",
-    "position": "Guard",
-    "height": 75.0,
-    "age": 19.3,
-    "international": false,
-    "stats": {
-      "points": 845.0,
-      "assists": 232.0,
-      "rebounds": 111.0,
-      "steals": 30.0,
-      "blocks": 11.0,
-      "gamesPlayed": 36,
-      "minutesPerGame": 35.1
-    },
-    "metrics": {
-      "trueShooting": 0.6196831915517748,
-      "freeThrowPct": 0.8090909090909091,
-      "threePointPct": 0.4396135265700483,
-      "rimPct": 0.5920398009950248,
-      "assistToTurnover": 2.9743589743589745
-    },
-    "prediction": {
-      "nbaImpact": -1.2776483297348022,
-      "grade": "C-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": 0.71921985303717,
-          "value": 0.002166666666666668
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": 0.26642288218432925,
-          "value": 79.39938684503902
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": 0.1675148308535501,
-          "value": 0.8090909090909091
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "dreb_per_40",
-          "contribution": -0.8153117771013355,
-          "value": 2.9756251978474197
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.26678027281518646,
-          "value": 0.538144982589427
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.23098881999078225,
-          "value": 1.2000000000000002
-        }
-      ]
-    },
-    "rank": 39
-  },
-  {
-    "id": "thomas-haugh",
-    "name": "Thomas Haugh",
-    "position": "Wing",
-    "height": 81.0,
-    "age": 22.5,
-    "international": false,
-    "stats": {
-      "points": 580.0,
-      "assists": 73.0,
-      "rebounds": 209.0,
-      "steals": 36.0,
-      "blocks": 33.0,
-      "gamesPlayed": 34,
-      "minutesPerGame": 33.3
-    },
-    "metrics": {
-      "trueShooting": 0.6567623878974544,
-      "freeThrowPct": 0.7738693467336684,
-      "threePointPct": 0.3258426966292135,
-      "rimPct": 0.5220588235294118,
-      "assistToTurnover": 1.431372549019608
-    },
-    "prediction": {
-      "nbaImpact": -1.284791350364685,
-      "grade": "C-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "tov_per_40",
-          "contribution": 0.28793044727086564,
-          "value": 1.801801801801802
-        },
-        {
-          "feature": "sos",
-          "contribution": 0.2620957861511911,
-          "value": 8.8
-        },
-        {
-          "feature": "defensive_composite",
-          "contribution": 0.06649343657535406,
-          "value": 2.2235294117647055
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": -1.0505612840001681,
-          "value": 0.0075
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.24525184219950164,
-          "value": 57.04505397664685
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.16542777474446946,
-          "value": 1.2718600953895074
-        }
-      ]
-    },
-    "rank": 40
-  },
-  {
-    "id": "isaiah-evans",
-    "name": "Isaiah Evans",
-    "position": "Wing",
-    "height": 78.0,
-    "age": 20.1,
-    "international": false,
-    "stats": {
-      "points": 571.0,
-      "assists": 48.0,
-      "rebounds": 122.0,
-      "steals": 27.0,
-      "blocks": 25.0,
-      "gamesPlayed": 38,
-      "minutesPerGame": 28.2
-    },
-    "metrics": {
-      "trueShooting": 0.6258768853034022,
-      "freeThrowPct": 0.8596491228070176,
-      "threePointPct": 0.3607142857142857,
-      "rimPct": 0.6060606060606061,
-      "assistToTurnover": 1.1162790697674418
-    },
-    "prediction": {
-      "nbaImpact": -1.29621422290802,
-      "grade": "C-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "ft_pct",
-          "contribution": 0.22034705062373067,
-          "value": 0.8596491228070176
-        },
-        {
-          "feature": "tov_per_40",
-          "contribution": 0.20901505034702011,
-          "value": 1.6050765210899591
-        },
-        {
-          "feature": "team_strength",
-          "contribution": 0.14348544078232833,
-          "value": 22.6
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "ast_per_40",
-          "contribution": -0.22944638577327892,
-          "value": 1.7917133258678613
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.21831302955385526,
-          "value": 0.5599104143337067
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.207239642618129,
-          "value": 1.007838745800672
-        }
-      ]
-    },
-    "rank": 41
-  },
-  {
-    "id": "juke-harris",
-    "name": "Juke Harris",
-    "position": "Wing",
-    "height": 79.0,
-    "age": 20.3,
-    "international": false,
-    "stats": {
-      "points": 750.0,
-      "assists": 68.0,
-      "rebounds": 229.0,
-      "steals": 44.0,
-      "blocks": 7.0,
-      "gamesPlayed": 35,
-      "minutesPerGame": 35.1
-    },
-    "metrics": {
-      "trueShooting": 0.6042928967384299,
-      "freeThrowPct": 0.7831325301204819,
-      "threePointPct": 0.3320610687022901,
-      "rimPct": 0.5882352941176471,
-      "assistToTurnover": 1.1724137931034482
-    },
-    "prediction": {
-      "nbaImpact": -1.3290032148361206,
-      "grade": "C-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "tov_per_40",
-          "contribution": 0.16808902272213327,
-          "value": 1.8884818884818886
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": 0.1545034586713288,
-          "value": 6.023606023606024
-        },
-        {
-          "feature": "three_pt_pct",
-          "contribution": 0.04878315042552291,
-          "value": 0.3320610687022901
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "defensive_composite",
-          "contribution": -0.1987069550930161,
-          "value": 1.497142857142857
-        },
-        {
-          "feature": "stl_per_40",
-          "contribution": -0.19683018512192316,
-          "value": 1.4326414326414327
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.1606809019671791,
-          "value": 52.215959086977776
-        }
-      ]
-    },
-    "rank": 42
   },
   {
     "id": "bennett-stirtz",
@@ -2794,8 +3062,22 @@
       "rimPct": 0.6850393700787402,
       "assistToTurnover": 2.3970588235294117
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 78.0,
+      "weight": 186.2,
+      "verticalMax": 37.5,
+      "standingReach": 98.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.75,
+      "wingspanToHeight": 1.046979865771812,
+      "bodyMassIndex": 23.58427097878474,
+      "reachAdvantage": 24.0
+    },
     "prediction": {
-      "nbaImpact": -1.4412168264389038,
+      "nbaImpact": -1.0950038433074951,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -2803,35 +3085,355 @@
       "positiveFactors": [
         {
           "feature": "versatility_score",
-          "contribution": 0.33246914253151993,
+          "contribution": 0.29522046961878634,
           "value": 67.87636171305202
         },
         {
           "feature": "rim_pct",
-          "contribution": 0.23569218416422683,
+          "contribution": 0.15710431881895176,
           "value": 0.6850393700787402
         },
         {
           "feature": "ft_pct",
-          "contribution": 0.19095553455004774,
+          "contribution": 0.15357382167415806,
           "value": 0.8484848484848485
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8490025874575343,
-          "value": 0.0071666666666666675
+          "contribution": -0.7537603406140543,
+          "value": 0.0007166666666666668
         },
         {
           "feature": "dreb_per_40",
-          "contribution": -0.7066036652136898,
+          "contribution": -0.5066778923204283,
           "value": 2.6625659619929425
         },
         {
-          "feature": "oreb_per_40",
-          "contribution": -0.19447262495832177,
-          "value": 0.2867589074485626
+          "feature": "defensive_composite",
+          "contribution": -0.09711388711893588,
+          "value": 1.67027027027027
+        }
+      ]
+    },
+    "rank": 39
+  },
+  {
+    "id": "juke-harris",
+    "name": "Juke Harris",
+    "position": "Wing",
+    "height": 79.0,
+    "age": 20.3,
+    "international": false,
+    "stats": {
+      "points": 750.0,
+      "assists": 68.0,
+      "rebounds": 229.0,
+      "steals": 44.0,
+      "blocks": 7.0,
+      "gamesPlayed": 35,
+      "minutesPerGame": 35.1
+    },
+    "metrics": {
+      "trueShooting": 0.6042928967384299,
+      "freeThrowPct": 0.7831325301204819,
+      "threePointPct": 0.3320610687022901,
+      "rimPct": 0.5882352941176471,
+      "assistToTurnover": 1.1724137931034482
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -1.1836020946502686,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.11368441995119258,
+          "value": 6.023606023606024
+        },
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.057902159796533535,
+          "value": 1.8884818884818886
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": 0.042213961767146785,
+          "value": 2.214082214082214
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "versatility_score",
+          "contribution": -0.1496034316452486,
+          "value": 52.215959086977776
+        },
+        {
+          "feature": "age_scaled",
+          "contribution": -0.1383008832083445,
+          "value": 0.00038333333333333345
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": -0.1380171674512783,
+          "value": 1.497142857142857
+        }
+      ]
+    },
+    "rank": 40
+  },
+  {
+    "id": "thomas-haugh",
+    "name": "Thomas Haugh",
+    "position": "Wing",
+    "height": 81.0,
+    "age": 22.5,
+    "international": false,
+    "stats": {
+      "points": 580.0,
+      "assists": 73.0,
+      "rebounds": 209.0,
+      "steals": 36.0,
+      "blocks": 33.0,
+      "gamesPlayed": 34,
+      "minutesPerGame": 33.3
+    },
+    "metrics": {
+      "trueShooting": 0.6567623878974544,
+      "freeThrowPct": 0.7738693467336684,
+      "threePointPct": 0.3258426966292135,
+      "rimPct": 0.5220588235294118,
+      "assistToTurnover": 1.431372549019608
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -1.2720973491668701,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.20366500780860686,
+          "value": 1.801801801801802
+        },
+        {
+          "feature": "sos",
+          "contribution": 0.17032142206836415,
+          "value": 8.8
+        },
+        {
+          "feature": "height",
+          "contribution": 0.07469273974396745,
+          "value": 1.0005332160039793
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.8385730476156638,
+          "value": 0.00075
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.17347345933821812,
+          "value": 57.04505397664685
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.12445713582980845,
+          "value": 1.2718600953895074
+        }
+      ]
+    },
+    "rank": 41
+  },
+  {
+    "id": "isaiah-evans",
+    "name": "Isaiah Evans",
+    "position": "Wing",
+    "height": 78.0,
+    "age": 20.1,
+    "international": false,
+    "stats": {
+      "points": 571.0,
+      "assists": 48.0,
+      "rebounds": 122.0,
+      "steals": 27.0,
+      "blocks": 25.0,
+      "gamesPlayed": 38,
+      "minutesPerGame": 28.2
+    },
+    "metrics": {
+      "trueShooting": 0.6258768853034022,
+      "freeThrowPct": 0.8596491228070176,
+      "threePointPct": 0.3607142857142857,
+      "rimPct": 0.6060606060606061,
+      "assistToTurnover": 1.1162790697674418
+    },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 80.75,
+      "weight": 186.0,
+      "verticalMax": 35.5,
+      "standingReach": 104.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.0,
+      "wingspanToHeight": 1.0419354838709678,
+      "bodyMassIndex": 21.77032258064516,
+      "reachAdvantage": 27.0
+    },
+    "prediction": {
+      "nbaImpact": -1.3390069007873535,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "tov_per_40",
+          "contribution": 0.2477529915896059,
+          "value": 1.6050765210899591
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": 0.15922032336096223,
+          "value": 0.8596491228070176
+        },
+        {
+          "feature": "team_strength",
+          "contribution": 0.13588754764320898,
+          "value": 22.6
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.22301328356130695,
+          "value": -0.3822881060556391
+        },
+        {
+          "feature": "ast_per_40",
+          "contribution": -0.22159379878204924,
+          "value": 1.7917133258678613
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.17348472617224467,
+          "value": 1.007838745800672
+        }
+      ]
+    },
+    "rank": 42
+  },
+  {
+    "id": "neoklis-avdalas",
+    "name": "Neoklis Avdalas",
+    "position": "Wing",
+    "height": 81.0,
+    "age": 19.9,
+    "international": true,
+    "stats": {
+      "points": 375.0,
+      "assists": 142.0,
+      "rebounds": 96.0,
+      "steals": 18.0,
+      "blocks": 17.0,
+      "gamesPlayed": 31,
+      "minutesPerGame": 31.7
+    },
+    "metrics": {
+      "trueShooting": 0.5061548428895367,
+      "freeThrowPct": 0.6732673267326733,
+      "threePointPct": 0.3141025641025641,
+      "rimPct": 0.6363636363636364,
+      "assistToTurnover": 2.0579710144927534
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -1.4197152853012085,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "rim_pct",
+          "contribution": 0.19696278063276287,
+          "value": 0.6363636363636364
+        },
+        {
+          "feature": "playmaking_composite",
+          "contribution": 0.10544641259867622,
+          "value": 2.241812787956321
+        },
+        {
+          "feature": "ast_to_tov",
+          "contribution": 0.06823828494252294,
+          "value": 2.0579710144927534
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "ts_pct",
+          "contribution": -0.2467181480261592,
+          "value": 0.5061548428895367
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": -0.17089874375307437,
+          "value": 0.6732673267326733
+        },
+        {
+          "feature": "versatility_score",
+          "contribution": -0.16591358348271068,
+          "value": 57.635127845506524
         }
       ]
     },
@@ -2860,8 +3462,22 @@
       "rimPct": 0.6049382716049383,
       "assistToTurnover": 3.053097345132743
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 75.25,
+      "weight": 166.6,
+      "verticalMax": 38.5,
+      "standingReach": 93.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.25,
+      "handWidth": 8.25,
+      "wingspanToHeight": 1.0711743772241993,
+      "bodyMassIndex": 23.73218170995808,
+      "reachAdvantage": 23.25
+    },
     "prediction": {
-      "nbaImpact": -1.5566737651824951,
+      "nbaImpact": -1.481906533241272,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -2869,105 +3485,39 @@
       "positiveFactors": [
         {
           "feature": "versatility_score",
-          "contribution": 0.2358926075073529,
+          "contribution": 0.23188965339973874,
           "value": 76.1763450289024
         },
         {
           "feature": "stl_per_40",
-          "contribution": 0.17580011772937426,
+          "contribution": 0.16257638937546587,
           "value": 1.9620958751393534
         },
         {
-          "feature": "ft_pct",
-          "contribution": 0.11849447858534107,
-          "value": 0.825
+          "feature": "sos",
+          "contribution": 0.15328230567238466,
+          "value": 9.0
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.7142239603895827,
-          "value": 0.0075
+          "contribution": -0.7114328170350839,
+          "value": 0.00075
         },
         {
-          "feature": "blks_per_40",
-          "contribution": -0.2434998831461654,
-          "value": 0.23782980304719434
+          "feature": "dreb_per_40",
+          "contribution": -0.1930415870346205,
+          "value": 3.35934596804162
         },
         {
           "feature": "ts_pct",
-          "contribution": -0.24040185846744713,
+          "contribution": -0.1577930734968003,
           "value": 0.5561102236421726
         }
       ]
     },
     "rank": 44
-  },
-  {
-    "id": "alex-condon",
-    "name": "Alex Condon",
-    "position": "Big",
-    "height": 83.0,
-    "age": 21.5,
-    "international": true,
-    "stats": {
-      "points": 513.0,
-      "assists": 123.0,
-      "rebounds": 254.0,
-      "steals": 23.0,
-      "blocks": 48.0,
-      "gamesPlayed": 34,
-      "minutesPerGame": 30.5
-    },
-    "metrics": {
-      "trueShooting": 0.6870044996785943,
-      "freeThrowPct": 0.6494845360824743,
-      "threePointPct": 0.1698113207547169,
-      "rimPct": 0.5695364238410596,
-      "assistToTurnover": 1.4819277108433735
-    },
-    "prediction": {
-      "nbaImpact": -1.6054461002349854,
-      "grade": "C-",
-      "confidence": "medium"
-    },
-    "explanation": {
-      "positiveFactors": [
-        {
-          "feature": "international",
-          "contribution": 0.4282056323344087,
-          "value": 1.0
-        },
-        {
-          "feature": "height",
-          "contribution": 0.09610443005376325,
-          "value": 83.0
-        },
-        {
-          "feature": "dreb_per_40",
-          "contribution": 0.0885431999803939,
-          "value": 6.788813886210222
-        }
-      ],
-      "negativeFactors": [
-        {
-          "feature": "age_scaled",
-          "contribution": -0.9231879580647171,
-          "value": 0.005833333333333334
-        },
-        {
-          "feature": "ft_pct",
-          "contribution": -0.2905154786980236,
-          "value": 0.6494845360824743
-        },
-        {
-          "feature": "versatility_score",
-          "contribution": -0.20361703894295902,
-          "value": 42.24158565449366
-        }
-      ]
-    },
-    "rank": 45
   },
   {
     "id": "alijah-arenas",
@@ -2992,8 +3542,22 @@
       "rimPct": 0.4468085106382978,
       "assistToTurnover": 0.90625
     },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
     "prediction": {
-      "nbaImpact": -1.8445063829421997,
+      "nbaImpact": -1.7065373659133911,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -3001,35 +3565,115 @@
       "positiveFactors": [
         {
           "feature": "age_scaled",
-          "contribution": 0.5162216617336155,
-          "value": 0.002166666666666668
+          "contribution": 0.5738698090860211,
+          "value": 0.0002166666666666668
         },
         {
           "feature": "team_strength",
-          "contribution": 0.4737211408293141,
+          "contribution": 0.20390190403167235,
           "value": 4.2
         },
         {
-          "feature": "three_pt_pct",
-          "contribution": 0.07693053691229802,
-          "value": 0.2131147540983606
+          "feature": "ast_per_40",
+          "contribution": 0.05800475216736751,
+          "value": 2.9912325941206808
         }
       ],
       "negativeFactors": [
         {
           "feature": "dreb_per_40",
-          "contribution": -0.7845231164603171,
+          "contribution": -0.6470626390501096,
           "value": 2.6817947395564725
         },
         {
           "feature": "ts_pct",
-          "contribution": -0.46747371058778037,
+          "contribution": -0.3719474587836588,
           "value": 0.4650507328072153
         },
         {
-          "feature": "rim_pct",
-          "contribution": -0.2425019787695753,
-          "value": 0.4468085106382978
+          "feature": "versatility_score",
+          "contribution": -0.15544856433775656,
+          "value": 37.5168325526932
+        }
+      ]
+    },
+    "rank": 45
+  },
+  {
+    "id": "alex-condon",
+    "name": "Alex Condon",
+    "position": "Big",
+    "height": 83.0,
+    "age": 21.5,
+    "international": true,
+    "stats": {
+      "points": 513.0,
+      "assists": 123.0,
+      "rebounds": 254.0,
+      "steals": 23.0,
+      "blocks": 48.0,
+      "gamesPlayed": 34,
+      "minutesPerGame": 30.5
+    },
+    "metrics": {
+      "trueShooting": 0.6870044996785943,
+      "freeThrowPct": 0.6494845360824743,
+      "threePointPct": 0.1698113207547169,
+      "rimPct": 0.5695364238410596,
+      "assistToTurnover": 1.4819277108433735
+    },
+    "combineStats": {
+      "attendedCombine": false,
+      "wingspan": null,
+      "weight": null,
+      "verticalMax": null,
+      "standingReach": null,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": null,
+      "handWidth": null,
+      "wingspanToHeight": null,
+      "bodyMassIndex": null,
+      "reachAdvantage": null
+    },
+    "prediction": {
+      "nbaImpact": -1.7241935729980469,
+      "grade": "C-",
+      "confidence": "medium"
+    },
+    "explanation": {
+      "positiveFactors": [
+        {
+          "feature": "playmaking_composite",
+          "contribution": 0.12114189732439663,
+          "value": 2.383744365862646
+        },
+        {
+          "feature": "dreb_per_40",
+          "contribution": 0.08161262418048418,
+          "value": 6.788813886210222
+        },
+        {
+          "feature": "defensive_composite",
+          "contribution": 0.0805934334449394,
+          "value": 2.3705882352941177
+        }
+      ],
+      "negativeFactors": [
+        {
+          "feature": "age_scaled",
+          "contribution": -0.7066780810187362,
+          "value": 0.0005833333333333334
+        },
+        {
+          "feature": "ft_pct",
+          "contribution": -0.24258020924100157,
+          "value": 0.6494845360824743
+        },
+        {
+          "feature": "stl_per_40",
+          "contribution": -0.17618518108406997,
+          "value": 0.8871745419479267
         }
       ]
     },
@@ -3058,8 +3702,22 @@
       "rimPct": 0.5492957746478874,
       "assistToTurnover": 1.1153846153846154
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 84.75,
+      "weight": 184.4,
+      "verticalMax": 42.5,
+      "standingReach": 104.0,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.75,
+      "handWidth": 9.25,
+      "wingspanToHeight": 1.107843137254902,
+      "bodyMassIndex": 22.151001751463113,
+      "reachAdvantage": 27.5
+    },
     "prediction": {
-      "nbaImpact": -1.9971059560775757,
+      "nbaImpact": -1.7902709245681763,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -3067,34 +3725,34 @@
       "positiveFactors": [
         {
           "feature": "defensive_composite",
-          "contribution": 0.15018928665382675,
+          "contribution": 0.13532290811536415,
           "value": 2.4787878787878785
         },
         {
-          "feature": "blks_per_40",
-          "contribution": 0.08832611127344331,
-          "value": 1.582591493570722
+          "feature": "dreb_per_40",
+          "contribution": 0.10090778988063792,
+          "value": 6.114558043341425
         },
         {
-          "feature": "dreb_per_40",
-          "contribution": 0.08708167324027959,
-          "value": 6.114558043341425
+          "feature": "reach_advantage",
+          "contribution": 0.09725323767040153,
+          "value": 27.5
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.8452205225511701,
-          "value": 0.005333333333333332
+          "contribution": -0.7485205909969019,
+          "value": 0.0005333333333333333
         },
         {
           "feature": "versatility_score",
-          "contribution": -0.23540018216649794,
+          "contribution": -0.20685807132751358,
           "value": 59.77542782420831
         },
         {
           "feature": "stl_per_40",
-          "contribution": -0.22199169094721805,
+          "contribution": -0.15665284079043384,
           "value": 1.0430716662170667
         }
       ]
@@ -3124,8 +3782,22 @@
       "rimPct": 0.7878787878787878,
       "assistToTurnover": 1.2258064516129032
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 81.25,
+      "weight": 218.2,
+      "verticalMax": 32.0,
+      "standingReach": 102.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.0,
+      "handWidth": 9.5,
+      "wingspanToHeight": 1.015625,
+      "bodyMassIndex": 23.96790625,
+      "reachAdvantage": 22.5
+    },
     "prediction": {
-      "nbaImpact": -2.265249013900757,
+      "nbaImpact": -2.0691685676574707,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -3133,35 +3805,35 @@
       "positiveFactors": [
         {
           "feature": "tov_per_40",
-          "contribution": 0.23200323780266835,
+          "contribution": 0.24785393222659227,
           "value": 1.0988037217545414
         },
         {
-          "feature": "ft_pct",
-          "contribution": 0.1632163636326999,
-          "value": 0.8780487804878049
+          "feature": "wingspan_to_height",
+          "contribution": 0.19105593969437237,
+          "value": 1.015625
         },
         {
           "feature": "versatility_score",
-          "contribution": 0.10363885202345305,
+          "contribution": 0.13206438160482414,
           "value": 66.27385449966096
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.6912723172121035,
-          "value": 0.005500000000000001
+          "contribution": -0.6489505154788684,
+          "value": 0.0005500000000000001
         },
         {
-          "feature": "three_pt_pct",
-          "contribution": -0.38881881234407717,
-          "value": 0.4874551971326165
+          "feature": "playmaking_composite",
+          "contribution": -0.3029706302403035,
+          "value": -0.489385804347243
         },
         {
-          "feature": "stl_per_40",
-          "contribution": -0.2667981177682475,
-          "value": 1.0633584404076208
+          "feature": "rim_pct",
+          "contribution": -0.26936276922268526,
+          "value": 0.7878787878787878
         }
       ]
     },
@@ -3190,8 +3862,22 @@
       "rimPct": 0.5901639344262295,
       "assistToTurnover": 1.2465753424657535
     },
+    "combineStats": {
+      "attendedCombine": true,
+      "wingspan": 79.0,
+      "weight": 214.8,
+      "verticalMax": 39.5,
+      "standingReach": 96.5,
+      "benchPress": null,
+      "bodyFatPct": null,
+      "handLength": 8.5,
+      "handWidth": 9.0,
+      "wingspanToHeight": 1.0675675675675675,
+      "bodyMassIndex": 27.57567567567568,
+      "reachAdvantage": 22.5
+    },
     "prediction": {
-      "nbaImpact": -2.4477691650390625,
+      "nbaImpact": -2.54811692237854,
       "grade": "C-",
       "confidence": "medium"
     },
@@ -3199,35 +3885,35 @@
       "positiveFactors": [
         {
           "feature": "ft_pct",
-          "contribution": 0.09363988184545911,
+          "contribution": 0.10371180987745827,
           "value": 0.8322147651006712
         },
         {
           "feature": "ast_per_40",
-          "contribution": 0.03513402004764244,
+          "contribution": 0.07728136629246328,
           "value": 3.4646868456120314
         },
         {
-          "feature": "three_pt_pct",
-          "contribution": 0.024043291236086256,
-          "value": 0.3446153846153846
+          "feature": "dreb_per_40",
+          "contribution": 0.046102610768332164,
+          "value": 5.368360936607654
         }
       ],
       "negativeFactors": [
         {
           "feature": "age_scaled",
-          "contribution": -0.7585053411300522,
-          "value": 0.006000000000000003
+          "contribution": -0.7527408376478647,
+          "value": 0.0006000000000000003
+        },
+        {
+          "feature": "playmaking_composite",
+          "contribution": -0.36158428757394456,
+          "value": -0.9680137285136355
         },
         {
           "feature": "versatility_score",
-          "contribution": -0.23827381244604,
+          "contribution": -0.20242965979767696,
           "value": 53.39788012149011
-        },
-        {
-          "feature": "oreb_per_40",
-          "contribution": -0.1779254068126332,
-          "value": 0.7995431182181612
         }
       ]
     },

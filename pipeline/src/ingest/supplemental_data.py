@@ -134,7 +134,9 @@ class NBAApiCollector:
         all_data = []
 
         for year in range(start_year, end_year + 1):
-            season = f"{year-1}-{str(year)[-2:]}"
+            # NBA API uses the season format YYYY-YY where the combine happens
+            # e.g., 2026 draft combine data is under season "2026-27"
+            season = f"{year}-{str(year+1)[-2:]}"
             df = self.fetch_draft_combine_stats(season)
             if df is not None and len(df) > 0:
                 df["draft_year"] = year
@@ -194,6 +196,59 @@ def calculate_derived_metrics(df: pd.DataFrame) -> pd.DataFrame:
     if "dunks_made" in df.columns and "rim_made" in df.columns:
         df["dunk_rate"] = df["dunks_made"] / (df["rim_made"] + df["rim_miss"]).replace(
             0, 1
+        )
+
+    return df
+
+
+def calculate_physical_derived_metrics(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate derived metrics from combine physical measurements.
+
+    Args:
+        df: DataFrame with combine measurements
+
+    Returns:
+        DataFrame with additional physical derived metrics
+    """
+    df = df.copy()
+
+    # Convert combine measurements to numeric (handle any string values)
+    numeric_cols = [
+        "height_wo_shoes",
+        "height_w_shoes",
+        "wingspan",
+        "weight",
+        "standing_reach",
+        "vertical_standing",
+        "vertical_max",
+        "body_fat_pct",
+        "hand_length",
+        "hand_width",
+    ]
+    for col in numeric_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+    # Wingspan-to-Height Ratio (key defensive predictor)
+    if "wingspan" in df.columns and "height_wo_shoes" in df.columns:
+        df["wingspan_to_height"] = df["wingspan"] / df["height_wo_shoes"].replace(0, 1)
+
+    # Body Mass Index (weight/height²) - adjusted for basketball (height in inches)
+    if "weight" in df.columns and "height_wo_shoes" in df.columns:
+        # BMI calculation for height in inches: weight_lbs / (height_in²) * 703
+        df["body_mass_index"] = df["weight"] / (df["height_wo_shoes"] ** 2) * 703
+
+    # Standing Reach Advantage (how much higher can they reach than their height)
+    if "standing_reach" in df.columns and "height_wo_shoes" in df.columns:
+        df["reach_advantage"] = df["standing_reach"] - df["height_wo_shoes"]
+
+    # Attended Combine Flag (binary indicator for missing value handling)
+    combine_cols = ["wingspan", "weight", "vertical_max", "standing_reach"]
+    available_combine_cols = [col for col in combine_cols if col in df.columns]
+    if available_combine_cols:
+        df["attended_combine"] = (
+            df[available_combine_cols].notna().any(axis=1).astype(int)
         )
 
     return df

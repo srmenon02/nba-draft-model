@@ -32,12 +32,17 @@ fi
 echo "Using Python: $PYTHON_CMD"
 echo ""
 
+# Set PYTHONPATH to include src directory for module imports
+export PYTHONPATH="${SCRIPT_DIR}:${PYTHONPATH}"
+echo "PYTHONPATH: $PYTHONPATH"
+echo ""
+
 # Step 1: Data Analysis
 echo "================================================================================"
 echo "STEP 1: DATA ANALYSIS & VALIDATION"
 echo "================================================================================"
 echo ""
-$PYTHON_CMD src/analyze_data.py
+$PYTHON_CMD -m src.analyze_data
 if [ $? -ne 0 ]; then
     echo "Error: Data analysis failed"
     exit 1
@@ -49,7 +54,7 @@ echo "==========================================================================
 echo "STEP 2: COLLECT SUPPLEMENTAL DATA"
 echo "================================================================================"
 echo ""
-$PYTHON_CMD src/collect_supplemental_data.py
+$PYTHON_CMD -m src.collect_supplemental_data
 if [ $? -ne 0 ]; then
     echo "Error: Data collection failed"
     exit 1

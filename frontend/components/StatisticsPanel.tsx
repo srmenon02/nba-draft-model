@@ -40,7 +40,7 @@ export default function StatisticsPanel({ prospect }: StatisticsPanelProps) {
 
   return (
     <div className="bg-brand-800 border-2 border-brand-700 rounded-xl p-6">
-      <h2 className="text-2xl font-bold text-brand-100 mb-6">College Statistics</h2>
+      <h2 className="text-2xl font-bold text-brand-100 mb-6">2025-2026 College Statistics</h2>
       
       <div className="space-y-8">
         {statisticsGroups.map((group) => (

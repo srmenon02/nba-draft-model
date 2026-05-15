@@ -2,7 +2,7 @@
 DATA VALIDATION REPORT
 ================================================================================
 
-Dataset: 771 rows, 41 columns
+Dataset: 771 rows, 58 columns
 
 --------------------------------------------------------------------------------
 MISSING VALUES
@@ -13,6 +13,23 @@ MISSING VALUES
   standard_error: 52 missing (6.7%)
   NBA_minutes: 52 missing (6.7%)
   NBA_seasons: 52 missing (6.7%)
+  position: 2 missing (0.3%)
+  height_wo_shoes: 156 missing (20.2%)
+  height_w_shoes: 306 missing (39.7%)
+  weight: 158 missing (20.5%)
+  wingspan: 155 missing (20.1%)
+  standing_reach: 156 missing (20.2%)
+  vertical_standing: 253 missing (32.8%)
+  vertical_max: 253 missing (32.8%)
+  lane_agility: 259 missing (33.6%)
+  three_quarter_sprint: 256 missing (33.2%)
+  bench_press: 524 missing (68.0%)
+  body_fat_pct: 308 missing (40.0%)
+  hand_length: 156 missing (20.2%)
+  hand_width: 156 missing (20.2%)
+  wingspan_to_height: 156 missing (20.2%)
+  body_mass_index: 158 missing (20.5%)
+  reach_advantage: 156 missing (20.2%)
 
 --------------------------------------------------------------------------------
 DATA CONSISTENCY
