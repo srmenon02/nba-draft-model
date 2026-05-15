@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:26:27.598072",
+  "generatedAt": "2026-05-15T09:47:59.384799",
   "draftYear": 2026,
   "modelVersion": "1.0.0",
   "modelPerformance": {
@@ -8,5 +8,5 @@
     "mae": 1.294246548878985
   },
   "dataSource": "nba_api, manual compilation of public statistics",
-  "lastUpdated": "2026-05-14"
+  "lastUpdated": "2026-05-15"
 }

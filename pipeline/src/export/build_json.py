@@ -13,6 +13,38 @@ from typing import Dict, List, Any
 from pathlib import Path
 import json
 from datetime import datetime
+import re
+
+
+def create_slug(name: str) -> str:
+    """
+    Create a URL-friendly slug from a player name.
+    
+    Args:
+        name: Player name (e.g., "Paul McNeil, Jr.")
+        
+    Returns:
+        URL-safe slug (e.g., "paul-mcneil-jr")
+    """
+    # Convert to lowercase
+    slug = name.lower()
+    
+    # Remove commas, periods, and apostrophes
+    slug = slug.replace(",", "").replace(".", "").replace("'", "")
+    
+    # Replace spaces with hyphens
+    slug = slug.replace(" ", "-")
+    
+    # Remove any remaining non-alphanumeric characters except hyphens
+    slug = re.sub(r'[^a-z0-9-]', '', slug)
+    
+    # Replace multiple consecutive hyphens with a single hyphen
+    slug = re.sub(r'-+', '-', slug)
+    
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    
+    return slug
 
 
 def load_model_artifacts(models_dir: Path) -> Dict[str, Any]:
@@ -97,7 +129,7 @@ def build_prospects_json(
         explanation = explanations_lookup.get(name, {})
 
         prospect_dict = {
-            "id": str(row.get("id", name.lower().replace(" ", "-"))),
+            "id": create_slug(name),
             "name": name,
             "position": row.get("position", "N/A"),
             "height": float(row["height"]) if pd.notna(row.get("height")) else None,
