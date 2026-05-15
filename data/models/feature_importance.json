@@ -1,112 +1,147 @@
 [
   {
     "feature": "age_scaled",
-    "importance": 0.6206956711793722,
-    "importance_pct": 21.609079539491987
+    "importance": 0.5655687833225471,
+    "importance_pct": 22.600539800245983
   },
   {
     "feature": "stl_per_40",
-    "importance": 0.2065766205341485,
-    "importance_pct": 7.191818521369801
-  },
-  {
-    "feature": "dreb_per_40",
-    "importance": 0.17430721686120998,
-    "importance_pct": 6.068382120829817
+    "importance": 0.17735325267081886,
+    "importance_pct": 7.087164928273595
   },
   {
     "feature": "versatility_score",
-    "importance": 0.17049401208301812,
-    "importance_pct": 5.935628101141308
-  },
-  {
-    "feature": "ft_pct",
-    "importance": 0.16594053605591366,
-    "importance_pct": 5.777102062988168
+    "importance": 0.15986555402867475,
+    "importance_pct": 6.388343775425273
   },
   {
     "feature": "defensive_composite",
-    "importance": 0.16513039975853577,
-    "importance_pct": 5.748897742415728
+    "importance": 0.15910129792878142,
+    "importance_pct": 6.357803545991553
+  },
+  {
+    "feature": "dreb_per_40",
+    "importance": 0.15495744452215204,
+    "importance_pct": 6.192212150913616
   },
   {
     "feature": "tov_per_40",
-    "importance": 0.13981663891836157,
-    "importance_pct": 4.867617113537418
+    "importance": 0.13864845403589182,
+    "importance_pct": 5.540493032999806
   },
   {
-    "feature": "ast_to_tov",
-    "importance": 0.13776807929990412,
-    "importance_pct": 4.796297963441645
-  },
-  {
-    "feature": "international",
-    "importance": 0.13366047075455725,
-    "importance_pct": 4.653294485416991
+    "feature": "ft_pct",
+    "importance": 0.12475250410835344,
+    "importance_pct": 4.985200770307067
   },
   {
     "feature": "oreb_per_40",
-    "importance": 0.1308643174376525,
-    "importance_pct": 4.5559483909697684
-  },
-  {
-    "feature": "rim_pct",
-    "importance": 0.12789207459075405,
-    "importance_pct": 4.452471864434184
-  },
-  {
-    "feature": "ts_pct",
-    "importance": 0.08595374552649396,
-    "importance_pct": 2.9924186844578538
-  },
-  {
-    "feature": "ast_per_40",
-    "importance": 0.07700219751281959,
-    "importance_pct": 2.6807768895964053
-  },
-  {
-    "feature": "blks_per_40",
-    "importance": 0.07651487877833663,
-    "importance_pct": 2.6638112335052035
+    "importance": 0.11714885334388471,
+    "importance_pct": 4.681353357230273
   },
   {
     "feature": "playmaking_composite",
-    "importance": 0.06978161894888543,
-    "importance_pct": 2.429397568370056
+    "importance": 0.1155215434925743,
+    "importance_pct": 4.616324872373288
   },
   {
-    "feature": "sos",
-    "importance": 0.06927777880976622,
-    "importance_pct": 2.4118567312948938
+    "feature": "rim_pct",
+    "importance": 0.09151832528120649,
+    "importance_pct": 3.6571388201780684
   },
   {
-    "feature": "rebounding_composite",
-    "importance": 0.059696544516057416,
-    "importance_pct": 2.0782928552236046
+    "feature": "ast_per_40",
+    "importance": 0.08823640713119481,
+    "importance_pct": 3.5259909846579682
   },
   {
-    "feature": "pts_per_40",
-    "importance": 0.057114279223130816,
-    "importance_pct": 1.988393120622757
+    "feature": "ts_pct",
+    "importance": 0.06368346097198366,
+    "importance_pct": 2.5448374039659445
   },
   {
-    "feature": "height",
-    "importance": 0.0538356391749291,
-    "importance_pct": 1.8742495928479666
-  },
-  {
-    "feature": "scoring_volume_efficiency",
-    "importance": 0.05281873895433336,
-    "importance_pct": 1.8388469329440764
+    "feature": "ast_to_tov",
+    "importance": 0.0598294849114579,
+    "importance_pct": 2.390829718404853
   },
   {
     "feature": "team_strength",
-    "importance": 0.05278829016219646,
-    "importance_pct": 1.8377868798428236
+    "importance": 0.05354508942789066,
+    "importance_pct": 2.1397007055685022
+  },
+  {
+    "feature": "sos",
+    "importance": 0.050784225806808,
+    "importance_pct": 2.0293745878772707
+  },
+  {
+    "feature": "blks_per_40",
+    "importance": 0.05058752730911965,
+    "importance_pct": 2.021514372892387
+  },
+  {
+    "feature": "scoring_volume_efficiency",
+    "importance": 0.04880183917846142,
+    "importance_pct": 1.9501569768376052
+  },
+  {
+    "feature": "height",
+    "importance": 0.04485615626480222,
+    "importance_pct": 1.7924846187462844
+  },
+  {
+    "feature": "pts_per_40",
+    "importance": 0.04420934232558492,
+    "importance_pct": 1.7666374634440485
+  },
+  {
+    "feature": "weight",
+    "importance": 0.03674111921209894,
+    "importance_pct": 1.4682018377684403
+  },
+  {
+    "feature": "wingspan_to_height",
+    "importance": 0.03371417759527847,
+    "importance_pct": 1.3472430499052195
+  },
+  {
+    "feature": "body_mass_index",
+    "importance": 0.026175780267590824,
+    "importance_pct": 1.0460032116072338
+  },
+  {
+    "feature": "rebounding_composite",
+    "importance": 0.025548317439013205,
+    "importance_pct": 1.0209293407561335
+  },
+  {
+    "feature": "reach_advantage",
+    "importance": 0.023778704031898502,
+    "importance_pct": 0.9502143023419007
+  },
+  {
+    "feature": "vertical_max",
+    "importance": 0.021823993967326268,
+    "importance_pct": 0.8721026669139754
   },
   {
     "feature": "three_pt_pct",
-    "importance": 0.04445391744743966,
-    "importance_pct": 1.5476316052575338
+    "importance": 0.017963005884200245,
+    "importance_pct": 0.7178147758314153
+  },
+  {
+    "feature": "attended_combine",
+    "importance": 0.007742324804437999,
+    "importance_pct": 0.3093889285422958
+  },
+  {
+    "feature": "bench_press",
+    "importance": 0.0,
+    "importance_pct": 0.0
+  },
+  {
+    "feature": "body_fat_pct",
+    "importance": 0.0,
+    "importance_pct": 0.0
   }
 ]

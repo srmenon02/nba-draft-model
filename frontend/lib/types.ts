@@ -22,6 +22,21 @@ export interface ProspectMetrics {
   assistToTurnover: number;
 }
 
+export interface CombineStats {
+  attendedCombine: boolean;
+  wingspan?: number | null;
+  weight?: number | null;
+  verticalMax?: number | null;
+  standingReach?: number | null;
+  benchPress?: number | null;
+  bodyFatPct?: number | null;
+  handLength?: number | null;
+  handWidth?: number | null;
+  wingspanToHeight?: number | null;
+  bodyMassIndex?: number | null;
+  reachAdvantage?: number | null;
+}
+
 export interface FeatureContribution {
   feature: string;
   contribution: number;
@@ -48,6 +63,7 @@ export interface Prospect {
   international: boolean;
   stats: ProspectStats;
   metrics: ProspectMetrics;
+  combineStats: CombineStats;
   prediction: ProspectPrediction;
   explanation: ProspectExplanation;
 }

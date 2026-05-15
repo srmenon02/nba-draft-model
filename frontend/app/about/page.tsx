@@ -126,6 +126,165 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* NBA Impact Score Explained */}
+        <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Understanding the NBA Impact Score</h2>
+          
+          <div className="space-y-6 sm:space-y-8">
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">What is the NBA Impact Score?</h3>
+              <p className="text-sm sm:text-base text-brand-300 leading-relaxed">
+                The NBA Impact Score is the <strong className="text-brand-100">target variable </strong>  the model predicts—a 
+                composite metric measuring career success in the NBA. It combines three components to create a holistic 
+                measure of a player&apos;s professional impact:
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">How It&apos;s Calculated</h3>
+              
+              <div className="space-y-4">
+                {/* Formula */}
+                <div className="bg-brand-700 rounded-lg p-4 sm:p-5 border-2 border-brand-600">
+                  <div className="text-center">
+                    <p className="text-xs sm:text-sm text-brand-400 mb-2">Raw Calculation Formula</p>
+                    <p className="text-sm sm:text-base lg:text-lg font-mono text-accent font-bold leading-relaxed">
+                      Raw Score = Career Win Shares + Seasons Played + (Games Played / 100)
+                    </p>
+                    <p className="text-xs sm:text-sm text-brand-400 mt-3">
+                      Then standardized (z-score normalized) across all 719 historical players (2010-2025)
+                    </p>
+                    <p className="text-xs sm:text-sm text-brand-300 mt-2">
+                      <strong>Final Range:</strong> Approximately -5.5 to +6.7 (centered near 0)
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-brand-700 rounded-lg p-4 sm:p-5 border-2 border-brand-600">
+                  <div className="flex items-start gap-3">
+                    <div className="text-accent font-bold text-lg sm:text-xl flex-shrink-0">1.</div>
+                    <div>
+                      <h4 className="font-bold text-brand-100 mb-1 sm:mb-2">Career Win Shares (Primary)</h4>
+                      <p className="text-sm sm:text-base text-brand-300 leading-relaxed">
+                        Win Shares estimate how many wins a player contributed to their team over their career. 
+                        This advanced stat accounts for both offensive and defensive contributions, providing a 
+                        comprehensive measure of on-court value. Example: A player with 50 career Win Shares 
+                        contributed approximately 50 wins above replacement level.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-brand-700 rounded-lg p-4 sm:p-5 border-2 border-brand-600">
+                  <div className="flex items-start gap-3">
+                    <div className="text-accent font-bold text-lg sm:text-xl flex-shrink-0">2.</div>
+                    <div>
+                      <h4 className="font-bold text-brand-100 mb-1 sm:mb-2">Seasons Played (Longevity Bonus)</h4>
+                      <p className="text-sm sm:text-base text-brand-300 leading-relaxed">
+                        Each season played adds +1 to the raw score. This rewards players who sustain NBA careers 
+                        over multiple seasons, indicating consistent value and adaptability. A 10-year career adds 
+                        +10 to the raw score, separating brief flashes from lasting contributors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-brand-700 rounded-lg p-4 sm:p-5 border-2 border-brand-600">
+                  <div className="flex items-start gap-3">
+                    <div className="text-accent font-bold text-lg sm:text-xl flex-shrink-0">3.</div>
+                    <div>
+                      <h4 className="font-bold text-brand-100 mb-1 sm:mb-2">Games Played (Availability Factor)</h4>
+                      <p className="text-sm sm:text-base text-brand-300 leading-relaxed">
+                        Games played divided by 100 adds a bonus for durability. Playing 500 career games adds +5 
+                        to the raw score. This accounts for availability—players who stay healthy and remain on 
+                        the court provide more value than those frequently sidelined by injury or inconsistency.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-4 p-4 sm:p-5 bg-brand-600/30 rounded-xl border-2 border-brand-600">
+                  <p className="text-xs sm:text-sm text-brand-300 leading-relaxed">
+                    <strong className="text-brand-100">Example:</strong> A player with 40 Career Win Shares, 
+                    8 seasons played, and 400 games played would have a raw score of 40 + 8 + 4 = 52. This raw 
+                    score is then standardized using z-score normalization (mean = 0, std = 1) across all 
+                    historical players to produce the final NBA Impact Score.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-brand-100 mb-2 sm:mb-3">Score Interpretation</h3>
+              <div className="space-y-3">
+                <div className="grid gap-3 sm:gap-4">
+                  <div className="bg-gradient-to-r from-green-900/40 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-green-700/50">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-green-400 text-base sm:text-lg">A+ (≥ 4.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">Elite / MVP Level</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-green-900/30 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-green-700/40">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-green-300 text-base sm:text-lg">A (3.0 - 4.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">All-Star Level</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-blue-900/30 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-blue-700/40">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-blue-300 text-base sm:text-lg">B+ (2.0 - 3.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">Quality Starter</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-blue-900/20 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-blue-700/30">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-blue-200 text-base sm:text-lg">B (1.0 - 2.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">Rotation Player</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-yellow-900/20 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-yellow-700/30">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-yellow-300 text-base sm:text-lg">C (0.0 - 1.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">Bench / Role Player</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-red-900/20 to-brand-700 rounded-lg p-3 sm:p-4 border-2 border-red-700/30">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <div className="font-bold text-red-300 text-base sm:text-lg">D/F (&lt; 0.0)</div>
+                        <div className="text-xs sm:text-sm text-brand-300 mt-1">Limited NBA Impact</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-4 p-4 sm:p-5 bg-brand-700 rounded-xl border-2 border-brand-600">
+                  <p className="text-sm sm:text-base text-brand-300 leading-relaxed">
+                    <strong className="text-brand-100">Observed Range:</strong> -5.5 to +6.7 based on 
+                    719 historical players (2010-2025). The distribution is centered near 0 after z-score 
+                    normalization, with positive scores indicating above-average NBA careers and negative 
+                    scores indicating below-average impact.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Data Sources */}
         <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-4 sm:p-6 lg:p-8">
           <h2 className="text-xl sm:text-2xl font-bold text-brand-100 mb-4 sm:mb-6">Data Sources</h2>
@@ -188,15 +347,7 @@ export default function AboutPage() {
                 <strong className="text-brand-100">G-League and international prospects</strong> — Model trained
                 primarily on NCAA players, may not generalize well to other development paths
               </li>
-              <li>
-                <strong className="text-brand-100">Evolving game</strong> — NBA playstyle changes over time
-                (e.g., increased 3-point shooting), which may reduce model accuracy for recent classes
-              </li>
             </ul>
-            <p className="mt-4 sm:mt-5 text-brand-200 font-medium">
-              Use this model as <strong>one input among many</strong> when evaluating prospects. Combine
-              quantitative analysis with scouting reports, game film, and domain expertise.
-            </p>
           </div>
         </section>
 
@@ -231,10 +382,6 @@ export default function AboutPage() {
         <section className="bg-brand-800 border-2 border-brand-700 rounded-xl p-8">
           <h2 className="text-2xl font-bold text-brand-100 mb-5">Project Information</h2>
           <div className="text-base text-brand-300 space-y-3 leading-relaxed">
-            <p>
-              This project is open-source and available for educational use. Built as a portfolio
-              demonstration of end-to-end ML engineering and full-stack development.
-            </p>
             <p>
               <strong className="text-brand-100">Version:</strong> {metadata.modelVersion} <span className="text-brand-500">•</span>{' '}
               <strong className="text-brand-100">Last Updated:</strong> {metadata.lastUpdated}

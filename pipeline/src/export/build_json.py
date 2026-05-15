@@ -19,31 +19,31 @@ import re
 def create_slug(name: str) -> str:
     """
     Create a URL-friendly slug from a player name.
-    
+
     Args:
         name: Player name (e.g., "Paul McNeil, Jr.")
-        
+
     Returns:
         URL-safe slug (e.g., "paul-mcneil-jr")
     """
     # Convert to lowercase
     slug = name.lower()
-    
+
     # Remove commas, periods, and apostrophes
     slug = slug.replace(",", "").replace(".", "").replace("'", "")
-    
+
     # Replace spaces with hyphens
     slug = slug.replace(" ", "-")
-    
+
     # Remove any remaining non-alphanumeric characters except hyphens
-    slug = re.sub(r'[^a-z0-9-]', '', slug)
-    
+    slug = re.sub(r"[^a-z0-9-]", "", slug)
+
     # Replace multiple consecutive hyphens with a single hyphen
-    slug = re.sub(r'-+', '-', slug)
-    
+    slug = re.sub(r"-+", "-", slug)
+
     # Remove leading/trailing hyphens
-    slug = slug.strip('-')
-    
+    slug = slug.strip("-")
+
     return slug
 
 
@@ -173,6 +173,61 @@ def build_prospects_json(
                     else None
                 ),
             },
+            # NBA Combine measurements
+            "combineStats": {
+                "attendedCombine": bool(row.get("attended_combine", 0)),
+                "wingspan": (
+                    float(row["wingspan"]) if pd.notna(row.get("wingspan")) else None
+                ),
+                "weight": (
+                    float(row["weight"]) if pd.notna(row.get("weight")) else None
+                ),
+                "verticalMax": (
+                    float(row["vertical_max"])
+                    if pd.notna(row.get("vertical_max"))
+                    else None
+                ),
+                "standingReach": (
+                    float(row["standing_reach"])
+                    if pd.notna(row.get("standing_reach"))
+                    else None
+                ),
+                "benchPress": (
+                    int(row["bench_press"])
+                    if pd.notna(row.get("bench_press"))
+                    else None
+                ),
+                "bodyFatPct": (
+                    float(row["body_fat_pct"])
+                    if pd.notna(row.get("body_fat_pct"))
+                    else None
+                ),
+                "handLength": (
+                    float(row["hand_length"])
+                    if pd.notna(row.get("hand_length"))
+                    else None
+                ),
+                "handWidth": (
+                    float(row["hand_width"])
+                    if pd.notna(row.get("hand_width"))
+                    else None
+                ),
+                "wingspanToHeight": (
+                    float(row["wingspan_to_height"])
+                    if pd.notna(row.get("wingspan_to_height"))
+                    else None
+                ),
+                "bodyMassIndex": (
+                    float(row["body_mass_index"])
+                    if pd.notna(row.get("body_mass_index"))
+                    else None
+                ),
+                "reachAdvantage": (
+                    float(row["reach_advantage"])
+                    if pd.notna(row.get("reach_advantage"))
+                    else None
+                ),
+            },
             # Predictions
             "prediction": {
                 "nbaImpact": float(explanation.get("predicted_impact", 0)),
@@ -284,7 +339,8 @@ def build_metric_importance_json(artifacts: Dict[str, Any]) -> List[Dict]:
     # Format for frontend with readable names
     feature_name_map = {
         "age": "Age",
-        "height": "Height",
+        "height": "Height (Position-Normalized)",
+        "weight": "Weight (Position-Normalized)",
         "international": "International",
         "ts_pct": "True Shooting %",
         "ft_pct": "Free Throw %",
@@ -299,7 +355,7 @@ def build_metric_importance_json(artifacts: Dict[str, Any]) -> List[Dict]:
         "blks_per_40": "Blocks (per 40)",
         "tov_per_40": "Turnovers (per 40)",
         "scoring_volume_efficiency": "Scoring Efficiency",
-        "playmaking_composite": "Playmaking",
+        "playmaking_composite": "Playmaking (Position-Normalized)",
         "defensive_composite": "Defensive Impact",
         "rebounding_composite": "Rebounding Rate",
         "versatility_score": "Versatility",

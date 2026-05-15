@@ -59,16 +59,65 @@ def leave_one_year_out_cv(
             "learning_rate": 0.07,  # Increased slightly to compensate
             "n_estimators": 150,  # Reduced from 200
             "subsample": 0.8,
-            "colsample_bytree": 0.7,  # Reduced to force more feature diversity
+            "colsample_bytree": 0.7,  # Feature sampling per tree
+            "colsample_bynode": 0.5,  # Feature sampling per split - forces diversity
+            "max_delta_step": 1.0,  # Limits individual tree contribution
             "min_child_weight": 5,  # Increased to prevent overfitting
             "reg_alpha": 1.0,  # Stronger L1 regularization
             "reg_lambda": 3.0,  # Stronger L2 regularization
             "random_state": 42,
         }
 
-    # Filter to rows with target and features
-    valid_mask = df[target_col].notna() & df[feature_cols].notna().all(axis=1)
-    df_valid = df[valid_mask].copy()
+    # Filter to rows with target (keep all features, will impute missing)
+    df_valid = df[df[target_col].notna()].copy()
+
+    # Impute missing physical features with position-based medians
+    physical_features = [
+        "wingspan",
+        "weight",
+        "vertical_max",
+        "standing_reach",
+        "bench_press",
+        "body_fat_pct",
+        "wingspan_to_height",
+        "body_mass_index",
+        "reach_advantage",
+    ]
+
+    # Determine position column
+    if "position_modern" in df_valid.columns:
+        position_col = "position_modern"
+    elif "position" in df_valid.columns:
+        position_col = "position"
+    else:
+        position_col = None
+
+    # Calculate position-based medians for each physical feature
+    position_medians = {}
+    if position_col:
+        for feat in physical_features:
+            if feat in df_valid.columns:
+                position_medians[feat] = df_valid.groupby(position_col)[feat].median()
+
+    # Apply position-based imputation
+    for feat in physical_features:
+        if feat in df_valid.columns and position_col:
+            for position in df_valid[position_col].unique():
+                mask = (df_valid[position_col] == position) & df_valid[feat].isna()
+                if (
+                    feat in position_medians
+                    and position in position_medians[feat].index
+                ):
+                    df_valid.loc[mask, feat] = position_medians[feat][position]
+                else:
+                    # Fallback to overall median
+                    df_valid.loc[mask, feat] = df_valid[feat].median()
+
+    # For any remaining missing features, use median imputation
+    for col in feature_cols:
+        if col in df_valid.columns:
+            median_val = df_valid[col].median()
+            df_valid[col] = df_valid[col].fillna(median_val)
 
     years = sorted(df_valid[year_col].unique())
     print(f"\n{'='*80}")
@@ -78,7 +127,14 @@ def leave_one_year_out_cv(
     print(f"Features: {len(feature_cols)}")
     print(f"Training samples: {len(df_valid)}")
 
-    cv_results = []
+    # Report imputation
+    physical_in_features = [f for f in physical_features if f in feature_cols]
+    if physical_in_features:
+        orig_missing = (
+            df[df[target_col].notna()][physical_in_features].isna().sum().sum()
+        )
+        print(f"Physical features imputed: {orig_missing} total missing values")
+
     all_predictions = []
     all_actuals = []
     fold_metrics = []
@@ -183,19 +239,72 @@ def train_final_model(
     if xgb_params is None:
         xgb_params = {
             "objective": "reg:squarederror",
-            "max_depth": 4,
-            "learning_rate": 0.05,
-            "n_estimators": 200,
+            "max_depth": 3,  # Match CV parameters
+            "learning_rate": 0.07,
+            "n_estimators": 150,
             "subsample": 0.8,
-            "colsample_bytree": 0.8,
-            "min_child_weight": 3,
+            "colsample_bytree": 0.7,  # Feature sampling per tree
+            "colsample_bynode": 0.5,  # Feature sampling per split - forces diversity
+            "max_delta_step": 1.0,  # Limits individual tree contribution
+            "min_child_weight": 5,
+            "reg_alpha": 1.0,  # Stronger L1 regularization
+            "reg_lambda": 3.0,  # Stronger L2 regularization
             "random_state": 42,
         }
 
-    # Filter to rows with target and features
-    valid_mask = df[target_col].notna() & df[feature_cols].notna().all(axis=1)
-    X_train = df.loc[valid_mask, feature_cols]
-    y_train = df.loc[valid_mask, target_col]
+    # Filter to rows with target (keep all features, will impute missing)
+    df_train = df[df[target_col].notna()].copy()
+
+    # Impute missing physical features with position-based medians
+    physical_features = [
+        "wingspan",
+        "weight",
+        "vertical_max",
+        "standing_reach",
+        "bench_press",
+        "body_fat_pct",
+        "wingspan_to_height",
+        "body_mass_index",
+        "reach_advantage",
+    ]
+
+    # Determine position column
+    if "position_modern" in df_train.columns:
+        position_col = "position_modern"
+    elif "position" in df_train.columns:
+        position_col = "position"
+    else:
+        position_col = None
+
+    # Calculate position-based medians for each physical feature
+    position_medians = {}
+    if position_col:
+        for feat in physical_features:
+            if feat in df_train.columns:
+                position_medians[feat] = df_train.groupby(position_col)[feat].median()
+
+    # Apply position-based imputation
+    for feat in physical_features:
+        if feat in df_train.columns and position_col:
+            for position in df_train[position_col].unique():
+                mask = (df_train[position_col] == position) & df_train[feat].isna()
+                if (
+                    feat in position_medians
+                    and position in position_medians[feat].index
+                ):
+                    df_train.loc[mask, feat] = position_medians[feat][position]
+                else:
+                    # Fallback to overall median
+                    df_train.loc[mask, feat] = df_train[feat].median()
+
+    # For any remaining missing features, use median imputation
+    for col in feature_cols:
+        if col in df_train.columns:
+            median_val = df_train[col].median()
+            df_train[col] = df_train[col].fillna(median_val)
+
+    X_train = df_train[feature_cols]
+    y_train = df_train[target_col]
 
     print(f"\n{'='*80}")
     print("TRAINING FINAL MODEL")
@@ -243,13 +352,59 @@ def predict_prospects(
     prospect_mask = df["season"] == prospect_year
     prospects = df[prospect_mask].copy()
 
-    # Check for missing features
-    missing_features = prospects[feature_cols].isna().any(axis=1)
-    if missing_features.any():
-        print(f"\nWarning: {missing_features.sum()} prospects have missing features")
+    # Impute missing physical features with position-based medians from training data
+    physical_features = [
+        "wingspan",
+        "weight",
+        "vertical_max",
+        "standing_reach",
+        "bench_press",
+        "body_fat_pct",
+        "wingspan_to_height",
+        "body_mass_index",
+        "reach_advantage",
+    ]
+
+    # Determine position column
+    if "position_modern" in df.columns:
+        position_col = "position_modern"
+    elif "position" in df.columns:
+        position_col = "position"
+    else:
+        position_col = None
+
+    # Calculate position-based medians from training data (not prospects)
+    training_data = df[df["NBA_impact"].notna()]
+    position_medians = {}
+    if position_col:
+        for feat in physical_features:
+            if feat in training_data.columns:
+                position_medians[feat] = training_data.groupby(position_col)[
+                    feat
+                ].median()
+
+    # Apply position-based imputation to prospects
+    for feat in physical_features:
+        if feat in prospects.columns and position_col:
+            for position in prospects[position_col].unique():
+                mask = (prospects[position_col] == position) & prospects[feat].isna()
+                if (
+                    feat in position_medians
+                    and position in position_medians[feat].index
+                ):
+                    prospects.loc[mask, feat] = position_medians[feat][position]
+                else:
+                    # Fallback to overall training median
+                    prospects.loc[mask, feat] = training_data[feat].median()
+
+    # For any remaining missing features, use training data median
+    for col in feature_cols:
+        if col in prospects.columns:
+            median_val = training_data[col].median()
+            prospects[col] = prospects[col].fillna(median_val)
 
     # Make predictions
-    X_prospects = prospects[feature_cols].fillna(prospects[feature_cols].median())
+    X_prospects = prospects[feature_cols]
     prospects["predicted_NBA_impact"] = model.predict(X_prospects)
 
     # Add prediction rank
@@ -339,6 +494,7 @@ if __name__ == "__main__":
         normalize_per_40,
         winsorize_outliers,
         adjust_for_age,
+        create_position_normalized_features,
         create_composite_features,
         get_default_feature_list,
     )
@@ -368,7 +524,8 @@ if __name__ == "__main__":
     )
 
     df = adjust_for_age(df, per_40_cols)
-    df = create_composite_features(df)
+    df = create_composite_features(df)  # Create composites first
+    df = create_position_normalized_features(df)  # Then normalize by position
 
     # Get feature list
     feature_cols = get_default_feature_list(df)

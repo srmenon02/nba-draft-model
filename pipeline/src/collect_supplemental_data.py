@@ -13,9 +13,13 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from ingest.load_csv import load_base_data
-from ingest.supplemental_data import NBAApiCollector, calculate_derived_metrics
-from features.normalize import reclassify_positions
+from src.ingest.load_csv import load_base_data
+from src.ingest.supplemental_data import (
+    NBAApiCollector,
+    calculate_derived_metrics,
+    calculate_physical_derived_metrics,
+)
+from src.features.normalize import reclassify_positions
 
 
 def collect_combine_data(start_year: int = 2010, end_year: int = 2026) -> pd.DataFrame:
@@ -53,11 +57,14 @@ def collect_combine_data(start_year: int = 2010, end_year: int = 2026) -> pd.Dat
                 "WEIGHT": "weight",
                 "WINGSPAN": "wingspan",
                 "STANDING_REACH": "standing_reach",
-                "VERTICAL_NO_STEP": "vertical_no_step",
-                "VERTICAL_MAX": "vertical_max",
+                "STANDING_VERTICAL_LEAP": "vertical_standing",
+                "MAX_VERTICAL_LEAP": "vertical_max",
                 "LANE_AGILITY_TIME": "lane_agility",
                 "THREE_QUARTER_SPRINT": "three_quarter_sprint",
                 "BENCH_PRESS": "bench_press",
+                "BODY_FAT_PCT": "body_fat_pct",
+                "HAND_LENGTH": "hand_length",
+                "HAND_WIDTH": "hand_width",
             }
         )
 
@@ -130,10 +137,14 @@ def merge_supplemental_data(
                 "weight",
                 "wingspan",
                 "standing_reach",
+                "vertical_standing",
                 "vertical_max",
                 "lane_agility",
                 "three_quarter_sprint",
                 "bench_press",
+                "body_fat_pct",
+                "hand_length",
+                "hand_width",
             ]
         ],
         left_on=["name_std", "season"],
@@ -199,7 +210,6 @@ def infer_positions_from_stats(df: pd.DataFrame) -> pd.DataFrame:
         height = row.get("height", 75)
         ast_rate = row.get("ast", 0) / row.get("gp", 1)
         three_rate = row.get("3fgm", 0) / row.get("gp", 1)
-        reb_rate = (row.get("oreb", 0) + row.get("dreb", 0)) / row.get("gp", 1)
 
         # Height-based primary assignment
         if height <= 74:  # 6'2" and under - prioritize playmaking
@@ -292,6 +302,15 @@ def generate_feature_summary(df: pd.DataFrame):
             "vertical_max",
             "standing_reach",
             "bench_press",
+            "body_fat_pct",
+            "hand_length",
+            "hand_width",
+        ],
+        "Physical Derived Metrics": [
+            "wingspan_to_height",
+            "body_mass_index",
+            "reach_advantage",
+            "attended_combine",
         ],
         "Derived Metrics": [
             "ts_pct",
@@ -338,6 +357,13 @@ def main():
         if len(combine_df) > 0:
             print("\n4. Merging supplemental data with base dataset...")
             enhanced_df = merge_supplemental_data(base_df, combine_df)
+
+            # Calculate physical derived metrics from combine measurements
+            print("\n5. Calculating physical derived metrics...")
+            enhanced_df = calculate_physical_derived_metrics(enhanced_df)
+            print(
+                "✓ Calculated wingspan/height ratio, BMI, reach advantage, attended_combine flag"
+            )
         else:
             print("\n4. No combine data available, using base dataset only")
             enhanced_df = base_df
@@ -346,16 +372,16 @@ def main():
                 enhanced_df["position"] = None
 
         # Infer missing positions
-        print("\n5. Inferring missing position data...")
+        print("\n6. Inferring missing position data...")
         enhanced_df = infer_positions_from_stats(enhanced_df)
 
         # Reclassify positions to modern system (Guard/Wing/Big)
-        print("\n6. Reclassifying positions to modern system...")
+        print("\n7. Reclassifying positions to modern system...")
         enhanced_df = reclassify_positions(enhanced_df)
         print("✓ Reclassified to Guard/Wing/Big system")
 
         # Save enhanced dataset
-        print("\n7. Saving enhanced dataset...")
+        print("\n8. Saving enhanced dataset...")
         save_enhanced_dataset(enhanced_df)
 
         # Generate feature summary

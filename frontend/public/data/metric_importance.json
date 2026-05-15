@@ -1,102 +1,102 @@
 [
   {
     "metric": "age_scaled",
-    "importance": 0.6207,
-    "importancePercent": 21.61
+    "importance": 0.5656,
+    "importancePercent": 22.6
   },
   {
     "metric": "Steals (per 40)",
-    "importance": 0.2066,
-    "importancePercent": 7.19
-  },
-  {
-    "metric": "Defensive Rebounds (per 40)",
-    "importance": 0.1743,
-    "importancePercent": 6.07
+    "importance": 0.1774,
+    "importancePercent": 7.09
   },
   {
     "metric": "Versatility",
-    "importance": 0.1705,
-    "importancePercent": 5.94
-  },
-  {
-    "metric": "Free Throw %",
-    "importance": 0.1659,
-    "importancePercent": 5.78
+    "importance": 0.1599,
+    "importancePercent": 6.39
   },
   {
     "metric": "Defensive Impact",
-    "importance": 0.1651,
-    "importancePercent": 5.75
+    "importance": 0.1591,
+    "importancePercent": 6.36
+  },
+  {
+    "metric": "Defensive Rebounds (per 40)",
+    "importance": 0.155,
+    "importancePercent": 6.19
   },
   {
     "metric": "Turnovers (per 40)",
-    "importance": 0.1398,
-    "importancePercent": 4.87
+    "importance": 0.1386,
+    "importancePercent": 5.54
   },
   {
-    "metric": "Assist/Turnover Ratio",
-    "importance": 0.1378,
-    "importancePercent": 4.8
-  },
-  {
-    "metric": "International",
-    "importance": 0.1337,
-    "importancePercent": 4.65
+    "metric": "Free Throw %",
+    "importance": 0.1248,
+    "importancePercent": 4.99
   },
   {
     "metric": "Offensive Rebounds (per 40)",
-    "importance": 0.1309,
-    "importancePercent": 4.56
+    "importance": 0.1171,
+    "importancePercent": 4.68
+  },
+  {
+    "metric": "Playmaking (Position-Normalized)",
+    "importance": 0.1155,
+    "importancePercent": 4.62
   },
   {
     "metric": "Rim %",
-    "importance": 0.1279,
-    "importancePercent": 4.45
-  },
-  {
-    "metric": "True Shooting %",
-    "importance": 0.086,
-    "importancePercent": 2.99
+    "importance": 0.0915,
+    "importancePercent": 3.66
   },
   {
     "metric": "Assists (per 40)",
-    "importance": 0.077,
-    "importancePercent": 2.68
+    "importance": 0.0882,
+    "importancePercent": 3.53
   },
   {
-    "metric": "Blocks (per 40)",
-    "importance": 0.0765,
-    "importancePercent": 2.66
+    "metric": "True Shooting %",
+    "importance": 0.0637,
+    "importancePercent": 2.54
   },
   {
-    "metric": "Playmaking",
-    "importance": 0.0698,
-    "importancePercent": 2.43
+    "metric": "Assist/Turnover Ratio",
+    "importance": 0.0598,
+    "importancePercent": 2.39
+  },
+  {
+    "metric": "Team Strength",
+    "importance": 0.0535,
+    "importancePercent": 2.14
   },
   {
     "metric": "Strength of Schedule",
-    "importance": 0.0693,
-    "importancePercent": 2.41
+    "importance": 0.0508,
+    "importancePercent": 2.03
   },
   {
-    "metric": "Rebounding Rate",
-    "importance": 0.0597,
-    "importancePercent": 2.08
-  },
-  {
-    "metric": "Points (per 40)",
-    "importance": 0.0571,
-    "importancePercent": 1.99
-  },
-  {
-    "metric": "Height",
-    "importance": 0.0538,
-    "importancePercent": 1.87
+    "metric": "Blocks (per 40)",
+    "importance": 0.0506,
+    "importancePercent": 2.02
   },
   {
     "metric": "Scoring Efficiency",
-    "importance": 0.0528,
-    "importancePercent": 1.84
+    "importance": 0.0488,
+    "importancePercent": 1.95
+  },
+  {
+    "metric": "Height (Position-Normalized)",
+    "importance": 0.0449,
+    "importancePercent": 1.79
+  },
+  {
+    "metric": "Points (per 40)",
+    "importance": 0.0442,
+    "importancePercent": 1.77
+  },
+  {
+    "metric": "Weight (Position-Normalized)",
+    "importance": 0.0367,
+    "importancePercent": 1.47
   }
 ]

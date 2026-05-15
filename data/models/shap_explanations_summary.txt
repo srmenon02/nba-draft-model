@@ -4,270 +4,271 @@ TOP 15 PROSPECT EXPLANATIONS
 ================================================================================
 
 1. Cameron Boozer
-   Predicted NBA Impact: 2.07
-   (Base expectation: -0.46)
+   Predicted NBA Impact: 1.38
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.848 (value: 0.00)
-     • stl_per_40: +0.501 (value: 1.67)
-     • ast_to_tov: +0.259 (value: 1.64)
-     • dreb_per_40: +0.232 (value: 8.20)
-     • scoring_volume_efficiency: +0.181 (value: 1.51)
+     • age_scaled: +0.741 (value: 0.00)
+     • stl_per_40: +0.302 (value: 1.67)
+     • oreb_per_40: +0.284 (value: 4.02)
+     • dreb_per_40: +0.183 (value: 8.20)
+     • scoring_volume_efficiency: +0.158 (value: 1.51)
 
    Negative Factors (lower prediction):
-     • tov_per_40: -0.102 (value: 3.02)
-     • rim_pct: -0.064 (value: 0.60)
-     • international: -0.048 (value: 0.00)
-     • ft_pct: -0.047 (value: 0.79)
-     • ts_pct: -0.007 (value: 0.71)
+     • weight: -0.097 (value: 1.95)
+     • tov_per_40: -0.092 (value: 3.02)
+     • ft_pct: -0.064 (value: 0.79)
+     • rim_pct: -0.054 (value: 0.60)
+     • body_mass_index: -0.043 (value: 27.60)
 
 2. Caleb Wilson
-   Predicted NBA Impact: 1.31
-   (Base expectation: -0.46)
+   Predicted NBA Impact: 1.23
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.881 (value: 0.00)
-     • defensive_composite: +0.536 (value: 3.15)
-     • oreb_per_40: +0.339 (value: 3.62)
-     • stl_per_40: +0.260 (value: 1.92)
-     • dreb_per_40: +0.252 (value: 8.41)
+     • age_scaled: +0.700 (value: 0.00)
+     • defensive_composite: +0.379 (value: 3.15)
+     • dreb_per_40: +0.272 (value: 8.41)
+     • stl_per_40: +0.265 (value: 1.92)
+     • oreb_per_40: +0.200 (value: 3.62)
 
    Negative Factors (lower prediction):
-     • ft_pct: -0.221 (value: 0.71)
-     • sos: -0.152 (value: 5.70)
-     • tov_per_40: -0.139 (value: 2.50)
-     • versatility_score: -0.099 (value: 53.92)
-     • pts_per_40: -0.092 (value: 25.35)
+     • versatility_score: -0.139 (value: 53.92)
+     • sos: -0.109 (value: 5.70)
+     • ft_pct: -0.106 (value: 0.71)
+     • tov_per_40: -0.086 (value: 2.50)
+     • rim_pct: -0.052 (value: 0.59)
 
 3. Hannes Steinbach
-   Predicted NBA Impact: 1.28
-   (Base expectation: -0.46)
+   Predicted NBA Impact: 1.00
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • rebounding_composite: +0.836 (value: 10.63)
-     • age_scaled: +0.684 (value: 0.00)
-     • international: +0.355 (value: 1.00)
-     • oreb_per_40: +0.344 (value: 4.84)
-     • dreb_per_40: +0.304 (value: 8.72)
+     • age_scaled: +0.605 (value: 0.00)
+     • rebounding_composite: +0.498 (value: 10.63)
+     • defensive_composite: +0.303 (value: 2.55)
+     • dreb_per_40: +0.266 (value: 8.72)
+     • oreb_per_40: +0.264 (value: 4.84)
 
    Negative Factors (lower prediction):
-     • ast_to_tov: -0.346 (value: 0.80)
-     • stl_per_40: -0.226 (value: 1.23)
-     • playmaking_composite: -0.169 (value: 0.53)
-     • ast_per_40: -0.123 (value: 1.81)
-     • versatility_score: -0.106 (value: 53.43)
+     • ast_per_40: -0.218 (value: 1.81)
+     • stl_per_40: -0.144 (value: 1.23)
+     • versatility_score: -0.096 (value: 53.43)
+     • tov_per_40: -0.092 (value: 2.27)
+     • ast_to_tov: -0.082 (value: 0.80)
 
-4. Meleek Thomas
-   Predicted NBA Impact: 0.79
-   (Base expectation: -0.46)
+4. Allen Graves
+   Predicted NBA Impact: 0.71
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.800 (value: 0.00)
-     • versatility_score: +0.242 (value: 75.14)
-     • tov_per_40: +0.211 (value: 1.31)
-     • ft_pct: +0.201 (value: 0.84)
-     • stl_per_40: +0.196 (value: 2.02)
+     • stl_per_40: +0.464 (value: 3.38)
+     • defensive_composite: +0.362 (value: 3.04)
+     • tov_per_40: +0.315 (value: 1.25)
+     • oreb_per_40: +0.275 (value: 4.95)
+     • playmaking_composite: +0.115 (value: 1.07)
 
    Negative Factors (lower prediction):
-     • defensive_composite: -0.136 (value: 1.77)
-     • scoring_volume_efficiency: -0.124 (value: 0.78)
-     • blks_per_40: -0.105 (value: 0.25)
-     • international: -0.087 (value: 0.00)
-     • rim_pct: -0.070 (value: 0.59)
+     • sos: -0.338 (value: 4.10)
+     • age_scaled: -0.108 (value: 0.00)
+     • vertical_max: -0.077 (value: 34.00)
+     • rim_pct: -0.055 (value: 0.57)
+     • ft_pct: -0.047 (value: 0.75)
 
-5. Darryn Peterson
-   Predicted NBA Impact: 0.61
-   (Base expectation: -0.46)
+5. Kingston Flemings
+   Predicted NBA Impact: 0.60
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.921 (value: 0.00)
-     • stl_per_40: +0.308 (value: 1.95)
-     • defensive_composite: +0.289 (value: 2.17)
-     • ft_pct: +0.156 (value: 0.83)
-     • pts_per_40: +0.148 (value: 27.82)
+     • age_scaled: +0.689 (value: 0.00)
+     • stl_per_40: +0.204 (value: 1.91)
+     • ft_pct: +0.204 (value: 0.84)
+     • wingspan_to_height: +0.190 (value: 1.01)
+     • versatility_score: +0.155 (value: 76.96)
 
    Negative Factors (lower prediction):
-     • rim_pct: -0.230 (value: 0.56)
-     • versatility_score: -0.192 (value: 58.39)
-     • oreb_per_40: -0.143 (value: 0.98)
-     • ast_to_tov: -0.141 (value: 1.00)
-     • height: -0.067 (value: 77.00)
+     • rim_pct: -0.159 (value: 0.55)
+     • oreb_per_40: -0.151 (value: 0.65)
+     • defensive_composite: -0.131 (value: 1.90)
+     • tov_per_40: -0.080 (value: 2.25)
+     • reach_advantage: -0.033 (value: 24.00)
 
-6. Allen Graves
-   Predicted NBA Impact: 0.57
-   (Base expectation: -0.46)
+6. Meleek Thomas
+   Predicted NBA Impact: 0.58
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • stl_per_40: +0.560 (value: 3.38)
-     • defensive_composite: +0.346 (value: 3.04)
-     • tov_per_40: +0.286 (value: 1.25)
-     • oreb_per_40: +0.221 (value: 4.95)
-     • versatility_score: +0.210 (value: 80.34)
+     • age_scaled: +0.658 (value: 0.00)
+     • tov_per_40: +0.282 (value: 1.31)
+     • versatility_score: +0.225 (value: 75.14)
+     • ft_pct: +0.189 (value: 0.84)
+     • stl_per_40: +0.158 (value: 2.02)
 
    Negative Factors (lower prediction):
-     • sos: -0.533 (value: 4.10)
-     • age_scaled: -0.096 (value: 0.00)
-     • scoring_volume_efficiency: -0.069 (value: 0.96)
-     • team_strength: -0.061 (value: 10.60)
-     • international: -0.042 (value: 0.00)
+     • defensive_composite: -0.129 (value: 1.77)
+     • height: -0.112 (value: -1.43)
+     • blks_per_40: -0.082 (value: 0.25)
+     • weight: -0.076 (value: -1.38)
+     • team_strength: -0.042 (value: 13.70)
 
-7. Kingston Flemings
-   Predicted NBA Impact: 0.52
-   (Base expectation: -0.46)
+7. Aday Mara
+   Predicted NBA Impact: 0.41
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.849 (value: 0.00)
-     • ft_pct: +0.278 (value: 0.84)
-     • versatility_score: +0.250 (value: 76.96)
-     • stl_per_40: +0.189 (value: 1.91)
-     • ast_to_tov: +0.168 (value: 2.91)
+     • blks_per_40: +1.094 (value: 4.40)
+     • ts_pct: +0.313 (value: 0.88)
+     • defensive_composite: +0.287 (value: 3.44)
+     • rim_pct: +0.180 (value: 0.72)
+     • dreb_per_40: +0.171 (value: 8.29)
 
    Negative Factors (lower prediction):
-     • rim_pct: -0.329 (value: 0.55)
-     • oreb_per_40: -0.173 (value: 0.65)
-     • defensive_composite: -0.151 (value: 1.90)
-     • ts_pct: -0.147 (value: 0.58)
-     • height: -0.107 (value: 76.00)
+     • age_scaled: -0.574 (value: 0.00)
+     • stl_per_40: -0.275 (value: 0.60)
+     • ft_pct: -0.262 (value: 0.56)
+     • versatility_score: -0.138 (value: 56.90)
+     • tov_per_40: -0.105 (value: 3.38)
 
-8. Aday Mara
-   Predicted NBA Impact: 0.31
-   (Base expectation: -0.46)
+8. AJ Dybantsa
+   Predicted NBA Impact: 0.33
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • blks_per_40: +0.904 (value: 4.40)
-     • ts_pct: +0.401 (value: 0.88)
-     • defensive_composite: +0.324 (value: 3.44)
-     • height: +0.274 (value: 87.00)
-     • international: +0.213 (value: 1.00)
+     • age_scaled: +0.739 (value: 0.00)
+     • rim_pct: +0.223 (value: 0.66)
+     • scoring_volume_efficiency: +0.187 (value: 1.46)
+     • dreb_per_40: +0.132 (value: 6.17)
+     • pts_per_40: +0.088 (value: 29.36)
 
    Negative Factors (lower prediction):
-     • age_scaled: -0.801 (value: 0.00)
-     • stl_per_40: -0.276 (value: 0.60)
-     • ft_pct: -0.275 (value: 0.56)
-     • tov_per_40: -0.262 (value: 3.38)
-     • versatility_score: -0.173 (value: 56.90)
+     • versatility_score: -0.178 (value: 52.15)
+     • defensive_composite: -0.175 (value: 1.47)
+     • stl_per_40: -0.126 (value: 1.22)
+     • tov_per_40: -0.082 (value: 3.55)
+     • team_strength: -0.047 (value: 13.00)
 
-9. Tounde Yessoufou
+9. Keaton Wagler
    Predicted NBA Impact: 0.28
-   (Base expectation: -0.46)
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.789 (value: 0.00)
-     • rim_pct: +0.345 (value: 0.63)
-     • international: +0.331 (value: 1.00)
-     • defensive_composite: +0.257 (value: 2.70)
-     • stl_per_40: +0.255 (value: 2.42)
+     • age_scaled: +0.677 (value: 0.00)
+     • wingspan_to_height: +0.237 (value: 1.02)
+     • versatility_score: +0.233 (value: 70.00)
+     • height: +0.090 (value: 1.60)
+     • ast_to_tov: +0.075 (value: 2.38)
 
    Negative Factors (lower prediction):
-     • ft_pct: -0.244 (value: 0.74)
-     • ast_per_40: -0.222 (value: 1.93)
-     • ast_to_tov: -0.198 (value: 0.84)
-     • tov_per_40: -0.188 (value: 2.31)
-     • versatility_score: -0.130 (value: 50.87)
+     • dreb_per_40: -0.224 (value: 3.73)
+     • defensive_composite: -0.120 (value: 1.37)
+     • stl_per_40: -0.094 (value: 1.08)
+     • tov_per_40: -0.087 (value: 2.10)
+     • ft_pct: -0.044 (value: 0.80)
 
-10. Paul McNeil, Jr.
-   Predicted NBA Impact: 0.26
-   (Base expectation: -0.46)
+10. Darryn Peterson
+   Predicted NBA Impact: 0.03
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.692 (value: 0.00)
-     • ast_to_tov: +0.258 (value: 2.00)
-     • tov_per_40: +0.177 (value: 1.08)
-     • ft_pct: +0.125 (value: 0.82)
-     • versatility_score: +0.095 (value: 67.68)
+     • age_scaled: +0.739 (value: 0.00)
+     • stl_per_40: +0.220 (value: 1.95)
+     • defensive_composite: +0.128 (value: 2.17)
+     • pts_per_40: +0.096 (value: 27.82)
+     • ft_pct: +0.093 (value: 0.83)
 
    Negative Factors (lower prediction):
-     • stl_per_40: -0.139 (value: 0.86)
-     • defensive_composite: -0.122 (value: 1.08)
-     • international: -0.100 (value: 0.00)
-     • three_pt_pct: -0.098 (value: 0.43)
-     • ast_per_40: -0.095 (value: 1.15)
+     • versatility_score: -0.210 (value: 58.39)
+     • playmaking_composite: -0.132 (value: -0.32)
+     • rim_pct: -0.106 (value: 0.56)
+     • tov_per_40: -0.101 (value: 2.18)
+     • oreb_per_40: -0.094 (value: 0.98)
 
-11. Tyler Tanner
-   Predicted NBA Impact: 0.26
-   (Base expectation: -0.46)
+11. Christian Anderson
+   Predicted NBA Impact: -0.02
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • stl_per_40: +0.351 (value: 2.85)
-     • defensive_composite: +0.347 (value: 2.79)
-     • ft_pct: +0.266 (value: 0.85)
-     • versatility_score: +0.217 (value: 77.48)
-     • ast_to_tov: +0.139 (value: 2.71)
+     • age_scaled: +0.543 (value: 0.00)
+     • rim_pct: +0.281 (value: 0.71)
+     • versatility_score: +0.259 (value: 72.41)
+     • sos: +0.151 (value: 8.80)
+     • playmaking_composite: +0.101 (value: 0.98)
 
    Negative Factors (lower prediction):
-     • oreb_per_40: -0.206 (value: 0.50)
-     • height: -0.137 (value: 72.00)
-     • tov_per_40: -0.108 (value: 2.26)
-     • age_scaled: -0.107 (value: 0.00)
-     • blks_per_40: -0.072 (value: 0.40)
+     • dreb_per_40: -0.593 (value: 3.09)
+     • oreb_per_40: -0.140 (value: 0.63)
+     • defensive_composite: -0.130 (value: 1.75)
+     • tov_per_40: -0.099 (value: 3.44)
+     • blks_per_40: -0.075 (value: 0.25)
 
-12. Brayden Burries
-   Predicted NBA Impact: 0.20
-   (Base expectation: -0.46)
+12. Paul McNeil, Jr.
+   Predicted NBA Impact: -0.06
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • stl_per_40: +0.358 (value: 2.03)
-     • ast_to_tov: +0.165 (value: 1.67)
-     • scoring_volume_efficiency: +0.145 (value: 1.08)
-     • dreb_per_40: +0.136 (value: 5.85)
-     • tov_per_40: +0.136 (value: 1.96)
+     • age_scaled: +0.612 (value: 0.00)
+     • tov_per_40: +0.237 (value: 1.08)
+     • versatility_score: +0.189 (value: 67.68)
+     • ast_to_tov: +0.150 (value: 2.00)
+     • ft_pct: +0.068 (value: 0.82)
 
    Negative Factors (lower prediction):
-     • oreb_per_40: -0.186 (value: 0.72)
-     • international: -0.081 (value: 0.00)
-     • rebounding_composite: -0.078 (value: 4.83)
-     • defensive_composite: -0.077 (value: 1.76)
-     • height: -0.055 (value: 76.00)
+     • stl_per_40: -0.166 (value: 0.86)
+     • playmaking_composite: -0.164 (value: -0.41)
+     • ast_per_40: -0.130 (value: 1.15)
+     • defensive_composite: -0.116 (value: 1.08)
+     • height: -0.105 (value: -1.43)
 
-13. Flory Bidunga
-   Predicted NBA Impact: 0.18
-   (Base expectation: -0.46)
+13. Tyler Tanner
+   Predicted NBA Impact: -0.08
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • oreb_per_40: +0.627 (value: 3.83)
-     • international: +0.282 (value: 1.00)
-     • dreb_per_40: +0.228 (value: 7.52)
-     • ts_pct: +0.217 (value: 0.87)
-     • defensive_composite: +0.133 (value: 3.86)
+     • stl_per_40: +0.311 (value: 2.85)
+     • defensive_composite: +0.308 (value: 2.79)
+     • versatility_score: +0.210 (value: 77.48)
+     • ft_pct: +0.181 (value: 0.85)
+     • playmaking_composite: +0.114 (value: 1.09)
 
    Negative Factors (lower prediction):
-     • ft_pct: -0.269 (value: 0.65)
-     • stl_per_40: -0.211 (value: 0.94)
-     • ast_to_tov: -0.175 (value: 0.96)
-     • ast_per_40: -0.138 (value: 1.88)
-     • versatility_score: -0.129 (value: 26.34)
+     • height: -0.131 (value: -1.69)
+     • tov_per_40: -0.125 (value: 2.26)
+     • oreb_per_40: -0.120 (value: 0.50)
+     • body_mass_index: -0.086 (value: 23.43)
+     • age_scaled: -0.086 (value: 0.00)
 
-14. Yaxel Lendeborg
-   Predicted NBA Impact: 0.14
-   (Base expectation: -0.46)
+14. Tounde Yessoufou
+   Predicted NBA Impact: -0.08
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • versatility_score: +0.428 (value: 79.69)
-     • defensive_composite: +0.315 (value: 2.59)
-     • rim_pct: +0.189 (value: 0.67)
-     • tov_per_40: +0.178 (value: 1.40)
-     • ast_to_tov: +0.136 (value: 3.07)
+     • age_scaled: +0.634 (value: 0.00)
+     • defensive_composite: +0.323 (value: 2.70)
+     • stl_per_40: +0.300 (value: 2.42)
+     • rim_pct: +0.191 (value: 0.63)
+     • weight: +0.043 (value: 0.21)
 
    Negative Factors (lower prediction):
-     • age_scaled: -1.234 (value: 0.01)
-     • international: -0.069 (value: 0.00)
-     • stl_per_40: -0.050 (value: 1.50)
-     • pts_per_40: -0.016 (value: 20.03)
+     • playmaking_composite: -0.222 (value: -0.53)
+     • ast_per_40: -0.215 (value: 1.93)
+     • versatility_score: -0.137 (value: 50.87)
+     • ft_pct: -0.116 (value: 0.74)
+     • tov_per_40: -0.079 (value: 2.31)
 
-15. Keaton Wagler
-   Predicted NBA Impact: 0.14
-   (Base expectation: -0.46)
+15. Yaxel Lendeborg
+   Predicted NBA Impact: -0.12
+   (Base expectation: -0.53)
 
    Positive Factors (boost prediction):
-     • age_scaled: +0.779 (value: 0.00)
-     • versatility_score: +0.349 (value: 70.00)
-     • ast_to_tov: +0.109 (value: 2.38)
-     • ast_per_40: +0.090 (value: 5.01)
-     • blks_per_40: +0.084 (value: 0.45)
+     • tov_per_40: +0.347 (value: 1.40)
+     • defensive_composite: +0.278 (value: 2.59)
+     • versatility_score: +0.231 (value: 79.69)
+     • rim_pct: +0.165 (value: 0.67)
+     • playmaking_composite: +0.128 (value: 2.73)
 
    Negative Factors (lower prediction):
-     • dreb_per_40: -0.346 (value: 3.73)
-     • defensive_composite: -0.228 (value: 1.37)
-     • stl_per_40: -0.106 (value: 1.08)
-     • rim_pct: -0.102 (value: 0.58)
-     • international: -0.087 (value: 0.00)
+     • age_scaled: -0.953 (value: 0.00)
+     • stl_per_40: -0.079 (value: 1.50)
+     • weight: -0.070 (value: 1.35)
+     • wingspan_to_height: -0.069 (value: 1.08)
+     • sos: -0.053 (value: 10.00)

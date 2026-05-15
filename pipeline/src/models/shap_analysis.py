@@ -277,6 +277,7 @@ if __name__ == "__main__":
         normalize_per_40,
         winsorize_outliers,
         adjust_for_age,
+        create_position_normalized_features,
         create_composite_features,
         get_default_feature_list,
     )
@@ -304,7 +305,8 @@ if __name__ == "__main__":
     )
 
     df = adjust_for_age(df, per_40_cols)
-    df = create_composite_features(df)
+    df = create_composite_features(df)  # Create composites first
+    df = create_position_normalized_features(df)  # Then normalize by position
 
     # Get features
     feature_cols = get_default_feature_list(df)

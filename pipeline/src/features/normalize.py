@@ -318,6 +318,82 @@ def adjust_for_age(
     return df
 
 
+def create_position_normalized_features(df: pd.DataFrame, position_col: str = "position_modern") -> pd.DataFrame:
+    """
+    Replace physical and playmaking features with position-normalized versions.
+    
+    Normalizes height/weight/playmaking relative to position (Guards vs Wings vs Bigs)
+    and normalizes wingspan/standing reach relative to player height.
+    
+    Args:
+        df: DataFrame with physical measurements
+        position_col: Column name for position (default: position_modern)
+    
+    Returns:
+        DataFrame with normalized features (original columns replaced)
+    """
+    df = df.copy()
+    
+    # If position_modern doesn't exist, use position
+    if position_col not in df.columns:
+        position_col = "position" if "position" in df.columns else None
+    
+    if position_col is None:
+        print("Warning: No position column found, skipping position normalization")
+        return df
+    
+    # 1. Replace physical features with position-normalized z-scores
+    for feature in ["height", "weight"]:
+        if feature not in df.columns:
+            continue
+            
+        # Calculate mean and std for each position
+        position_stats = df.groupby(position_col)[feature].agg(['mean', 'std'])
+        
+        # Store original values temporarily
+        original_values = df[feature].copy()
+        
+        # Replace with normalized values
+        for position in df[position_col].unique():
+            if pd.isna(position):
+                continue
+            mask = df[position_col] == position
+            mean_val = position_stats.loc[position, 'mean']
+            std_val = position_stats.loc[position, 'std']
+            
+            if std_val > 0:
+                df.loc[mask, feature] = (original_values.loc[mask] - mean_val) / std_val
+            else:
+                df.loc[mask, feature] = 0.0
+    
+    # 2. Replace playmaking composite with position-normalized version
+    playmaking_stats = ["playmaking_composite"]
+    for feature in playmaking_stats:
+        if feature not in df.columns:
+            continue
+            
+        # Calculate mean and std for each position
+        position_stats = df.groupby(position_col)[feature].agg(['mean', 'std'])
+        
+        # Store original values temporarily
+        original_values = df[feature].copy()
+        
+        # Replace with normalized values
+        for position in df[position_col].unique():
+            if pd.isna(position):
+                continue
+            mask = df[position_col] == position
+            mean_val = position_stats.loc[position, 'mean']
+            std_val = position_stats.loc[position, 'std']
+            
+            if std_val > 0:
+                df.loc[mask, feature] = (original_values.loc[mask] - mean_val) / std_val
+            else:
+                df.loc[mask, feature] = 0.0
+    
+    return df
+
+
 def create_composite_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Create composite features combining multiple stats.
@@ -330,11 +406,11 @@ def create_composite_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
 
-    # Age scaling: Drastically reduce impact of age on model
-    # Scale from ~18-24 to ~0.001-0.004 range (100x smaller than before)
-    # This forces model to rely more on performance metrics rather than demographics
+    # Age scaling: Extremely minimize impact of age on model
+    # Scale from ~18-24 to ~0.0001-0.001 range (1000x smaller than original)
+    # This forces model to rely heavily on performance metrics rather than demographics
     if "age" in df.columns:
-        df["age_scaled"] = (df["age"] - 18.0) / 600.0  # Extreme scaling
+        df["age_scaled"] = (df["age"] - 18.0) / 6000.0  # Ultra-extreme scaling
 
     # Scoring efficiency composite
     if all(col in df.columns for col in ["ts_pct", "fta", "gp"]):
@@ -384,7 +460,7 @@ def prepare_features_for_ml(
     test_mask: Optional[pd.Series] = None,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, Optional[pd.Series]]:
     """
-    Prepare features and target for ML training.
+    Prepare features and target for ML training with position-based imputation for physical measurements.
 
     Args:
         df: DataFrame with all features
@@ -394,26 +470,77 @@ def prepare_features_for_ml(
 
     Returns:
         Tuple of (X_train, X_test, y_train, y_test)
-        - X_train: Training features
-        - X_test: Test features (2026 prospects)
+        - X_train: Training features with imputed values
+        - X_test: Test features with imputed values
         - y_train: Training target
         - y_test: Test target (None if not available)
     """
-    # Remove rows with missing features
-    valid_features = df[feature_cols].notna().all(axis=1)
-    df_valid = df[valid_features].copy()
+    # Physical features that need position-based imputation
+    physical_features = [
+        "wingspan",
+        "weight",
+        "vertical_max",
+        "standing_reach",
+        "bench_press",
+        "body_fat_pct",
+        "wingspan_to_height",
+        "body_mass_index",
+        "reach_advantage",
+    ]
+
+    # Calculate position-based medians for physical features (only on training data with NBA outcomes)
+    position_medians = {}
+    if "position_modern" in df.columns:
+        position_col = "position_modern"
+    elif "position" in df.columns:
+        position_col = "position"
+    else:
+        position_col = None
+
+    if position_col:
+        training_data = df[df[target_col].notna()]
+        for feat in physical_features:
+            if feat in df.columns:
+                position_medians[feat] = training_data.groupby(position_col)[
+                    feat
+                ].median()
+
+    # Create a copy to avoid modifying original
+    df_imputed = df.copy()
+
+    # Impute missing physical values with position-based medians
+    for feat in physical_features:
+        if feat in df_imputed.columns and position_col:
+            for position in df_imputed[position_col].unique():
+                mask = (df_imputed[position_col] == position) & df_imputed[feat].isna()
+                if (
+                    feat in position_medians
+                    and position in position_medians[feat].index
+                ):
+                    df_imputed.loc[mask, feat] = position_medians[feat][position]
+                else:
+                    # Fallback to overall median if position median not available
+                    df_imputed.loc[mask, feat] = df_imputed[feat].median()
+
+    # For any remaining missing values in feature_cols, use median imputation
+    for col in feature_cols:
+        if col in df_imputed.columns:
+            median_val = df_imputed[col].median()
+            df_imputed[col] = df_imputed[col].fillna(median_val)
 
     if test_mask is None:
         # Default: test set is players without target variable
-        test_mask = df_valid[target_col].isna()
+        test_mask = df_imputed[target_col].isna()
 
-    train_mask = ~test_mask & df_valid[target_col].notna()
+    train_mask = ~test_mask & df_imputed[target_col].notna()
 
-    X_train = df_valid.loc[train_mask, feature_cols]
-    X_test = df_valid.loc[test_mask, feature_cols]
-    y_train = df_valid.loc[train_mask, target_col]
+    X_train = df_imputed.loc[train_mask, feature_cols]
+    X_test = df_imputed.loc[test_mask, feature_cols]
+    y_train = df_imputed.loc[train_mask, target_col]
     y_test = (
-        df_valid.loc[test_mask, target_col] if target_col in df_valid.columns else None
+        df_imputed.loc[test_mask, target_col]
+        if target_col in df_imputed.columns
+        else None
     )
 
     print(f"\n{'='*80}")
@@ -424,6 +551,14 @@ def prepare_features_for_ml(
     print(f"Test samples: {len(X_test)}")
     print(f"Target variable: {target_col}")
     print(f"Target range (train): [{y_train.min():.2f}, {y_train.max():.2f}]")
+
+    # Report imputation stats
+    physical_in_features = [f for f in physical_features if f in feature_cols]
+    if physical_in_features:
+        print("\nPhysical features with position-based imputation:")
+        for feat in physical_in_features:
+            orig_missing = df[feat].isna().sum()
+            print(f"  • {feat}: {orig_missing} missing values imputed")
 
     return X_train, X_test, y_train, y_test
 
@@ -445,12 +580,28 @@ def get_default_feature_list(df: pd.DataFrame) -> List[str]:
     efficiency_cols = ["ts_pct", "ft_pct", "three_pt_pct", "rim_pct", "ast_to_tov"]
 
     # Context features (age_scaled has reduced numerical range to limit dominance)
-    context_cols = ["height", "age_scaled", "sos", "team_strength", "international"]
+    # Note: height, weight, and playmaking_composite are position-normalized (replaced in-place)
+    context_cols = ["age_scaled", "sos", "team_strength", "height", "weight"]
+
+    # Other physical measurements (not needing position/height normalization)
+    physical_raw_cols = [
+        "vertical_max",
+        "bench_press",
+        "body_fat_pct",
+    ]
+
+    # Physical derived features (already relative measures)
+    physical_derived_cols = [
+        "wingspan_to_height",  # Ratio already accounts for height
+        "body_mass_index",  # Already accounts for height
+        "reach_advantage",  # Already relative measure
+        "attended_combine",  # Binary flag for missing value handling
+    ]
 
     # Composite features
     composite_cols = [
         "scoring_volume_efficiency",
-        "playmaking_composite",
+        "playmaking_composite",  # Position-normalized (replaced in-place)
         "defensive_composite",
         "rebounding_composite",
         "versatility_score",
@@ -458,7 +609,14 @@ def get_default_feature_list(df: pd.DataFrame) -> List[str]:
 
     # Combine all available features
     feature_list = []
-    for col in per_40_stats + efficiency_cols + context_cols + composite_cols:
+    for col in (
+        per_40_stats
+        + efficiency_cols
+        + context_cols
+        + physical_raw_cols
+        + physical_derived_cols
+        + composite_cols
+    ):
         if col in df.columns:
             feature_list.append(col)
 

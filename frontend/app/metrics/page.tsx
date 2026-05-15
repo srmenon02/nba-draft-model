@@ -107,9 +107,10 @@ function getMetricDescription(metric: string): string {
   const descriptions: Record<string, string> = {
     // Demographic & Context
     'age_scaled': 'Age adjusted for draft position',
-    'International': 'Whether the prospect played internationally vs. NCAA - reflects different development paths, competition levels, and professional experience.',
-    'Height': 'Physical measurement in inches',
-    'Strength of Schedule': 'Quality of competition faced in college - playing against tougher opponents provides better NBA readiness.',
+    'Height (Position-Normalized)': 'Height as z-score relative to position group',
+    'Weight (Position-Normalized)': 'Weight as z-score relative to position group',
+    'Strength of Schedule': 'Quality of competition faced in college',
+    'Team Strength': 'Overall quality of player\'s college team',
     
     // Shooting Efficiency
     'True Shooting %': 'Overall shooting efficiency accounting for 2-pointers, 3-pointers, and free throws',
@@ -122,7 +123,7 @@ function getMetricDescription(metric: string): string {
     
     // Playmaking & Decision Making
     'Assists (per 40)': 'Assists per 40 minutes',
-    'Playmaking': 'Composite playmaking metric including assist rate, creation opportunities, and offensive flow generation.',
+    'Playmaking (Position-Normalized)': 'Composite playmaking metric (assists, creation, offensive flow) evaluated relative to position',
     'Assist/Turnover Ratio': 'Assists divided by turnovers',
     'Turnovers (per 40)': 'Turnovers per 40 minutes',
     
@@ -138,6 +139,9 @@ function getMetricDescription(metric: string): string {
     
     // Versatility
     'Versatility': 'Composite metric measuring ability to contribute across multiple statistical categories',
+
+    'wingspan_to_height': 'Ratio of wingspan to height',
+
   };
 
   return descriptions[metric] || 'This metric contributes to predicting NBA success based on historical patterns.';
