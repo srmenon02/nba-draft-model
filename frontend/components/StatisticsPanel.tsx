@@ -39,19 +39,19 @@ export default function StatisticsPanel({ prospect }: StatisticsPanelProps) {
   ];
 
   return (
-    <div className="bg-brand-800 border-2 border-brand-700 rounded-xl p-6">
-      <h2 className="text-2xl font-bold text-brand-100 mb-6">2025-2026 College Statistics</h2>
+    <div className="bg-card border-2 border-border rounded-lg p-6">
+      <h2 className="text-xl font-black text-foreground mb-6 uppercase tracking-tight">2025-2026 College Stats</h2>
       
-      <div className="space-y-8">
+      <div className="space-y-6">
         {statisticsGroups.map((group) => (
           <div key={group.title}>
-            <h3 className="text-lg font-semibold text-brand-200 mb-4">{group.title}</h3>
-            <div className="space-y-4">
+            <h3 className="text-sm font-black text-primary mb-4 uppercase tracking-wide">{group.title}</h3>
+            <div className="space-y-3">
               {group.stats.map((stat) => (
-                <div key={stat.label}>
-                  <div className="flex items-center justify-between mb-1.5">
-                    <span className="text-sm font-medium text-brand-400">{stat.label}</span>
-                    <span className="text-lg font-bold text-brand-100">{stat.value}</span>
+                <div key={stat.label} className="bg-secondary/20 border-l-4 border-primary/40 p-3 rounded">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-black text-muted-foreground uppercase tracking-wider">{stat.label}</span>
+                    <span className="text-xl font-black text-foreground font-mono">{stat.value}</span>
                   </div>
                 </div>
               ))}
@@ -60,9 +60,9 @@ export default function StatisticsPanel({ prospect }: StatisticsPanelProps) {
         ))}
       </div>
       
-      <div className="mt-6 pt-6 border-t border-brand-700">
-        <p className="text-sm text-brand-400">
-          Based on <span className="font-semibold text-brand-300">{stats.gamesPlayed} games</span> played • <span className="font-semibold text-brand-300">{stats.minutesPerGame.toFixed(1)} MPG</span>
+      <div className="mt-6 pt-6 border-t-2 border-border">
+        <p className="text-xs text-muted-foreground font-bold uppercase tracking-wider">
+          <span className="font-black text-foreground">{stats.gamesPlayed} GP</span> <span className="text-primary mx-2">▪</span> <span className="font-black text-foreground">{stats.minutesPerGame.toFixed(1)} MPG</span>
         </p>
       </div>
     </div>

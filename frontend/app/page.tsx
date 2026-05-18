@@ -1,10 +1,13 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { motion } from 'framer-motion';
+import { TrendingUp, Award } from 'lucide-react';
 import { getBigBoard, getMetadata } from '@/lib/data';
 import type { Position } from '@/lib/types';
 import ProspectCard from '@/components/ProspectCard';
 import PositionFilter from '@/components/PositionFilter';
+import { Badge } from '@/components/ui/badge';
 
 export default function HomePage() {
   const allProspects = getBigBoard(); // Already sorted by predicted impact
@@ -49,22 +52,37 @@ export default function HomePage() {
   }, [allProspects, selectedPosition, sortBy]);
 
   return (
-    <main className="flex-1">
+    <main className="flex-1 bg-spotlight">
       {/* Header Section */}
-      <div className="bg-brand-800 border-b border-brand-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-100 mb-2">
-            2026 NBA Draft Big Board
-          </h1>
-          <p className="text-brand-400 text-sm sm:text-base">
-            Machine learning-powered prospect rankings • Model Performance: Spearman ρ ={' '}
-            {metadata.modelPerformance.spearmanRho.toFixed(3)}
-          </p>
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="border-b-4 border-primary bg-card/50 backdrop-blur-sm relative overflow-hidden"
+      >
+        {/* Decorative angular lines */}
+        <div className="absolute top-0 left-0 w-full h-full opacity-10">
+          <div className="absolute top-0 left-10 w-1 h-full bg-primary transform -skew-x-12" />
+          <div className="absolute top-0 right-10 w-1 h-full bg-accent transform skew-x-12" />
         </div>
-      </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
+          <div className="flex items-start gap-4 mb-4">
+            <div className="flex-1">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-foreground mb-3 font-sans tracking-tighter uppercase leading-none jersey-number">
+                2026 NBA DRAFT BIG BOARD
+              </h1>
+            </div>
+          </div>
+        </div>
+      </motion.div>
 
       {/* Filters Section */}
-      <div className="bg-brand-900 border-b border-brand-700">
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
+        className="border-b border-border bg-card/30 backdrop-blur-sm"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <PositionFilter
@@ -72,34 +90,15 @@ export default function HomePage() {
               onPositionChange={setSelectedPosition}
               positionCounts={positionCounts}
             />
-            
-            <div className="flex items-center gap-3">
-              <label htmlFor="sort" className="text-sm font-medium text-brand-300">
-                Sort by:
-              </label>
-              <select
-                id="sort"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as 'impact' | 'name')}
-                className="bg-brand-800 text-brand-100 border border-brand-700 rounded-lg px-4 py-2.5 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-accent focus:border-accent"
-              >
-                <option value="impact">Predicted Impact</option>
-                <option value="name">Name (A-Z)</option>
-              </select>
-            </div>
-          </div>
-          
-          <div className="mt-5 text-base text-brand-400 font-medium">
-            Showing <span className="text-brand-200">{displayedProspects.length}</span> of <span className="text-brand-200">{allProspects.length}</span> prospects
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Prospects Grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-court-texture">
         {displayedProspects.length === 0 ? (
           <div className="text-center py-16">
-            <p className="text-brand-400 text-xl">No prospects found for this position.</p>
+            <p className="text-muted-foreground text-lg">No prospects found for this position.</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -108,6 +107,7 @@ export default function HomePage() {
                 key={prospect.id}
                 prospect={prospect}
                 rank={sortBy === 'impact' && selectedPosition === 'ALL' ? index + 1 : undefined}
+                index={index}
               />
             ))}
           </div>

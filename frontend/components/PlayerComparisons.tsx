@@ -11,17 +11,17 @@ export default function PlayerComparisons({ comparisons }: PlayerComparisonsProp
 
   if (topComparisons.length === 0) {
     return (
-      <div className="bg-brand-800 border border-brand-700 rounded-lg p-6">
-        <h2 className="text-2xl font-bold text-brand-100 mb-4">Similar NBA Players</h2>
-        <p className="text-brand-400">No comparisons available.</p>
+      <div className="bg-card border-2 border-border rounded-lg p-6">
+        <h2 className="text-xl font-black text-foreground mb-4 uppercase tracking-tight">Similar NBA Players</h2>
+        <p className="text-muted-foreground font-bold uppercase tracking-wider">No comparisons available.</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-brand-800 border-2 border-brand-700 rounded-xl p-6">
-      <h2 className="text-2xl font-bold text-brand-100 mb-2">Similar NBA Players</h2>
-      <p className="text-sm text-brand-400 mb-6">
+    <div className="bg-card border-2 border-border rounded-lg p-6">
+      <h2 className="text-xl font-black text-foreground mb-2 uppercase tracking-tight">Similar NBA Players</h2>
+      <p className="text-xs text-muted-foreground mb-6 font-bold uppercase tracking-wider">
         Based on playing style, physical attributes, and college production
       </p>
       
@@ -35,32 +35,32 @@ export default function PlayerComparisons({ comparisons }: PlayerComparisonsProp
           return (
             <div
               key={`${comp.name}-${index}`}
-              className="flex items-center justify-between p-5 bg-brand-700 rounded-xl hover:bg-brand-600 transition-colors"
+              className="flex items-center justify-between p-5 bg-secondary/30 border-l-4 border-primary rounded hover:border-accent hover:bg-secondary/50 transition-all"
             >
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-1.5">
-                  <span className="text-xs text-brand-400 font-mono w-8">
+                  <span className="text-xs text-primary font-black font-mono w-8 bg-primary/20 px-2 py-1 rounded">
                     #{index + 1}
                   </span>
                   <div>
-                    <h3 className="font-bold text-brand-100 text-base">{comp.name}</h3>
-                    <p className="text-sm text-brand-400">
-                      {comp.position} <span className="text-brand-500">•</span> {comp.draftYear} Draft <span className="text-brand-500">•</span> {comp.nbaSeasons} seasons
+                    <h3 className="font-black text-foreground text-base uppercase tracking-tight">{comp.name}</h3>
+                    <p className="text-xs text-muted-foreground font-bold uppercase tracking-wider">
+                      {comp.position} <span className="text-primary">▪</span> {comp.draftYear} Draft <span className="text-primary">▪</span> {comp.nbaSeasons} seasons
                     </p>
                   </div>
                 </div>
               </div>
               
-              <div className="text-right ml-4">
-                <div className="text-xs uppercase tracking-wide text-brand-500 mb-1">Similarity</div>
-                <div className="text-xl font-bold text-accent">
+              <div className="text-right ml-4 bg-accent/10 border-2 border-accent/30 px-4 py-3 rounded">
+                <div className="text-[9px] uppercase tracking-widest text-accent font-black mb-1">SIMILARITY</div>
+                <div className="text-2xl font-black text-accent font-mono">
                   {(comp.similarityScore * 100).toFixed(0)}%
                 </div>
               </div>
               
-              <div className="text-right ml-4 min-w-[80px]">
-                <div className="text-xs uppercase tracking-wide text-brand-500 mb-1">NBA Impact</div>
-                <div className={`text-xl font-bold ${impactColor}`}>
+              <div className="text-right ml-4 min-w-[100px] bg-secondary/30 border-2 border-border px-4 py-3 rounded">
+                <div className="text-[9px] uppercase tracking-widest text-muted-foreground font-black mb-1">NBA IMPACT</div>
+                <div className={`text-2xl font-black font-mono ${impactColor}`}>
                   {comp.nbaImpact >= 0 ? '+' : ''}{comp.nbaImpact.toFixed(1)}
                 </div>
               </div>
@@ -69,8 +69,8 @@ export default function PlayerComparisons({ comparisons }: PlayerComparisonsProp
         })}
       </div>
       
-      <div className="mt-6 pt-6 border-t border-brand-700">
-        <p className="text-sm text-brand-400">
+      <div className="mt-6 pt-6 border-t-2 border-border">
+        <p className="text-xs text-muted-foreground font-bold uppercase tracking-wider">
           Similarity calculated using cosine similarity on normalized playing style metrics
         </p>
       </div>
