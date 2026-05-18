@@ -1,6 +1,8 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import type { Position } from '@/lib/types';
+import { cn } from '@/lib/utils';
 
 interface PositionFilterProps {
   selectedPosition: Position | 'ALL';
@@ -22,19 +24,30 @@ export default function PositionFilter({
         const count = positionCounts[position] || 0;
 
         return (
-          <button
+          <motion.button
             key={position}
             onClick={() => onPositionChange(position)}
-            className={`px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent ${
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className={cn(
+              "relative px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-200",
+              "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background",
               isActive
-                ? 'bg-accent text-white shadow-lg shadow-accent/20'
-                : 'bg-brand-800 text-brand-400 hover:bg-brand-700 hover:text-brand-100 border border-brand-700'
-            }`}
+                ? 'bg-primary text-primary-foreground shadow-lg shadow-primary/20'
+                : 'bg-secondary text-foreground hover:bg-secondary/80 border border-border hover:border-primary/50'
+            )}
             aria-pressed={isActive}
           >
             {position}
             <span className="ml-2 text-xs font-normal opacity-75">({count})</span>
-          </button>
+            {isActive && (
+              <motion.div
+                layoutId="activePosition"
+                className="absolute inset-0 bg-primary rounded-lg -z-10"
+                transition={{ type: 'spring', stiffness: 500, damping: 30 }}
+              />
+            )}
+          </motion.button>
         );
       })}
     </div>

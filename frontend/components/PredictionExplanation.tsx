@@ -9,35 +9,35 @@ export default function PredictionExplanation({ prospect }: PredictionExplanatio
   const { explanation, prediction } = prospect;
 
   return (
-    <div className="bg-brand-800 border-2 border-brand-700 rounded-xl p-6">
-      <h2 className="text-2xl font-bold text-brand-100 mb-2">Prediction Breakdown</h2>
-      <p className="text-sm text-brand-400 mb-6">
+    <div className="bg-card border-2 border-border rounded-lg p-6">
+      <h2 className="text-xl font-black text-foreground mb-2 uppercase tracking-tight">Prediction Breakdown</h2>
+      <p className="text-xs text-muted-foreground mb-6 font-bold uppercase tracking-wider">
         SHAP analysis showing which factors most influenced the NBA impact prediction
       </p>
       
       <div className="grid md:grid-cols-2 gap-6">
         {/* Positive Factors */}
         <div>
-          <h3 className="text-lg font-semibold text-tier-starter mb-4 flex items-center gap-2">
-            <span className="text-2xl">↑</span>
+          <h3 className="text-base font-black text-tier-starter mb-4 flex items-center gap-2 uppercase tracking-tight">
+            <span className="text-3xl">↑</span>
             Strengths
           </h3>
           <div className="space-y-3">
             {explanation.positiveFactors.map((factor, index) => (
               <div
                 key={`positive-${index}`}
-                className="bg-brand-700 rounded-lg p-4 border border-brand-600 hover:border-tier-starter/50 transition-colors"
+                className="bg-secondary/30 rounded-lg p-4 border-2 border-tier-starter/30 hover:border-tier-starter/50 transition-colors"
               >
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold text-brand-200">
+                  <span className="text-xs font-black text-foreground uppercase tracking-wide">
                     {formatMetricName(factor.feature)}
                   </span>
-                  <span className="text-base font-bold text-tier-starter">
+                  <span className="text-lg font-black text-tier-starter font-mono">
                     +{factor.contribution.toFixed(3)}
                   </span>
                 </div>
-                <div className="text-sm text-brand-400">
-                  Value: <span className="font-semibold text-brand-300">{factor.value.toFixed(2)}</span>
+                <div className="text-xs text-muted-foreground font-bold uppercase tracking-wider">
+                  Value: <span className="font-black text-foreground font-mono">{factor.value.toFixed(2)}</span>
                 </div>
               </div>
             ))}
@@ -46,26 +46,26 @@ export default function PredictionExplanation({ prospect }: PredictionExplanatio
         
         {/* Negative Factors */}
         <div>
-          <h3 className="text-lg font-semibold text-tier-bust mb-4 flex items-center gap-2">
-            <span className="text-2xl">↓</span>
+          <h3 className="text-base font-black text-tier-bust mb-4 flex items-center gap-2 uppercase tracking-tight">
+            <span className="text-3xl">↓</span>
             Concerns
           </h3>
           <div className="space-y-3">
             {explanation.negativeFactors.map((factor, index) => (
               <div
                 key={`negative-${index}`}
-                className="bg-brand-700 rounded-lg p-4 border border-brand-600 hover:border-tier-bust/50 transition-colors"
+                className="bg-secondary/30 rounded-lg p-4 border-2 border-tier-bust/30 hover:border-tier-bust/50 transition-colors"
               >
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold text-brand-200">
+                  <span className="text-xs font-black text-foreground uppercase tracking-wide">
                     {formatMetricName(factor.feature)}
                   </span>
-                  <span className="text-base font-bold text-tier-bust">
+                  <span className="text-lg font-black text-tier-bust font-mono">
                     {factor.contribution.toFixed(3)}
                   </span>
                 </div>
-                <div className="text-sm text-brand-400">
-                  Value: <span className="font-semibold text-brand-300">{factor.value.toFixed(2)}</span>
+                <div className="text-xs text-muted-foreground font-bold uppercase tracking-wider">
+                  Value: <span className="font-black text-foreground font-mono">{factor.value.toFixed(2)}</span>
                 </div>
               </div>
             ))}
@@ -73,19 +73,19 @@ export default function PredictionExplanation({ prospect }: PredictionExplanatio
         </div>
       </div>
       
-      <div className="mt-6 pt-6 border-t border-brand-700">
+      <div className="mt-6 pt-6 border-t-2 border-border">
         <div className="flex items-center justify-between">
-          <span className="text-base font-medium text-brand-400">Final Prediction</span>
+          <span className="text-sm font-black text-muted-foreground uppercase tracking-wider">Final Prediction</span>
           <div className="flex items-center gap-6">
-            <div className="text-right">
-              <div className="text-xs uppercase tracking-wide text-brand-500 mb-1">NBA Impact Score</div>
-              <div className="text-2xl font-bold text-accent">
+            <div className="text-right bg-accent/10 border-2 border-accent/30 px-5 py-3 rounded">
+              <div className="text-[9px] uppercase tracking-widest text-accent font-black mb-1">NBA IMPACT</div>
+              <div className="text-2xl font-black text-accent font-mono">
                 {prediction.nbaImpact >= 0 ? '+' : ''}{prediction.nbaImpact.toFixed(2)}
               </div>
             </div>
-            <div className="text-right">
-              <div className="text-xs uppercase tracking-wide text-brand-500 mb-1">Grade</div>
-              <div className={`text-3xl font-bold ${getGradeColor(prediction.grade)}`}>
+            <div className="text-right bg-secondary/30 border-2 border-primary/40 px-5 py-3 rounded">
+              <div className="text-[9px] uppercase tracking-widest text-primary font-black mb-1">GRADE</div>
+              <div className={`text-3xl font-black font-mono ${getGradeColor(prediction.grade)}`}>
                 {prediction.grade}
               </div>
             </div>

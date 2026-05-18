@@ -1,10 +1,21 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Space_Grotesk, Space_Mono } from 'next/font/google';
 import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const spaceGrotesk = Space_Grotesk({ 
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-space-grotesk',
+  display: 'swap',
+});
+
+const spaceMono = Space_Mono({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-space-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'NBA Draft Model 2026',
@@ -18,10 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-screen`}>
+      <body className={`${spaceGrotesk.variable} ${spaceMono.variable} font-sans flex flex-col min-h-screen`}>
         <Navigation />
         {children}
-        <Footer />
       </body>
     </html>
   );
